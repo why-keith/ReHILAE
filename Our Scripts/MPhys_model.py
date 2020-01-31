@@ -58,7 +58,7 @@ def f_esc(z):
 def E_ion(z):#Hz/erg
     return 10**(24.4 + math.log10(1 + z))
 
-def P_uv(z):    
+def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density 
     x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
     y = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62, 23.00])
     #0.0,0.45, 0.9, 1.3,1.8, 2.5 ,
