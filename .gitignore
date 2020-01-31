@@ -114,6 +114,9 @@ venv.bak/
 .spyderproject
 .spyproject
 
+#Custom ignore
+Original Scripts/
+
 # Rope project settings
 .ropeproject
 
