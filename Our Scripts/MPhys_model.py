@@ -46,13 +46,13 @@ def t(z): #calculates comsic time (Gyrs) from redshift
 def alpha_beta(): #cm³ s⁻¹ - recombination coefficient
     return 2.6*(10**(-13)) * ((T/(10**4))**(-0.76))
 
-def n_H():
+def n_H(): #cm^-3  hydrogen number density
     return 1.67 * (10**(-7)) * (W_b_h_sqr / 0.02) * (X_p / 0.75)
 
 def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
-def f_esc(z):
+def f_esc(z): #escape fraction 
     return (f_esc_zero*((1+z)/3)**alpha)/100
 
 def E_ion(z):#Hz/erg
