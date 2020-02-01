@@ -118,6 +118,7 @@ venv.bak/
 ReHILAE/Our Scripts/*
 Original Scripts/
 .cat
+HII_fraction_and_tau_DSiMac_v2.0.py
 
 # Rope project settings
 .ropeproject
