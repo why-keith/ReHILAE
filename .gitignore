@@ -115,6 +115,7 @@ venv.bak/
 .spyproject
 
 #Custom ignore   <---------------------------------------------------
+ReHILAE/Our Scripts/*
 Original Scripts/
 .cat
 
