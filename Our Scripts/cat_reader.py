@@ -16,6 +16,7 @@ def cat_reader(path,first_line=False): #
             output=[[float(i[j]) for i in nested_data] for j in range(len(nested_data[1]))]
         
         return output
+    file.close()
         
 
 print(cat_reader("z_puv.cat"))
