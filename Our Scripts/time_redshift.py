@@ -21,4 +21,4 @@ for i in Z:
     f.append(mod.f_esc(i))
 
 #QUICK PLOT
-plotter.plot(Z,f,"A plot of f_esc against redshift ","Redshift","f_esc")
+plotter.plot(t,Z,"A plot of redshift against time","Redshift","Time / Gyrs")

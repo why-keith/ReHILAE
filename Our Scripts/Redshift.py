@@ -10,17 +10,19 @@ finishTime=14
 timeStep=0.01
 
 # FUNCTION TO GENERATE Z AND T ARRAYS
-def redshift(startTime, finishTime, timeStep):
+def redshift(startTime, finishTime, timeStep): 
     
-    global t
+    #global t
     t = np.arange(startTime, finishTime, timeStep)
     Z = []
     
     for i in t:
         Z.append(mod.z(i))
     
-    return Z
+    return Z,t
 
 #QUICK PLOT
+    """
 Z = redshift(startTime, finishTime, timeStep)
 plotter.plot(t,Z,"A plot of redshift against time","z","t")
+"""
