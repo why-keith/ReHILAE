@@ -15,7 +15,7 @@ Q_Hii_zero=0
 
 #PARAMETER DEFAULTS
 alpha=1.17
-T=2*10**4 #K Temperature
+T=20000 #K Temperature
 C=3 #clumping factor
 
 #########
@@ -68,12 +68,12 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
     if z==14:
        return 10.0**26.52
     else:
-        return p(z)
+        return 10**p(z)
 
 def n_ion_dot(z):
-    return f_esc(z) * E_ion(z) * P_uv(z)
+    return f_esc(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
 def Q_Hii_dot(z,Q_Hii):
-    return (n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z))
+    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1
 
 #print(P_uv(14))
