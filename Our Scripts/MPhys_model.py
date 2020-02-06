@@ -76,7 +76,6 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
 def n_ion_dot(z): #s⁻¹ cm⁻³ 
     return f_esc(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
-
 def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1
   
@@ -84,9 +83,9 @@ def EW_0(z): # equivalent width limit
     return z # data from SC4K Calhau
 
 def P_L_Lya(z): # luminosity density of lyman alpha
-    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 )]
+    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ])
     y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
-    p2 = pylab.polyfit(x, y, 1.0)
+    p2 = pylab.polyfit(x, y, 2.0)
     p = pylab.poly1d(p2)
     return p(z) * 10**40   
 
