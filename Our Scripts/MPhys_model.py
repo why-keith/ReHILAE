@@ -37,8 +37,11 @@ def set_variables(_alpha=alpha,_T=T,_C=C): #allows changing of parameters from o
     
     return "α={} \nT={}\nC={}".format(alpha,T,C)
     
-def z(t): #calculates redshift from comsic time (Gyrs)
-    return (((math.sinh(3*W_lambda**0.5*t / (2*1/H_0) ) * (W_lambda/W_M)**-0.5)**(-2/3)) )-1
+def z(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
+    if alt == False:
+        return ((((28./(t))-1.)**(1./2.)-1.))
+    else:
+        return (((math.sinh(3*W_lambda**0.5*t / (2*1/H_0) ) * (W_lambda/W_M)**-0.5)**(-2/3)) )-1
 
 def t(z): #calculates comsic time (Gyrs) from redshift
     return ( 2 * math.pow(H_0, -1) ) / (3 * math.pow(W_lambda, 0.5) ) * math.sinh(  math.pow(W_lambda / W_M, 0.5) * math.pow(z + 1, -1.5) )
