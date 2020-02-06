@@ -1,4 +1,4 @@
- #Based on pg19 of MPhys Thesis
+#Based on pg19 of MPhys Thesis
 import math
 import numpy as np
 import pylab
@@ -15,7 +15,7 @@ Q_Hii_zero=0
 
 #PARAMETER DEFAULTS
 alpha=1.17
-T=2*10**4 #K Temperature
+T=20000 #K Temperature
 C=3 #clumping factor
 
 #########
@@ -49,19 +49,19 @@ def t(z): #calculates comsic time (Gyrs) from redshift
 def alpha_beta(): #cm³ s⁻¹ - recombination coefficient
     return 2.6*(10**(-13)) * ((T/(10**4))**(-0.76))
 
-def n_H(): #cm⁻³ - number density of H_I
+def n_H(): #cm^-3  hydrogen number density
     return 1.67 * (10**(-7)) * (W_b_h_sqr / 0.02) * (X_p / 0.75)
 
 def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
-def f_esc(z): #UNITLESS - escape fraction
+def f_esc(z): #escape fraction 
     return (f_esc_zero*((1+z)/3)**alpha)/100
 
-def E_ion(z):#Hz erg⁻¹ - ionisation efficiency 
+def E_ion(z):#Hz/erg
     return 10**(24.4 + math.log10(1 + z))
 
-def P_uv(z): #erg Hz⁻¹ s⁻¹ Mpc⁻³ - UV luminosity density
+def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density 
     x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
     y = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62, 23.00])
     #0.0,0.45, 0.9, 1.3,1.8, 2.5 ,
@@ -71,10 +71,11 @@ def P_uv(z): #erg Hz⁻¹ s⁻¹ Mpc⁻³ - UV luminosity density
     if z==14:
        return 10.0**26.52
     else:
-        return p(z)
+        return 10**p(z)
 
 def n_ion_dot(z): #s⁻¹ cm⁻³ 
-    return f_esc(z) * E_ion(z) * P_uv(z)
+    return f_esc(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
 def Q_Hii_dot(z,Q_Hii): #s⁻¹
-    return (n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z))
+    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1
+  
