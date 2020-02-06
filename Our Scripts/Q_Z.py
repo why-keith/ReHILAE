@@ -1,21 +1,30 @@
 import numpy as np
 from scipy.integrate import odeint
-import MPhys_model
+import MPhys_model as mod
 import matplotlib.pyplot as plt
+from Redshift import redshift as z
 
-ts = np.linspace(0.051,14,10000000) # time in Gyr
-zs= ((((28./(ts))-1.)**(1./2.)-1.)) # conversion from Gyr to redshift
+#TIME VALUES
+startTime = mod.startTime
+finishTime = mod.finishTime
+timeStep = mod.timeStep
 
+#GENERATE Z AND t ARRAYS
+Z,t = z(startTime, finishTime, timeStep)
+
+#RETURNS dQ_dt 
 def Q_Hii_dot(Q,t):
-    z= ((((28./(t))-1.)**(1./2.)-1.))
-    dQ_dt = MPhys_model.Q_Hii_dot(z,Q)
+    dQ_dt = mod.Q_Hii_dot(mod.z(t),Q)
+    print(dQ_dt)
     return dQ_dt
 
-Q = odeint(Q_Hii_dot, 0., ts)
+#GENERATE Q ARRAY
+Q = odeint(Q_Hii_dot, mod.Q_Hii_zero, t)
 Q[Q>1.0] = 1.0 # 100% HII
 Q[Q<0.0] = 0.0 # 100% HI
 
-plt.plot(zs,Q)
+#PLOT Z AGAINST Q
+plt.plot(Z,Q)
 plt.xlabel('Redshift')
 plt.ylabel('Fraction of Ionised Hydrogen')
 plt.title('Graph to show the evolution of ionised hydrgoen against redshift')

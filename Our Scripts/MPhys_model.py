@@ -11,18 +11,17 @@ W_b_h_sqr=0.0223 # baryon energy density parameter
 X_p=0.75 #hydrogen mass fraction
 Y_p=0.25 #helium mass fraction
 f_esc_zero=2.3 #escape fraction zero
-Q_Hii_zero=0
+Q_Hii_zero=0.
 
 #PARAMETER DEFAULTS
 alpha=1.17
 T=20000 #K Temperature
 C=3 #clumping factor
-
+startTime=0.051
+finishTime=14
+intervalNumber = 10000
+timeStep = (finishTime - startTime)/(intervalNumber)
 #########
-
-
-P_uv=0 #ergs Hz⁻¹ s⁻¹ Mpc⁻³  -  UV luminosity density
-
 
 
 #FUNCTIONS
@@ -73,24 +72,21 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
     else:
        return 10**p(z)
 
+def f_esc_Lya(EW_0):
+    return 0.0048*EW_0 
+
+def Q_ion_Lya(L_Lya, f_esc_Lya, EW_0):
+    return L_Lya / (1 - f_esc_Lya)*(0.042 * EW_0)
+
 def n_ion_dot(z): #s⁻¹ cm⁻³ 
     return f_esc(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
+def n_ion_dot_Lya(L_Lya, EW_0):
+    return Q_ion_Lya * f_esc_Lya
 
 def Q_Hii_dot(z,Q_Hii): #s⁻¹
-    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1
+    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)
+
+
+
   
-def EW_0(z): # equivalent width limit 
-    return z # data from SC4K Calhau
-
-def P_L_Lya(z): # luminosity density of lyman alpha
-    return z # data from SC4K Sobral 
-
-def f_esc_Lya(z): # esc fravction from Sobral 
-    return 0.0048*EW_0(z)
-
-def Q_ion_Lya(L_Lya, z): # replaces P_uv and E_ion
-    return L_Lya / (c_ha(1 - f_esc_Lya(EW_0(z)))*(0.042 * EW_0(z)))
-
-def n_ion_dot_Lya(L_Lya, z): # replaces n_ion_dot using Q_ion_Lya
-    return Q_ion_Lya * f_esc_Lya
