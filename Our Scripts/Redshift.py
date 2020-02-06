@@ -21,6 +21,18 @@ def redshift(startTime, finishTime, timeStep):
     
     return Z,t
 
+def oldRedshift(startTime, finishTime, timeStep):
+    
+    #global t
+    t = np.arange(startTime, finishTime, timeStep)
+    Z_old = []
+    
+    for i in t:
+        Z_old.append(mod.z_old(i))
+    
+    return Z_old, t
+
+
 #QUICK PLOT
     """
 Z = redshift(startTime, finishTime, timeStep)
