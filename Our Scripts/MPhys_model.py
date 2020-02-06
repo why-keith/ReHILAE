@@ -78,3 +78,19 @@ def n_ion_dot(z): #s⁻¹ cm⁻³
 
 def Q_Hii_dot(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+
+#######
+def EW_0(z): # equivalent width limit 	
+    return z # data from SC4K Calhau	
+
+def P_L_Lya(z): # luminosity density of lyman alpha	
+    return z # data from SC4K Sobral 	
+
+def f_esc_Lya(z): # esc fravction from Sobral 	
+    return 0.0048*EW_0(z)	
+
+def Q_ion_Lya(L_Lya, z): # replaces P_uv and E_ion	
+    return L_Lya / (c_ha(1 - f_esc_Lya(EW_0(z)))*(0.042 * EW_0(z)))	
+
+def n_ion_dot_Lya(L_Lya, z): # replaces n_ion_dot using Q_ion_Lya	
+    return Q_ion_Lya * f_esc_Lya 
