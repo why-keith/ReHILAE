@@ -37,8 +37,7 @@ def set_variables(_alpha=alpha,_T=T,_C=C): #allows changing of parameters from o
     
     return "α={} \nT={}\nC={}".format(alpha,T,C)
     
-def z(t,alt=False): #calculates redshift from comsic time (Gyrs)
-    #Old Redshift Equation -- return (((math.sinh(3*W_lambda**0.5*t / (2*1/H_0) ) * (W_lambda/W_M)**-0.5)**(-2/3)) )-1
+def z(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
     if alt == False:
         return ((((28./(t))-1.)**(1./2.)-1.))
     else:
@@ -50,19 +49,19 @@ def t(z): #calculates comsic time (Gyrs) from redshift
 def alpha_beta(): #cm³ s⁻¹ - recombination coefficient
     return 2.6*(10**(-13)) * ((T/(10**4))**(-0.76))
 
-def n_H():
+def n_H(): #cm⁻³ - number density of H_I
     return 1.67 * (10**(-7)) * (W_b_h_sqr / 0.02) * (X_p / 0.75)
 
 def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
-def f_esc(z):
+def f_esc(z): #UNITLESS - escape fraction
     return (f_esc_zero*((1+z)/3)**alpha)/100
 
-def E_ion(z):#Hz/erg
+def E_ion(z):#Hz erg⁻¹ - ionisation efficiency 
     return 10**(24.4 + math.log10(1 + z))
 
-def P_uv(z):    
+def P_uv(z): #erg Hz⁻¹ s⁻¹ Mpc⁻³ - UV luminosity density
     x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
     y = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62, 23.00])
     #0.0,0.45, 0.9, 1.3,1.8, 2.5 ,
@@ -74,10 +73,8 @@ def P_uv(z):
     else:
         return p(z)
 
-def n_ion_dot(z):
+def n_ion_dot(z): #s⁻¹ cm⁻³ 
     return f_esc(z) * E_ion(z) * P_uv(z)
 
-def Q_Hii_dot(z,Q_Hii):
+def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z))
-
-#print(P_uv(14))
