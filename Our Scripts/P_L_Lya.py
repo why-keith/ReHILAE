@@ -10,8 +10,7 @@ finishTime=14
 timeStep = 0.01
 
 Z,t = z(startTime, finishTime, timeStep)
-#print (z)
-P_L_Lya=[mod.P_L_Lya(i) for i in Z]
-#print (t_rec)
 
-plotter.plot(Z,P_L_Lya,"A plot of redshift against UV density","z","log(P_uv)")
+P_L_Lya=[mod.P_L_Lya(i) for i in Z]
+
+plotter.plot(Z,P_L_Lya,"A plot of redshift against Luminosity density of Lyman alpha","z","P_L_Lya")
