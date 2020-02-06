@@ -5,13 +5,16 @@ import plotter
 import math
 from Redshift import redshift as z
 
-startTime=0.01
-finishTime=14
-timeStep = 0.01
+#TIME VALUES
+startTime=mod.startTime
+finishTime=mod.finishTime
+timeStep = mod.timeStep
 
+#GENERATE Z AND t ARRAYS
 Z,t = z(startTime, finishTime, timeStep)
-#print (z)
-E_ion=[math.log10(mod.E_ion(i)) for i in Z]
-#print (t_rec)
 
+#GENERATE E_ion ARRAY
+E_ion=[math.log10(mod.E_ion(i)) for i in Z]
+
+#PLOTS Z AGAINST E_ion
 plotter.plot(Z,E_ion,"A plot of redshift against ionisation efficiency","z","log(ξ_ion)")

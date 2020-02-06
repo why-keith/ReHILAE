@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 #import numpy as np
 #import MPhys_model.py as mod
 
-def plot(x,y,title,x_lab,y_lab): #plots particle position as a static graph    
+#PLOTS PARTICLE POSITION AS STATIC GRAPH
+def plot(x,y,title,x_lab,y_lab):   
     plt.figure(figsize=(7,7))
     """
     plt.ylim(bottom=0)
