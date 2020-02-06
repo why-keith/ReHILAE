@@ -70,10 +70,9 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
     else:
         return 10**p(z)
 
-def n_ion_dot(z):
+def n_ion_dot(z): #s⁻¹ cm⁻³ 
     return f_esc(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
-def Q_Hii_dot(z,Q_Hii):
+def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1
-
-#print(P_uv(14))
+  
