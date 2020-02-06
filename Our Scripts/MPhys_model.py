@@ -70,8 +70,17 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
     else:
         return p(z)
 
+def f_esc_Lya(EW_0):
+    return 0.0048*EW_0 
+
+def Q_ion_Lya(L_Lya, f_esc_Lya, EW_0):
+    return L_Lya / (1 - f_esc_Lya)*(0.042 * EW_0)
+
 def n_ion_dot(z):
     return f_esc(z) * E_ion(z) * P_uv(z)
+
+def n_ion_dot_Lya(L_Lya, EW_0):
+    return Q_ion_Lya * f_esc_Lya
 
 def Q_Hii_dot(z,Q_Hii):
     return (n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z))
