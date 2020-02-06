@@ -71,17 +71,17 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
        return 10.0**26.52
     else:
        return 10**p(z)
-
-def f_esc_Lya(EW_0):
-    return 0.0048*EW_0 
-
-def Q_ion_Lya(L_Lya, f_esc_Lya, EW_0):
-    return L_Lya / (1 - f_esc_Lya)*(0.042 * EW_0)
+#OLD
+#def f_esc_Lya(EW_0):
+ #   return 0.0048*EW_0 
+#OLD
+#def Q_ion_Lya(L_Lya, f_esc_Lya, EW_0):
+ #   return L_Lya / (1 - f_esc_Lya)*(0.042 * EW_0)
 
 def n_ion_dot(z): #s⁻¹ cm⁻³ 
     return f_esc(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
-
-def n_ion_dot_Lya(L_Lya, EW_0):
+#OLD
+#def n_ion_dot_Lya(L_Lya, EW_0):
     return Q_ion_Lya * f_esc_Lya
 
 def Q_Hii_dot(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
