@@ -15,7 +15,7 @@ Q_Hii_zero=0
 
 #PARAMETER DEFAULTS
 alpha=1.17
-T=2*10**4 #K Temperature
+T=20000 #K Temperature
 C=3 #clumping factor
 
 #########
@@ -37,8 +37,11 @@ def set_variables(_alpha=alpha,_T=T,_C=C): #allows changing of parameters from o
     
     return "α={} \nT={}\nC={}".format(alpha,T,C)
     
-def z(t): #calculates redshift from comsic time (Gyrs)
-    return (((math.sinh(3*W_lambda**0.5*t / (2*1/H_0) ) * (W_lambda/W_M)**-0.5)**(-2/3)) )-1
+def z(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
+    if alt == False:
+        return ((((28./(t))-1.)**(1./2.)-1.))
+    else:
+        return (((math.sinh(3*W_lambda**0.5*t / (2*1/H_0) ) * (W_lambda/W_M)**-0.5)**(-2/3)) )-1
 
 def t(z): #calculates comsic time (Gyrs) from redshift
     return ( 2 * math.pow(H_0, -1) ) / (3 * math.pow(W_lambda, 0.5) ) * math.sinh(  math.pow(W_lambda / W_M, 0.5) * math.pow(z + 1, -1.5) )
@@ -68,7 +71,7 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
     if z==14:
        return 10.0**26.52
     else:
-        return p(z)
+       return 10**p(z)
 
 def f_esc_Lya(EW_0):
     return 0.0048*EW_0 
@@ -76,13 +79,13 @@ def f_esc_Lya(EW_0):
 def Q_ion_Lya(L_Lya, f_esc_Lya, EW_0):
     return L_Lya / (1 - f_esc_Lya)*(0.042 * EW_0)
 
-def n_ion_dot(z):
-    return f_esc(z) * E_ion(z) * P_uv(z)
+def n_ion_dot(z): #s⁻¹ cm⁻³ 
+    return f_esc(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
 def n_ion_dot_Lya(L_Lya, EW_0):
     return Q_ion_Lya * f_esc_Lya
 
-def Q_Hii_dot(z,Q_Hii):
-    return (n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z))
 
-#print(P_uv(14))
+def Q_Hii_dot(z,Q_Hii): #s⁻¹
+    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1
+  
