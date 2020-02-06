@@ -87,7 +87,11 @@ def P_L_Lya(z): # luminosity density of lyman alpha
     y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
     p2 = pylab.polyfit(x, y, 2.0)
     p = pylab.poly1d(p2)
-    return p(z) * 10**40   
+
+    if z > 6:
+        return p(6) * 10**40   
+    else:
+     return p(z) * 10**40   
 
 def f_esc_Lya(z): # esc fravction from Sobral 
     return 0.0048*EW_0(z)
