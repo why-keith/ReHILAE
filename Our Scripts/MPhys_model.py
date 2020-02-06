@@ -84,7 +84,11 @@ def EW_0(z): # equivalent width limit
     return z # data from SC4K Calhau
 
 def P_L_Lya(z): # luminosity density of lyman alpha
-    return z # data from SC4K Sobral 
+    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 )]
+    y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
+    p2 = pylab.polyfit(x, y, 1.0)
+    p = pylab.poly1d(p2)
+    return p(z) * 10**40   
 
 def f_esc_Lya(z): # esc fravction from Sobral 
     return 0.0048*EW_0(z)
