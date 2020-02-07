@@ -3,6 +3,7 @@ import numpy as np
 import MPhys_model as mod
 import math
 from Redshift import redshift as z
+import plotter
 
 #TIME VALUES
 startTime = mod.startTime
@@ -12,7 +13,7 @@ timeStep = mod.timeStep
 #GENERATE Z, Z_alt, AND t ARRAYS
 Z,t = z(startTime, finishTime, timeStep)
 Z_alt,t = z(startTime, finishTime, timeStep, True)
-
+"""
 #PLOT t AGAINST Z
 plt.plot(t,Z, color='red', label='Cosmology Equation')
 plt.plot(t,Z_alt, color='blue', label='Approximation')
@@ -20,6 +21,9 @@ plt.xlabel('Cosmic Time [Gyrs]')
 plt.ylabel('Redshift')
 plt.legend()
 plt.show()
+"""
+
+plotter.multiplot([t,t], [Z,Z_alt], "", 'Cosmic Time [Gyrs]', "Redshift",['Cosmology Equation','Approximation'])
 
 
 
