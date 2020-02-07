@@ -26,14 +26,22 @@ timeStep = (finishTime - startTime)/(intervalNumber)
 
 
 #FUNCTIONS
-def set_variables(_alpha=alpha,_T=T,_C=C): #allows changing of parameters from outside model.py
+def set_variables(_alpha=alpha,_T=T,_C=C,_startTime=startTime,_finishTime=finishTime,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py
     global alpha
     global T
     global C
+    global startTime
+    global finishTime
+    global intervalNumber
+    global timeStep
     
     alpha=_alpha
     T=_T
     C=_C
+    startTime=_startTime
+    finishTime=_finishTime
+    intervalNumber=_intervalNumber
+    timeStep = (finishTime - startTime)/(intervalNumber)
     
     return "α={} \nT={}\nC={}".format(alpha,T,C)
     
