@@ -90,6 +90,9 @@ def n_ion_dot(z): #s⁻¹ cm⁻³
 def Q_Hii_dot(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
 
+########################################################################
+#LYA FUNCTIONS
+
 def EW_0(z): # equivalent width limit 	
     return z # data from SC4K Calhau	
 
