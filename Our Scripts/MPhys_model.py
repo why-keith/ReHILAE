@@ -144,8 +144,15 @@ def P_L_Lya(z): # luminosity density of lyman alpha
     else:
         return p(z) * 10**40   
 
+def f_esc_Lya(z): # esc fravction from Sobral 	
+    return 0.0048*EW(z)	
+
 def Q_ion_LyC(L_Lya, z): # replaces P_uv and E_ion	
-    return L_Lya / (c_ha(1 - f_esc(z))*(0.042 * EW(z)))	
+    return L_Lya / (c_ha(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))	
+
+def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
+    return 1 - 0.75*(EW(z)/110)
+
 
 def n_ion_dot_LyC(L_Lya, z): # replaces n_ion_dot using Q_ion_LyC	
     return Q_ion_LyC(L_Lya, z) * f_esc(z) 
