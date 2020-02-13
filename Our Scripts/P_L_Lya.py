@@ -4,11 +4,12 @@ import MPhys_model as mod
 import plotter
 import math
 from Redshift import redshift as z
+import plot_saver as save
 
 if __name__=="__main__":
     path=None
 else:
-    path="test"
+    path=save.folder
 
 
 #Z VALUES
