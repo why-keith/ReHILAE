@@ -127,8 +127,7 @@ def P_L_Lya(z): # luminosity density of lyman alpha
 def EW(z): # luminosity density of lyman alpha
     x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3])
     y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
-    print(len(x))
-    print(len(y))
+
 #    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
 #    hdu_list = fits.open(filename) 
 #    evt_data = Table(hdu_list[1].data) 
