@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 path=None
 
 #PLOTS PARTICLE POSITION AS STATIC GRAPH
-def plot(x,y,title,x_lab,y_lab,path=None):   
+def plot(x,y,title,x_lab,y_lab,path=None):
     plt.figure(figsize=(7,7))
     """
     plt.ylim(bottom=0)
@@ -28,7 +28,7 @@ def single_plot(x,y):
     return
     
 
-def multiplot(x_list,y_list,title,x_lab,y_lab,legend_list=None):
+def multiplot(x_list,y_list,title,x_lab,y_lab,legend_list=None,path=None):
     max_x=max([max(i) for i in x_list])
     
     plt.figure(figsize=(7,7))
