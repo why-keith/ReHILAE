@@ -2,8 +2,10 @@ import matplotlib.pyplot as plt
 #import numpy as np
 #import MPhys_model.py as mod
 
+path=None
+
 #PLOTS PARTICLE POSITION AS STATIC GRAPH
-def plot(x,y,title,x_lab,y_lab):   
+def plot(x,y,title,x_lab,y_lab,path=None):   
     plt.figure(figsize=(7,7))
     """
     plt.ylim(bottom=0)
@@ -15,7 +17,10 @@ def plot(x,y,title,x_lab,y_lab):
     plt.xlabel(x_lab)
     plt.ylabel(y_lab)
     plt.plot(x,y)
-    plt.show()
+    if path==None:
+        plt.show()
+    else:
+        plt.savefig("plots\\"+path+"\\"+title+".png")
     
 
 def single_plot(x,y):
@@ -36,5 +41,9 @@ def multiplot(x_list,y_list,title,x_lab,y_lab,legend_list=None):
         single_plot(x_list[i], y_list[i])
     if legend_list != None:
         plt.legend(legend_list)
-    plt.show()
+        
+    if path==None:
+        plt.show()
+    else:
+        plt.savefig("plots\\"+path+"\\"+title+".png")
     return
