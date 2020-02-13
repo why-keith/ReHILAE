@@ -16,4 +16,4 @@ Z,t = z(startZ, finishZ, zStep)
 t_rec=[math.log10(mod.t_rec(i)) for i in Z]
 #print (t_rec)
 
-plotter.plot(Z,t_rec,"A plot of redshift against recombination time","z","log(t_rec) / log(s)")
+plotter.plot(Z,t_rec,"A plot of recombination time against redshift","Redshift","log(t_rec) / log(s)")

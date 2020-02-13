@@ -14,9 +14,9 @@ zStep = mod.zStep
 Z,t = z(startZ, finishZ, zStep)
 
 #GENERATE f_esc ARRAY
-f = []
+Q = []
 for i in Z:
-    f.append(mod.f_esc_UV(i))
+    Q.append(mod.Q_ion_LyC(i))
 
 #PLOTS Z AGAINST f
-plotter.plot(Z,f,"A plot of f_esc against redshift ","Redshift","f_esc")
+plotter.plot(Z,Q,"A plot of the availability of lyman continuum photons against redshift ","Redshift","Q_ion_LyC")
