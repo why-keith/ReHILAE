@@ -4,6 +4,7 @@ import MPhys_model as mod
 import matplotlib.pyplot as plt
 from Redshift import redshift as z
 import plot_saver as save
+import plotter
 
 if __name__=="__main__":
     path=None
@@ -29,8 +30,4 @@ Q[Q>1.0] = 1.0 # 100% HII
 Q[Q<0.0] = 0.0 # 100% HI
 
 #PLOT Z AGAINST Q
-plt.plot(Z,Q)
-plt.xlabel('Redshift')
-plt.ylabel('Fraction of Ionised Hydrogen')
-plt.title('Graph to show the evolution of ionised hydrgoen against redshift',path)
-plt.show()
+plotter.plot(Z,Q,'Evolution of ionised hydrgoen against redshift','Redshift','Fraction of Ionised Hydrogen')
