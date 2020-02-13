@@ -115,9 +115,11 @@ def P_L_Lya(z): # luminosity density of lyman alpha
     cutoff=x[peak_position[0][0]]
     
     if z > cutoff:
-        return p(cutoff) * 10**40   
+        return p(cutoff) * 10**40
+    if p(z) < 0:
+        return 0
     else:
-        return p(z) * 10**40   
+        return p(z) * 10**40 
 
 #def f_esc_Lya(z): # esc fraction from Sobral 	
 #    return 0.0048*EW(z)	
@@ -156,7 +158,7 @@ def Q_ion_LyC(L_Lya, z): # replaces P_uv and E_ion
     return L_Lya / (c_ha(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))	
 
 def n_ion_dot_LyC(L_Lya, z): # replaces n_ion_dot using Q_ion_LyC	
-    return Q_ion_LyC(L_Lya, z) * f_esc(z) 
+    return Q_ion_LyC(L_Lya, z) * f_esc_LyC(z) 
 
 
 
