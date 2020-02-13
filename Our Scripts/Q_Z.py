@@ -15,7 +15,6 @@ Z,t = z(startTime, finishTime, timeStep)
 #RETURNS dQ_dt 
 def Q_Hii_dot(Q,t):
     dQ_dt = mod.Q_Hii_dot(mod.z(t),Q)
-    print(dQ_dt)
     return dQ_dt
 
 #GENERATE Q ARRAY

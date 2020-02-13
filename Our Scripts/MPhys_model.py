@@ -92,11 +92,18 @@ def EW(z): # luminosity density of lyman alpha
     p = pylab.poly1d(p2)
     return p(z) 
 
-def f_esc(z, alt=False): #escape fraction 
-    if alt ==False:
-        return 1 - 0.75*(EW(z)/110)
-    else:
-        return (f_esc_zero*((1+z)/3)**alpha)/100
+def f_esc(z, fraction='continuum'): #escape fraction 
+    """
+    Funciton that can return the escape fraction of UV, Lya and LyC photons.
+        - To return UV f_esc, set fraction to 'UV'
+        - To return Lya f_esc, set fraction to 'alpha'
+        - To return LyC f_esc, do not pass in fraction
+    """
+    if fraction=='alpha':
+        return 0.0048*EW(z) # Lya escape fraction
+    elif fraction=='UV':
+        return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction
+    return 1 - 0.75*(EW(z)/110) # LyC escape fraction
 
 def E_ion(z):#Hz/erg
     return 10**(24.4 + math.log10(1 + z))
