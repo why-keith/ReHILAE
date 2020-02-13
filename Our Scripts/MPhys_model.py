@@ -15,6 +15,7 @@ Y_p=0.25 #helium mass fraction
 f_esc_zero=2.3 #escape fraction zero
 Q_Hii_zero=0.
 c_ha = 1.36E-12
+EW_avg = 140.321828866 #Average equivalent width in angstroms
 
 #PARAMETER DEFAULTS
 alpha=1.17
@@ -90,8 +91,11 @@ def EW(z): # luminosity density of lyman alpha
     p = pylab.poly1d(p2)
     return p(z) 
 
-def f_esc(z): #escape fraction 
-    return (f_esc_zero*((1+z)/3)**alpha)/100
+def f_esc(z, alt=False): #escape fraction 
+    if alt ==False:
+        return 1 - 0.75*(EW(z)/110)
+    else:
+        return (f_esc_zero*((1+z)/3)**alpha)/100
 
 def E_ion(z):#Hz/erg
     return 10**(24.4 + math.log10(1 + z))
@@ -117,9 +121,6 @@ def Q_Hii_dot(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
 ########################################################################
 #LYA FUNCTIONS
 
-def EW_0(z): # equivalent width limit 	
-    return z # data from SC4K Calhau	
-
 def P_L_Lya(z): # luminosity density of lyman alpha
     # data from SC4K Sobral
     x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ])
@@ -137,10 +138,10 @@ def P_L_Lya(z): # luminosity density of lyman alpha
         return p(z) * 10**40   
 
 def f_esc_Lya(z): # esc fravction from Sobral 	
-    return 0.0048*EW_0(z)	
+    return 0.0048*EW(z)	
 
 def Q_ion_Lya(L_Lya, z): # replaces P_uv and E_ion	
-    return L_Lya / (c_ha(1 - f_esc_Lya(EW_0(z)))*(0.042 * EW_0(z)))	
+    return L_Lya / (c_ha(1 - f_esc_Lya(EW_0(z)))*(0.042 * EW(z)))	
 
 def n_ion_dot_Lya(L_Lya, z): # replaces n_ion_dot using Q_ion_Lya	
     return Q_ion_Lya * f_esc_Lya 
