@@ -154,7 +154,8 @@ def Q_ion_LyC(L_Lya, z): # replaces P_uv and E_ion
 def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
     return 1 - 0.75*(EW(z)/110)
 
+
 def n_ion_dot_LyC(L_Lya, z): # replaces n_ion_dot using Q_ion_LyC	
-    return Q_ion_LyC * f_esc_LyC 
+    return Q_ion_LyC(L_Lya, z) * f_esc(z) 
 
 
