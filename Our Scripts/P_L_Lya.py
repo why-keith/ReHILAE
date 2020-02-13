@@ -5,6 +5,12 @@ import plotter
 import math
 from Redshift import redshift as z
 
+if __name__=="__main__":
+    path=None
+else:
+    path="test"
+
+
 #Z VALUES
 startZ = mod.startZ
 finishZ = mod.finishZ
@@ -19,4 +25,4 @@ P_L_Lya=[mod.P_L_Lya(i) for i in Z]
 
 
 #PLOTS Z AGAINST P_L_Lya
-plotter.plot(Z,P_L_Lya,"A plot of redshift against UV density","z","P_uv")
+plotter.plot(Z,P_L_Lya,"A plot of redshift against UV density","z","P_uv",path)
