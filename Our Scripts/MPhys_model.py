@@ -70,23 +70,24 @@ def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
 def EW(z): # luminosity density of lyman alpha
-    #x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ])
-    #y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
-    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
-    hdu_list = fits.open(filename) 
-    evt_data = Table(hdu_list[1].data) 
-    stack = evt_data.field(0)[4:15]
-    redshift = []
-    for i in stack: # cleaning data e.g. 'z=2.5-NO_AGN' => 2.5
-        j = str(i).split('=')
-        j = j[1]
-        j = j.split('-')
-        j = j[0]
-        redshift.append(float(j))
+    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3])
+    y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
+    
+#    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
+#    hdu_list = fits.open(filename) 
+#    evt_data = Table(hdu_list[1].data) 
+#    stack = evt_data.field(0)[4:15]
+#    redshift = []
+#    for i in stack: # cleaning data e.g. 'z=2.5-NO_AGN' => 2.5
+#        j = str(i).split('=')
+#        j = j[1]
+#        j = j.split('-')
+#        j = j[0]
+#        redshift.append(float(j))
 
-    EquiWidth = evt_data.field(8)[4:15]
-    EW = [float(i) for i in EquiWidth]
-    x, y = pylab.array(redshift), pylab.array(EW)
+#    EquiWidth = evt_data.field(8)[4:15]
+#    EW = [float(i) for i in EquiWidth]
+#    x, y = pylab.array(redshift), pylab.array(EW)
     p2 = pylab.polyfit(x, y, 1.0)
     p = pylab.poly1d(p2)
     return p(z) 
