@@ -26,4 +26,4 @@ P_L_Lya=[mod.P_L_Lya(i) for i in Z]
 
 
 #PLOTS Z AGAINST P_L_Lya
-plotter.plot(Z,P_L_Lya,"A plot of redshift against UV density","z","P_uv",path)
+plotter.plot(Z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","z","P_L_Lya",path)

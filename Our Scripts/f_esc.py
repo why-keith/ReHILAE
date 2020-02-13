@@ -19,4 +19,4 @@ for i in Z:
     f.append(mod.f_esc_UV(i))
 
 #PLOTS Z AGAINST f
-plotter.plot(Z,f,"A plot of f_esc against redshift ","Redshift","f_esc")
+plotter.plot(Z,f,"A plot of the escape fraction against redshift ","Redshift","f_esc")

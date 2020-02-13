@@ -125,10 +125,8 @@ def P_L_Lya(z): # luminosity density of lyman alpha
 #    return 0.0048*EW(z)	
 
 def EW(z): # luminosity density of lyman alpha
-    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3])
+    x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3])
     y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
-    print(len(x))
-    print(len(y))
 #    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
 #    hdu_list = fits.open(filename) 
 #    evt_data = Table(hdu_list[1].data) 
@@ -151,22 +149,6 @@ def EW(z): # luminosity density of lyman alpha
 
 
 #LYC FUNCTIONS#################################################Next Improvements
-def P_L_Lya(z): # luminosity density of lyman alpha
-    # data from SC4K Sobral
-    x = pylab.array([2.2, 2.5, 2.8, 3.0, 3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ])
-    y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
-    p2 = pylab.polyfit(x, y, 2.0)
-    p = pylab.poly1d(p2)
-    
-    peak=np.max(y)
-    peak_position = np.where(y==peak)
-    cutoff=x[peak_position[0][0]]
-    
-    if z > cutoff:
-        return p(cutoff) * 10**40   
-    else:
-        return p(z) * 10**40   
-
 def f_esc_Lya(z): # esc fravction from Sobral 	
     return 0.0048*EW(z)	
 
@@ -181,7 +163,10 @@ def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
     return p(EW(z))
 
 def n_ion_dot_LyC(z): # replaces n_ion_dot using Q_ion_LyC	
-    return Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+    if Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) < 0 :
+        return 0 
+    else:
+        return Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
     
 def Q_Hii_dot(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot_LyC(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  

@@ -19,4 +19,4 @@ for i in Z:
     n_ion.append(mod.n_ion_dot_LyC(i))
 
 #PLOTS Z AGAINST f
-plotter.plot(Z,n_ion,"A plot of f_esc against redshift ","Redshift","n_ion_dot_lyc")
+plotter.plot(Z,n_ion,"A plot of the production rate of lyman continuum photons against redshift ","Redshift","n_ion_dot_lyc")
