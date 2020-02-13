@@ -21,30 +21,30 @@ EW_avg = 140.321828866 #Average equivalent width in angstroms
 alpha=1.17
 T=20000 #K Temperature
 C=3 #clumping factor
-startTime=0.124
-finishTime=14
+startZ=13.9935469991
+finishZ=0
 intervalNumber = 10000
-timeStep = (finishTime - startTime)/(intervalNumber)
+zStep = (finishZ - startZ)/(intervalNumber)
 #########
 
 
 #FUNCTIONS
-def set_variables(_alpha=alpha,_T=T,_C=C,_startTime=startTime,_finishTime=finishTime,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py
+def set_variables(_alpha=alpha,_T=T,_C=C,_startZ=startZ,_finishZ=finishZ,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py
     global alpha
     global T
     global C
-    global startTime
-    global finishTime
+    global startZ
+    global finishZ
     global intervalNumber
-    global timeStep
+    global zStep
     
     alpha=_alpha
     T=_T
     C=_C
-    startTime=_startTime
-    finishTime=_finishTime
+    startZ=_startZ
+    finishZ=_finishZ
     intervalNumber=_intervalNumber
-    timeStep = (finishTime - startTime)/(intervalNumber)
+    zStep = (finishZ - startZ)/(intervalNumber)
     
     return "α={} \nT={}\nC={}".format(alpha,T,C)
     

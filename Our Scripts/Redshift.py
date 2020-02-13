@@ -4,18 +4,18 @@ import MPhys_model as mod
 import plotter
 import math
 
-#TIME VALUES
-startTime = mod.startTime
-finishTime = mod.finishTime
-timeStep = mod.timeStep
+#Z VALUES
+startZ = mod.startZ
+finishZ = mod.finishZ
+zStep = mod.zStep
 
 #GENERATES Z AND T ARRAYS
-def redshift(startTime, finishTime, timeStep, alt = False): 
+def redshift(startZ, finishZ, zStep, alt = False): 
     
-    t = np.arange(startTime, finishTime, timeStep)
-    Z = []
+    Z = np.arange(startZ, finishZ, zStep)
+    T = []
     
-    for i in t:
-        Z.append(mod.z(i, alt))
+    for i in Z:
+        T.append(mod.t(i, alt))
     
-    return Z,t
+    return Z,T

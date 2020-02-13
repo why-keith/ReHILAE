@@ -6,9 +6,14 @@ import plotter
 import math
 from Redshift import redshift as z
 
-z = np.linspace(0.051, 14, 1000)
-#print (z)
+#Z VALUES
+startZ = mod.startZ
+finishZ = mod.finishZ
+zStep = mod.zStep
+
+#GENERATE Z AND t ARRAYS
+z,t = z(startZ, finishZ, zStep)
+
 EW=[mod.EW(i) for i in z]
-#print (t_rec)
 
 plotter.plot(z,EW,"A plot of redshift against EW","z","EW")

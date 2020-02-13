@@ -6,12 +6,12 @@ import math
 from Redshift import redshift as z
 
 #TIME VALUES
-startTime = mod.startTime
-finishTime = mod.finishTime
-timeStep = mod.timeStep
+startZ = mod.startZ
+finishZ = mod.finishZ
+zStep = mod.zStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startTime, finishTime, timeStep)
+Z,t = z(startZ, finishZ, zStep)
 
 #GENERATE P_uv ARRAY
 P_uv=[mod.P_uv(i) for i in Z]
