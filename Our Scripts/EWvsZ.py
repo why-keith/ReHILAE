@@ -5,6 +5,12 @@ import MPhys_model as mod
 import plotter
 import math
 from Redshift import redshift as z
+import plot_saver as save
+
+if __name__=="__main__":
+    path=None
+else:
+    path=save.folder
 
 #Z VALUES
 startZ = mod.startZ
@@ -16,4 +22,4 @@ z,t = z(startZ, finishZ, zStep)
 
 EW=[mod.EW(i) for i in z]
 
-plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW")
+plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW",path)

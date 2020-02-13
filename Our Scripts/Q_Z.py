@@ -3,6 +3,12 @@ from scipy.integrate import odeint
 import MPhys_model as mod
 import matplotlib.pyplot as plt
 from Redshift import redshift as z
+import plot_saver as save
+
+if __name__=="__main__":
+    path=None
+else:
+    path=save.folder
 
 #Z VALUES
 startZ = mod.startZ
@@ -26,5 +32,5 @@ Q[Q<0.0] = 0.0 # 100% HI
 plt.plot(Z,Q)
 plt.xlabel('Redshift')
 plt.ylabel('Fraction of Ionised Hydrogen')
-plt.title('Graph to show the evolution of ionised hydrgoen against redshift')
+plt.title('Graph to show the evolution of ionised hydrgoen against redshift',path)
 plt.show()

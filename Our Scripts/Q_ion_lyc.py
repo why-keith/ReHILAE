@@ -4,6 +4,12 @@ import MPhys_model as mod
 import plotter
 import math
 from Redshift import redshift as z
+import plot_saver as save
+
+if __name__=="__main__":
+    path=None
+else:
+    path=save.folder
 
 #Z VALUES
 startZ = mod.startZ
@@ -19,4 +25,4 @@ for i in Z:
     Q.append(mod.Q_ion_LyC(i))
 
 #PLOTS Z AGAINST f
-plotter.plot(Z,Q,"A plot of the availability of lyman continuum photons against redshift ","Redshift","Q_ion_LyC")
+plotter.plot(Z,Q,"A plot of the availability of lyman continuum photons against redshift ","Redshift","Q_ion_LyC",path)
