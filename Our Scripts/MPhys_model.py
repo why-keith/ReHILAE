@@ -72,7 +72,7 @@ def t_rec(z): #s recombination time
 def EW(z): # luminosity density of lyman alpha
     #x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ])
     #y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
-    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
+    filename = 'Our Scripts/Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
     hdu_list = fits.open(filename) 
     evt_data = Table(hdu_list[1].data) 
     stack = evt_data.field(0)[4:15]
@@ -91,11 +91,18 @@ def EW(z): # luminosity density of lyman alpha
     p = pylab.poly1d(p2)
     return p(z) 
 
-def f_esc(z, alt=False): #escape fraction 
-    if alt ==False:
-        return 1 - 0.75*(EW(z)/110)
-    else:
-        return (f_esc_zero*((1+z)/3)**alpha)/100
+def f_esc(z, fraction='continuum'): #escape fraction 
+    """
+    Funciton that can return the escape fraction of UV, Lya and LyC photons.
+        - To return UV f_esc, set fraction to 'UV'
+        - To return Lya f_esc, set fraction to 'alpha'
+        - To return LyC f_esc, do not pass in fraction
+    """
+    if fraction=='alpha':
+        return 0.0048*EW(z) # Lya escape fraction
+    elif fraction=='UV':
+        return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction
+    return 1 - 0.75*(EW(z)/110) # LyC escape fraction
 
 def E_ion(z):#Hz/erg
     return 10**(24.4 + math.log10(1 + z))
