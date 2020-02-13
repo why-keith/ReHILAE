@@ -4,13 +4,13 @@ import MPhys_model as mod
 import matplotlib.pyplot as plt
 from Redshift import redshift as z
 
-#TIME VALUES
-startTime = mod.startTime
-finishTime = mod.finishTime
-timeStep = mod.timeStep
+#Z VALUES
+startZ = mod.startZ
+finishZ = mod.finishZ
+zStep = mod.zStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startTime, finishTime, timeStep)
+Z,t = z(startZ, finishZ, zStep)
 
 #RETURNS dQ_dt 
 def Q_Hii_dot(Q,t):

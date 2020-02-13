@@ -5,13 +5,13 @@ import plotter
 import math
 from Redshift import redshift as z
 
-#TIME VALUES
-startTime=mod.startTime
-finishTime=mod.finishTime
-timeStep = mod.timeStep
+#Z VALUES
+startZ = mod.startZ
+finishZ = mod.finishZ
+zStep = mod.zStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startTime, finishTime, timeStep)
+Z,t = z(startZ, finishZ, zStep)
 
 #GENERATE E_ion ARRAY
 E_ion=[math.log10(mod.E_ion(i)) for i in Z]

@@ -5,14 +5,14 @@ import math
 from Redshift import redshift as z
 import plotter
 
-#TIME VALUES
-startTime = mod.startTime
-finishTime = mod.finishTime
-timeStep = mod.timeStep
+#Z VALUES
+startZ = mod.startZ
+finishZ = mod.finishZ
+zStep = mod.zStep
 
 #GENERATE Z, Z_alt, AND t ARRAYS
-Z,t = z(startTime, finishTime, timeStep)
-Z_alt,t = z(startTime, finishTime, timeStep, True)
+Z,t = z(startZ, finishZ, zStep)
+Z,t_alt = z(startZ, finishZ, zStep, True)
 """
 #PLOT t AGAINST Z
 plt.plot(t,Z, color='red', label='Cosmology Equation')
@@ -23,7 +23,7 @@ plt.legend()
 plt.show()
 """
 
-plotter.multiplot([t,t], [Z,Z_alt], "", 'Cosmic Time [Gyrs]', "Redshift",['Cosmology Equation','Approximation'])
+plotter.multiplot([t,t_alt], [Z,Z], "", 'Cosmic Time [Gyrs]', "Redshift",['Cosmology Equation','Approximation'])
 
 
 
