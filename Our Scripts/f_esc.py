@@ -16,7 +16,7 @@ Z,t = z(startZ, finishZ, zStep)
 #GENERATE f_esc ARRAY
 f = []
 for i in Z:
-    f.append(mod.f_esc(i))
+    f.append(mod.f_esc_UV(i))
 
 #PLOTS Z AGAINST f
 plotter.plot(Z,f,"A plot of f_esc against redshift ","Redshift","f_esc")
