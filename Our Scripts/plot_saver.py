@@ -1,7 +1,7 @@
 import os
-import time
+from datetime import datetime
 
-folder="test2"
+folder=(str(datetime.now().strftime("%d-"+"%m-"+"%y "+"%H"+"%M"+"%S")))
 
 if os.path.isdir("plots\\"+folder)==False:
     os.mkdir("plots\\"+folder)
