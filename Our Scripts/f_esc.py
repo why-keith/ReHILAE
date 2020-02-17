@@ -15,17 +15,17 @@ else:
     path=save.folder
 
 #Z VALUES
-startZ = mod.startZ
-finishZ = mod.finishZ
-zStep = mod.zStep
+startT = mod.startT
+finishT = mod.finishT
+TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startZ, finishZ, zStep)
+z,t = z(startT, finishT, TStep)
 
 #GENERATE f_esc ARRAY
 f = []
-for i in Z:
+for i in z:
     f.append(mod.f_esc_UV(i))
 
 #PLOTS Z AGAINST f
-plotter.plot(Z,f,"A plot of the escape fraction against redshift","Redshift","f_esc",path)
+plotter.plot(z,f,"A plot of the escape fraction against redshift","Redshift","f_esc",path)

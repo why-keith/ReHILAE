@@ -15,14 +15,14 @@ else:
     path=save.folder
 
 #Z VALUES
-startZ = mod.startZ
-finishZ = mod.finishZ
-zStep = mod.zStep
+startT = mod.startT
+finishT = mod.finishT
+TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startZ, finishZ, zStep)
+z,t = z(startT, finishT, TStep)
 
-t_rec=[math.log10(mod.t_rec(i)) for i in Z]
+t_rec=[math.log10(mod.t_rec(i)) for i in z]
 #print (t_rec)
 
-plotter.plot(Z,t_rec,"A plot of recombination time against redshift","Redshift","log(t_rec) / log(s)",path)
+plotter.plot(z,t_rec,"A plot of recombination time against redshift","Redshift","log(t_rec) / log(s)",path)

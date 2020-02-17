@@ -27,30 +27,29 @@ EW_avg=140.321828866 #Average equivalent width (angstroms)
 alpha=1.17
 T=20000 #K Temperature
 C=3 #clumping factor
-startZ=13.9935469991 #Start Z
-finishZ=0 #Finish z
+startT=0.124 #Start time
+finishT=14 #Finish time
 intervalNumber = 10000
-zStep=(finishZ - startZ)/(intervalNumber) #Size of steps in Z
-
-
+TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
 
 #FUNCTIONS######################################################
-def set_variables(_alpha=alpha,_T=T,_C=C,_startZ=startZ,_finishZ=finishZ,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py
+def set_variables(_alpha=alpha,_T=T,_C=C,_startT=startT,_finishT=finishT,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py
     global alpha
     global T
     global C
-    global startZ
-    global finishZ
+    global startT
+    global finishT
     global intervalNumber
-    global zStep
+    global TStep
     
     alpha=_alpha
     T=_T
     C=_C
-    startZ=_startZ
-    finishZ=_finishZ
+    startT=_startT
+    finishT=_finishT
     intervalNumber=_intervalNumber
-    zStep = (finishZ - startZ)/(intervalNumber)
+    TStep = (finishT - startT)/(intervalNumber)
+
     
     return "α={} \nT={}\nC={}".format(alpha,T,C)
     
@@ -112,14 +111,16 @@ def P_L_Lya(z): # luminosity density of lyman alpha
     p2 = pylab.polyfit(x, y, 2.0)
     p = pylab.poly1d(p2)
     
-    peak=np.max(y)
-    peak_position = np.where(y==peak)
-    cutoff=x[peak_position[0][0]]
+ #   peak=np.max(y)
+  #  peak_position = np.where(y==peak)
+   # cutoff=x[peak_position[0][0]]
     
-    if z > cutoff:
-        return p(cutoff) * 10**40
     if p(z) < 0:
         return 0
+
+  #  if z > cutoff:
+   #     return p(cutoff) * 10**40
+
     else:
         return p(z) * 10**40 
 

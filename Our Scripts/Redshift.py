@@ -9,12 +9,17 @@ import plotter
 import math
 
 #Z VALUES
-startZ = mod.startZ
-finishZ = mod.finishZ
-zStep = mod.zStep
+#startZ = mod.startZ
+#finishZ = mod.finishZ
+#zStep = mod.zStep
+
+#Z VALUES
+startT = mod.startT
+finishT = mod.finishT
+TStep = mod.TStep
 
 #GENERATES Z AND T ARRAYS
-def redshift(startZ, finishZ, zStep, alt = False): 
+def redshift_old(startZ, finishZ, zStep, alt = False): 
     
     Z = np.arange(startZ, finishZ, zStep)
     T = []
@@ -22,4 +27,10 @@ def redshift(startZ, finishZ, zStep, alt = False):
     for i in Z:
         T.append(mod.t(i, alt))
     
+    return Z,T
+
+def redshift(startT, finishT, TStep, alt = False):
+    
+    T = np.arange(startT, finishT, TStep)
+    Z=mod.z(T, alt)
     return Z,T
