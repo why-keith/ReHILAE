@@ -1,11 +1,15 @@
+"""
+Provides functions to produce graphs with single and multiple plots
+"""
 import matplotlib.pyplot as plt
 #import numpy as np
 #import MPhys_model.py as mod
 
-path=None
+#path=None
 
 #PLOTS PARTICLE POSITION AS STATIC GRAPH
 def plot(x,y,title,x_lab,y_lab,path=None):
+    #Outputs or saves a single Cartesian plot from 2 arrays
     plt.figure(figsize=(7,7))
     """
     plt.ylim(bottom=0)
@@ -23,12 +27,8 @@ def plot(x,y,title,x_lab,y_lab,path=None):
         plt.savefig("plots\\"+path+"\\"+title+".png")
     
 
-def single_plot(x,y):
-    plt.plot(x,y)    
-    return
-    
-
 def multiplot(x_list,y_list,title,x_lab,y_lab,legend_list=None,path=None):
+    #Outputs or saves a multiple plots on a single Cartesian axis from 2 nested arrays
     max_x=max([max(i) for i in x_list])
     
     plt.figure(figsize=(7,7))
@@ -38,7 +38,7 @@ def multiplot(x_list,y_list,title,x_lab,y_lab,legend_list=None,path=None):
     plt.xlabel(x_lab)
     plt.ylabel(y_lab)
     for i in range(len(x_list)):
-        single_plot(x_list[i], y_list[i])
+        plt.plot(x_list[i], y_list[i])
     if legend_list != None:
         plt.legend(legend_list)
         

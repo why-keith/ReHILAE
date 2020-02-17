@@ -1,3 +1,6 @@
+"""
+Saves all required plots to a unique folder
+"""
 import os
 from datetime import datetime
 
