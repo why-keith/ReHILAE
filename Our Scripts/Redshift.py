@@ -14,7 +14,7 @@ finishZ = mod.finishZ
 zStep = mod.zStep
 
 #GENERATES Z AND T ARRAYS
-def redshift(startZ, finishZ, zStep, alt = False): 
+def redshift_old(startZ, finishZ, zStep, alt = False): 
     
     Z = np.arange(startZ, finishZ, zStep)
     T = []
@@ -22,4 +22,10 @@ def redshift(startZ, finishZ, zStep, alt = False):
     for i in Z:
         T.append(mod.t(i, alt))
     
+    return Z,T
+
+def redshift(startT, finishT, TStep, alt = False):
+    
+    T = np.arange(startT, finishT, TStep)
+    Z=mod.z(T, alt)
     return Z,T
