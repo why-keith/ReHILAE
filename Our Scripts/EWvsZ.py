@@ -15,13 +15,13 @@ else:
     path=save.folder
 
 #Z VALUES
-startZ = mod.startZ
-finishZ = mod.finishZ
-zStep = mod.zStep
+startT = mod.startT
+finishT = mod.finishT
+tStep = mod.tStep
 
 #GENERATE Z AND t ARRAYS
-z,t = z(startZ, finishZ, zStep)
+z,t = z(startT, finishT, tStep)
 
-EW=[mod.EW(i) for i in z]
+EW=[mod.EW(i) for i in t]
 
 plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW",path)

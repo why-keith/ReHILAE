@@ -16,12 +16,12 @@ else:
 
 
 #Z VALUES
-startZ = mod.startZ
-finishZ = mod.finishZ
-zStep = mod.zStep
+startT = mod.startT
+finishT = mod.finishT
+tStep = mod.tStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startZ, finishZ, zStep)
+Z,t = z(startT, finishT, tStep)
 
 
 #GENERATE P_L_Lya ARRAY
