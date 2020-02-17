@@ -1,3 +1,6 @@
+"""
+Generates a plot of the luminosity density of lyman alpha against redshift
+"""
 import matplotlib as plt
 import numpy as np
 import MPhys_model as mod

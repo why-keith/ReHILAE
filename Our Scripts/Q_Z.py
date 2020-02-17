@@ -1,3 +1,6 @@
+"""
+Generates a plot of the evolution of ionised hydrgoen against redshift
+"""
 import numpy as np
 from scipy.integrate import odeint
 import MPhys_model as mod

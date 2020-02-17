@@ -1,3 +1,6 @@
+"""
+Produces a plot of the production rate of lyman continuum photons against redshift
+"""
 import matplotlib as plt
 import numpy as np
 import MPhys_model as mod

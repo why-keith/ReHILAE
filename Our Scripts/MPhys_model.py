@@ -1,4 +1,6 @@
-#Based on pg19 of MPhys Thesis
+"""
+Defines, calculates and allows for the changing of variables used in the toy model 
+"""
 import math
 import numpy as np
 import pylab

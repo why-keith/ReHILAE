@@ -1,3 +1,7 @@
+"""
+Produces arrays of redshift and time based on a start 
+and finish redshift and an incremental step size
+"""
 import matplotlib as plt
 import numpy as np
 import MPhys_model as mod

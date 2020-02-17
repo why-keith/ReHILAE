@@ -1,3 +1,6 @@
+"""
+Generates a plot of the escape fraction against redshift
+"""
 import matplotlib as plt
 import numpy as np
 import MPhys_model as mod
@@ -25,4 +28,4 @@ for i in Z:
     f.append(mod.f_esc_UV(i))
 
 #PLOTS Z AGAINST f
-plotter.plot(Z,f,"A plot of the escape fraction against redshift ","Redshift","f_esc",path)
+plotter.plot(Z,f,"A plot of the escape fraction against redshift","Redshift","f_esc",path)
