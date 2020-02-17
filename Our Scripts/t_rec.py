@@ -17,12 +17,12 @@ else:
 #Z VALUES
 startT = mod.startT
 finishT = mod.finishT
-tStep = mod.tStep
+TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startT, finishT, tStep)
+z,t = z(startT, finishT, TStep)
 
-t_rec=[math.log10(mod.t_rec(i)) for i in Z]
+t_rec=[math.log10(mod.t_rec(i)) for i in z]
 #print (t_rec)
 
-plotter.plot(Z,t_rec,"A plot of recombination time against redshift","Redshift","log(t_rec) / log(s)",path)
+plotter.plot(z,t_rec,"A plot of recombination time against redshift","Redshift","log(t_rec) / log(s)",path)

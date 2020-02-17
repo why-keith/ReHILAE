@@ -17,10 +17,10 @@ else:
 #Z VALUES
 startT = mod.startT
 finishT = mod.finishT
-tStep = mod.tStep
+TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startT, finishT, tStep)
+z,t = z(startT, finishT, TStep)
 
 #RETURNS dQ_dt 
 def Q_Hii_dot(Q,t):
@@ -33,4 +33,4 @@ Q[Q>1.0] = 1.0 # 100% HII
 Q[Q<0.0] = 0.0 # 100% HI
 
 #PLOT Z AGAINST Q
-plotter.plot(Z,Q,'Evolution of ionised hydrgoen against redshift','Redshift','Fraction of Ionised Hydrogen')
+plotter.plot(z,Q,'Evolution of ionised hydrgoen against redshift','Redshift','Fraction of Ionised Hydrogen')

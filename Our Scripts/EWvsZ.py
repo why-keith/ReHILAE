@@ -17,10 +17,10 @@ else:
 #Z VALUES
 startT = mod.startT
 finishT = mod.finishT
-tStep = mod.tStep
+TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
-z,t = z(startT, finishT, tStep)
+z,t = z(startT, finishT, TStep)
 
 EW=[mod.EW(i) for i in t]
 

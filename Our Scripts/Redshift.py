@@ -9,9 +9,14 @@ import plotter
 import math
 
 #Z VALUES
-startZ = mod.startZ
-finishZ = mod.finishZ
-zStep = mod.zStep
+#startZ = mod.startZ
+#finishZ = mod.finishZ
+#zStep = mod.zStep
+
+#Z VALUES
+startT = mod.startT
+finishT = mod.finishT
+TStep = mod.TStep
 
 #GENERATES Z AND T ARRAYS
 def redshift_old(startZ, finishZ, zStep, alt = False): 

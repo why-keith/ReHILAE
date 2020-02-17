@@ -17,15 +17,15 @@ else:
 #Z VALUES
 startT = mod.startT
 finishT = mod.finishT
-tStep = mod.tStep
+TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startT, finishT, tStep)
+z,t = z(startT, finishT, TStep)
 
 #GENERATE f_esc ARRAY
 Q = []
-for i in Z:
+for i in z:
     Q.append(mod.Q_ion_LyC(i))
 
 #PLOTS Z AGAINST f
-plotter.plot(Z,Q,"A plot of the availability of lyman continuum photons against redshift ","Redshift","Q_ion_LyC",path)
+plotter.plot(z,Q,"A plot of the availability of lyman continuum photons against redshift ","Redshift","Q_ion_LyC",path)

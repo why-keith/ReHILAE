@@ -18,15 +18,14 @@ else:
 #Z VALUES
 startT = mod.startT
 finishT = mod.finishT
-tStep = mod.tStep
+TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
-Z,t = z(startT, finishT, tStep)
-
+z,t = z(startT, finishT, TStep)
 
 #GENERATE P_L_Lya ARRAY
-P_L_Lya=[mod.P_L_Lya(i) for i in Z]
+P_L_Lya=[mod.P_L_Lya(i) for i in z]
 
 
 #PLOTS Z AGAINST P_L_Lya
-plotter.plot(Z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","z","P_L_Lya",path)
+plotter.plot(z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","z","P_L_Lya",path)
