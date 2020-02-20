@@ -36,11 +36,7 @@ def importer(): #single thread method - depreciated
     import n_ion_dot_lyc
     import t_rec
     import Q_ion_lyc
-    import f_esc
-        
-        
-
-    
+    import f_esc    
 
 
 if __name__=="__main__":

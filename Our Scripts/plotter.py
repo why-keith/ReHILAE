@@ -22,11 +22,11 @@ def plot(x,y,title,x_lab,y_lab,path=None,error_list=None):
     plt.xlabel(x_lab)
     plt.ylabel(y_lab)
     plt.plot(x,y)
-    
+    """
     if error_list!=None:
         min_list, max_list = ErrorFits.error_Range(x,y,error_list[1],error_list[2])
         plt.fill_between(x,min_list,max_list,lw=1,color='#0066ff',alpha=0.1,zorder = 90)
-  
+  """
     if path==None:
         plt.show()
     else:

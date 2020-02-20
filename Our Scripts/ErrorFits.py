@@ -35,13 +35,13 @@ def double_normal(phi,err_down,err_up,size):
 ##################################
 # Generates random error arrays
 
-def error_Range(x,y,error_down_y,error_up_y)
+def error_Range(x,y,error_down_y,error_up_y):
     master_list = []
     
     for i in range(iterations): # Creates 'iteration' number of arrays with new random guassian distributed data points
         y_new_list = y-y
         for j in range(len(y)): # Generates an array with random guassian distributed data points
-            y_new_list[j]=(double_normal(y[j],err_down_y[j],err_up_y[j],1)[0])
+            y_new_list[j]=(double_normal(y[j],error_down_y[j],error_up_y[j],1)[0])
     
         master_list.append(y_new_list) # Appends new array to master_list
     
@@ -58,12 +58,12 @@ def error_Range(x,y,error_down_y,error_up_y)
 
 ################################
 # Plots a graph with the max and min error arrays and fills inbetween
-      
+"""   
 plt.fill_between(x,min_list,max_list,lw=1,color='#0066ff',alpha=0.1,zorder = 90)
     
 plt.plot(x,y)
 plt.show()
-
+"""
 #################################
 
 
