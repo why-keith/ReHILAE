@@ -4,12 +4,12 @@ Saves all required plots to a unique folder
 import os
 from datetime import datetime
 import time
-from threading import Thread
 import multiprocessing
 start=time.time()
 #folder=(str(datetime.now().strftime("%d-"+"%m-"+"%y "+"%H"+"%M"+"%S")),)[0]
-folder="New"
+folder="temp"
 
+import_number=7 #number of moduels to be run
 def importer(i):
     if i==0:
         import P_L_Lya
@@ -27,12 +27,15 @@ def importer(i):
         import f_esc  
         
         
-if os.path.isdir("plots\\"+folder)==False:
-    os.mkdir("plots\\"+folder)
+
     
 
 
 if __name__=="__main__":
+    
+    if os.path.isdir("plots\\"+folder)==False:
+        os.mkdir("plots\\"+folder)
+    
     """
     print("Generating graphs...")
     import P_L_Lya
@@ -45,7 +48,7 @@ if __name__=="__main__":
     import f_esc
     """
     jobs=[]
-    for i in range(7):
+    for i in range(import_number):
         t=multiprocessing.Process(target=importer, args=(i,))#Thread(target=importer, args=(i,))
         jobs.append(t)
         t.start()
