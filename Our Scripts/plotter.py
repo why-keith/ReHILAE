@@ -9,7 +9,7 @@ import ErrorFits
 #path=None
 
 #PLOTS PARTICLE POSITION AS STATIC GRAPH
-def plot(x,y,title,x_lab,y_lab,path=None,error_list):
+def plot(x,y,title,x_lab,y_lab,path=None,error_list=None):
     #Outputs or saves a single Cartesian plot from 2 arrays
     plt.figure(figsize=(7,7))
     """
@@ -23,8 +23,9 @@ def plot(x,y,title,x_lab,y_lab,path=None,error_list):
     plt.ylabel(y_lab)
     plt.plot(x,y)
     
-    min_list, max_list = ErrorFits.error_Range(x,y,error_list[1],error_list[2])
-    plt.fill_between(x,min_list,max_list,lw=1,color='#0066ff',alpha=0.1,zorder = 90)
+    if error_list!=None:
+        min_list, max_list = ErrorFits.error_Range(x,y,error_list[1],error_list[2])
+        plt.fill_between(x,min_list,max_list,lw=1,color='#0066ff',alpha=0.1,zorder = 90)
   
     if path==None:
         plt.show()
