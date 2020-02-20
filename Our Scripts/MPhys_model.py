@@ -81,6 +81,11 @@ def E_ion(z):#Hz/erg
     return 10**(24.4 + math.log10(1 + z))
 
 def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density 
+    """
+    From Bouwens 2015 Table 7
+
+    available at: https://arxiv.org/pdf/1403.4295.pdf
+    """
     x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
     y = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62, 23.00])
     #0.0,0.45, 0.9, 1.3,1.8, 2.5 ,
@@ -105,6 +110,12 @@ def Q_Hii_dot_UV(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     
 #LYA FUNCTIONS#################################################First Improvements
 def P_L_Lya(z): # luminosity density of lyman alpha
+    """
+    SC4K data shown in Sobral et al. 2018 table C3
+
+    available at: https://arxiv.org/pdf/1712.04451.pdf
+    """
+
     # data from SC4K Sobral
     x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ])
     y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
@@ -128,6 +139,11 @@ def P_L_Lya(z): # luminosity density of lyman alpha
 #    return 0.0048*EW(z)	
 
 def EW(z): # luminosity density of lyman alpha
+    """
+    SC4K data shown in Calhau et al. 2019 Table C3
+
+    available at: https://lancaster.app.box.com/s/t75t3v713yuibkvjk3ioqdesunxpv1fb/file/618125008170
+    """
     x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3])
     y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
 #    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
@@ -159,6 +175,11 @@ def Q_ion_LyC(z): # replaces P_uv and E_ion
     return P_L_Lya(z) / (c_ha*(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))	
 
 def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
+    """
+    SDSS data shown in Verhamme et al. 2016 Table 1
+
+    availabke at: https://www.aanda.org/articles/aa/pdf/2017/01/aa29264-16.pdf
+    """
     x = pylab.array([79, 129, 83, 98, 75, 29, 15, 4])
     y = pylab.array([0.132, 0.074, 0.072, 0.058, 0.056, 0.045, 0.032, 0.01])
     p1 = pylab.polyfit(x,y,1.0)
