@@ -3,7 +3,8 @@ Saves all required plots to a unique folder
 """
 import os
 from datetime import datetime
-
+import time
+start=(time.time())
 folder=(str(datetime.now().strftime("%d-"+"%m-"+"%y "+"%H"+"%M"+"%S")))
 
 if os.path.isdir("plots\\"+folder)==False:
@@ -19,3 +20,5 @@ if __name__=="__main__":
     import t_rec
     import Q_ion_lyc
     import f_esc
+    print("Time elapsed = {}s".format(time.time()-start))
+
