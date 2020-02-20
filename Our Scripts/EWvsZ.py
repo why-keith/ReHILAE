@@ -24,4 +24,4 @@ z,t = z(startT, finishT, TStep)
 
 EW=[mod.EW(i) for i in t]
 
-plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW",path)
+plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW [Å]",path)

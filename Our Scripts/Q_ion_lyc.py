@@ -23,9 +23,8 @@ TStep = mod.TStep
 z,t = z(startT, finishT, TStep)
 
 #GENERATE f_esc ARRAY
-Q = []
-for i in z:
-    Q.append(mod.Q_ion_LyC(i))
+Q = [mod.Q_ion_LyC(i)/(10**50) for i in z]
+
 
 #PLOTS Z AGAINST f
-plotter.plot(z,Q,"A plot of the availability of lyman continuum photons against redshift ","Redshift","Q_ion_LyC",path)
+plotter.plot(z,Q,"A plot of the availability of lyman continuum photons against redshift ","Redshift (z)",r"$Q_{ion, LyC}\times10^{50}$",path)

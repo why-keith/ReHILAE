@@ -23,9 +23,8 @@ TStep = mod.TStep
 z,t = z(startT, finishT, TStep)
 
 #GENERATE f_esc ARRAY
-n_ion = []
-for i in z:
-    n_ion.append(mod.n_ion_dot_LyC(i))
+
+n_ion=[math.log10(mod.n_ion_dot_UV(i)) for i in z]
 
 #PLOTS Z AGAINST f
-plotter.plot(z,n_ion,"A plot of the production rate of lyman continuum photons against redshift ","Redshift","n_ion_dot_lyc",path)
+plotter.plot(z,n_ion,"A plot of the production rate of lyman continuum photons against redshift ","Redshift (z)",r"$log(\dot{n}_{ion, LyC})[s^{-1}Mpc^{-3}]$",path)

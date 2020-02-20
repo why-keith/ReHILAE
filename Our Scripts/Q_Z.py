@@ -33,4 +33,4 @@ Q[Q>1.0] = 1.0 # 100% HII
 Q[Q<0.0] = 0.0 # 100% HI
 
 #PLOT Z AGAINST Q
-plotter.plot(z,Q,'Evolution of ionised hydrgoen against redshift','Redshift','Fraction of Ionised Hydrogen')
+plotter.plot(z,Q,'Evolution of ionised hydrgoen against redshift','Redshift (z)','Fraction of Ionised Hydrogen')

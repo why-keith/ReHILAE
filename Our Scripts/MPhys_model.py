@@ -78,7 +78,7 @@ def t_rec(z): #s recombination time
 
 #UV FUNCTIONS###################################################From MPhys Paper
 def E_ion(z):#Hz/erg
-    return 10**(24.4 + math.log10(1 + z))
+    return 10**25.6 #10**(24.4 + math.log10(1 + z))
 
 def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density 
     """
@@ -172,7 +172,7 @@ def f_esc_Lya(z): # esc fravction from Sobral
     return 0.0048*EW(z)	
 
 def Q_ion_LyC(z): # replaces P_uv and E_ion	
-    return P_L_Lya(z) / (c_ha*(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))	
+    return P_L_Lya(z) / (c_ha*(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))
 
 def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
     """
@@ -187,7 +187,7 @@ def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
     return p(EW(z))
 
 def n_ion_dot_LyC(z): # replaces n_ion_dot using Q_ion_LyC	
-    if Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) < 0 :
+    if Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) <= 0 :
         return 0 
     else:
         return Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3

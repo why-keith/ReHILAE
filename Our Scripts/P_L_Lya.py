@@ -24,8 +24,8 @@ TStep = mod.TStep
 z,t = z(startT, finishT, TStep)
 
 #GENERATE P_L_Lya ARRAY
-P_L_Lya=[mod.P_L_Lya(i) for i in z]
+P_L_Lya=[mod.P_uv(i)/(10**40) for i in z]
 
 
 #PLOTS Z AGAINST P_L_Lya
-plotter.plot(z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","z","P_L_Lya",path)
+plotter.plot(z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","Redshift (z)",r"$\rho_{L_{Lya}} [erg s^{−1} Mpc^{−3}]\times10^{40} [ergs Mpc^{-3}]$",path)
