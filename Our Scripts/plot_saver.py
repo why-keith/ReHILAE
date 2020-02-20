@@ -6,11 +6,12 @@ from datetime import datetime
 import time
 import multiprocessing
 start=time.time()
-#folder=(str(datetime.now().strftime("%d-"+"%m-"+"%y "+"%H"+"%M"+"%S")),)[0]
 folder="temp"
 
-import_number=7 #number of moduels to be run
-def importer(i):
+import_number=7 #number of scripts to be run
+
+def importer_loop(i):
+    #function called by multiprocessing that calls each of the required scripts in turn
     if i==0:
         import P_L_Lya
     elif i==1:
@@ -26,6 +27,17 @@ def importer(i):
     elif i==6:
         import f_esc  
         
+def importer(): #single thread method - depreciated
+    print("Generating graphs...")
+    import P_L_Lya
+    import EWvsZ
+    import Q_Z
+    print("Still generating graphs...")            
+    import n_ion_dot_lyc
+    import t_rec
+    import Q_ion_lyc
+    import f_esc
+        
         
 
     
@@ -36,20 +48,10 @@ if __name__=="__main__":
     if os.path.isdir("plots\\"+folder)==False:
         os.mkdir("plots\\"+folder)
     
-    """
-    print("Generating graphs...")
-    import P_L_Lya
-    import EWvsZ
-    import Q_Z
-    print("Still generating graphs...")
-    import n_ion_dot_lyc
-    import t_rec
-    import Q_ion_lyc
-    import f_esc
-    """
+    
     jobs=[]
     for i in range(import_number):
-        t=multiprocessing.Process(target=importer, args=(i,))#Thread(target=importer, args=(i,))
+        t=multiprocessing.Process(target=importer_loop, args=(i,))#Thread(target=importer, args=(i,))
         jobs.append(t)
         t.start()
         
