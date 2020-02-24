@@ -50,8 +50,6 @@ def set_variables(_alpha=alpha,_T=T,_C=C,_startT=startT,_finishT=finishT,_interv
     finishT=_finishT
     intervalNumber=_intervalNumber
     TStep = (finishT - startT)/(intervalNumber)
-
-    
     return "α={} \nT={}\nC={}".format(alpha,T,C)
     
 def z(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
@@ -94,22 +92,13 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
     """
     x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
     y = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62, 23.00])
-    y_sigma = pylab.array([0.06,0.06,0.06,0.06,0.06, 0.04,0.001])
-
-    #0.0,0.45, 0.9, 1.3,1.8, 2.5 ,
-    #10.0**25.72, 10**25.87, 10**26.05, 10**26.30, 10**26.32, 10**26.36,                                        
+    y_sigma = pylab.array([0.06,0.06,0.06,0.06,0.06, 0.04,0.001])                                 
     p1 = pylab.polyfit(x,y,3.0)
     p = pylab.poly1d(p1)
     Params = p.coefficients
-    
     pfit, pcov = curve_fit(Cubic, x, y, p0=Params, sigma=y_sigma)
-    
     a1,a2,a3,a4 = pfit[0], pfit[1], pfit[2], pfit[3]
-     
-    
     return Cubic(z,a1,a2,a3,a4) 
-    
-
 
 def f_esc_UV(z): #escape fraction of UV
         return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction
@@ -132,7 +121,6 @@ def P_L_Lya(z): # luminosity density of lyman alpha
     returns P_L_Lya
     """
 
-    # data from SC4K Sobral
     x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8,7,10,11,12,13,14,16])
     y1 = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10,.7,0.5,0.3,0.10,0.05,0.001,0.001])  # data from SC4K Sobral 
     y = [math.log10(i*10**40) for i in y1]
@@ -140,24 +128,18 @@ def P_L_Lya(z): # luminosity density of lyman alpha
     p2 = pylab.polyfit(x, y, 3.0)
     p = pylab.poly1d(p2)
     Params = p.coefficients
-    
     pfit, pcov = curve_fit(Cubic, x, y, p0=Params, sigma=y_sigma)
-    
     a1,a2,a3,a4 = pfit[0], pfit[1], pfit[2], pfit[3]
-    
-    if p(z) < 0:
+    if p(z) <0:
         return 0
-
     else:
-        return Cubic(z, a1,a2,a3,a4) *10**40
+        return 10**(Cubic(z, a1,a2,a3,a4)) 
 
-#def f_esc_Lya(z): # esc fraction from Sobral 	
-#    return 0.0048*EW(z)	
 
 def linear(x, a1, a2):
     return a1*x + a2
 
-def EW(z): # luminosity density of lyman alpha
+def EW(z):
     """
     SC4K data shown in Calhau et al. 2019 Table C3
 
@@ -166,30 +148,11 @@ def EW(z): # luminosity density of lyman alpha
     x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3])
     y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
     y_sigma = pylab.array([0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01, 0.01, 0.01])
-    p2 = pylab.polyfit(x, y,1.0)
+    p2 = pylab.polyfit(x, y, 1.0)
     p = pylab.poly1d(p2)
     Params = p.coefficients
-    
     pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=y_sigma)
-    
     a1,a2= pfit[0], pfit[1]
-
-#    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
-#    hdu_list = fits.open(filename) 
-#    evt_data = Table(hdu_list[1].data) 
-#    stack = evt_data.field(0)[4:15]
-#    redshift = []
-#    for i in stack: # cleaning data e.g. 'z=2.5-NO_AGN' => 2.5
-#        j = str(i).split('=')
-#        j = j[1]
-#        j = j.split('-')
-#        j = j[0]
-#        redshift.append(float(j))
-
-#    EquiWidth = evt_data.field(8)[4:15]
-#    EW = [float(i) for i in EquiWidth]
-#    x, y = pylab.array(redshift), pylab.array(EW)
-
     return linear(z, a1, a2)
 
 
@@ -207,26 +170,21 @@ def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
 
     availabke at: https://www.aanda.org/articles/aa/pdf/2017/01/aa29264-16.pdf
     """
-    x = pylab.array([79, 129, 83, 98, 75, 29, 15, 4])
-    y = pylab.array([0.132, 0.074, 0.072, 0.058, 0.056, 0.045, 0.032, 0.01])
+    x = pylab.array([79, 129, 83, 98, 75, 29, 15, 4]) # Equivalent Width
+    y = pylab.array([0.132, 0.074, 0.072, 0.058, 0.056, 0.045, 0.032, 0.01]) # f_esc
     y_sigma = pylab.array([0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001])
     p1 = pylab.polyfit(x,y,1.0)
     p = pylab.poly1d(p1)
     Params = p.coefficients
-    
     pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=y_sigma)
-    
     a1,a2= pfit[0], pfit[1]
-    return linear(z, a1,a2)
+    return linear(z, a1, a2)
 
 def n_ion_dot_LyC(z): # replaces n_ion_dot using Q_ion_LyC	
-    if Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) <= 0 :
+    if Q_ion_LyC(z) * f_esc_LyC(EW(z)) / (2.938e+73) <= 0 :
         return 0 
     else:
-        return Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+        return Q_ion_LyC(z) * f_esc_LyC(EW(z)) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
     
 def Q_Hii_dot(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot_LyC(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
-
-
-
