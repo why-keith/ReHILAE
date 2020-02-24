@@ -23,7 +23,7 @@ TStep = mod.TStep
 z,t = z(startT, finishT, TStep)
 
 #GENERATE f_esc ARRAY
-Q = [mod.Q_ion_LyC(i)/(10**50) for i in z]
+Q = [math.log10(mod.Q_ion_LyC(i)) for i in z]
 
 
 #PLOTS Z AGAINST f

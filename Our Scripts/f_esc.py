@@ -25,7 +25,7 @@ z,t = z(startT, finishT, TStep)
 #GENERATE f_esc ARRAY
 f = []
 for i in z:
-    f.append(mod.f_esc_UV(i))
+    f.append(mod.f_esc_LyC(i))
 
 #PLOTS Z AGAINST f
 plotter.plot(z,f,"A plot of the escape fraction against redshift","Redshift (z)",r"$f_{esc}$",path)
