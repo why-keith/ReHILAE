@@ -28,4 +28,4 @@ P_L_Lya=[math.log10(mod.P_L_Lya(i)) for i in z]
 
 
 #PLOTS Z AGAINST P_L_Lya
-plotter.plot(z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","Redshift (z)",r"$\rho_{L_{Lya}} [erg s^{−1} Mpc^{−3}]$",path)
+plotter.plot(z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","Redshift (z)",r"$log_{10}(\rho_{L_{Lya}}) [erg s^{−1} Mpc^{−3}]$",path)
