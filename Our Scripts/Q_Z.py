@@ -24,7 +24,7 @@ z,t = z(startT, finishT, TStep)
 
 #RETURNS dQ_dt 
 def Q_Hii_dot(Q,t):
-    dQ_dt = mod.Q_Hii_dot_UV(mod.z(t),Q)
+    dQ_dt = mod.Q_Hii_dot (mod.z(t),Q)
     return dQ_dt
 
 #GENERATE Q ARRAY
@@ -33,4 +33,5 @@ Q[Q>1.0] = 1.0 # 100% HII
 Q[Q<0.0] = 0.0 # 100% HI
 
 #PLOT Z AGAINST Q
-plotter.plot(z,Q,'Evolution of ionised hydrgoen against redshift','Redshift','Fraction of Ionised Hydrogen',path)
+plotter.plot(z,Q,'Evolution of ionised hydrgoen against redshift','Redshift (z)','Fraction of Ionised Hydrogen',path)
+

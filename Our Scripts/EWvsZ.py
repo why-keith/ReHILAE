@@ -22,6 +22,6 @@ TStep = mod.TStep
 #GENERATE Z AND t ARRAYS
 z,t = z(startT, finishT, TStep)
 
-EW=[mod.EW(i) for i in t]
+EW=[mod.EW(i) for i in z]
 
-plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW",path)
+plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW [Å]",path)

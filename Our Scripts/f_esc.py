@@ -23,9 +23,11 @@ TStep = mod.TStep
 z,t = z(startT, finishT, TStep)
 
 #GENERATE f_esc ARRAY
-f = []
-for i in z:
-    f.append(mod.f_esc_UV(i))
+EW = [i for i in range(250)]
+f = [mod.f_esc_LyC(i) for i in EW]
+
+
+
 
 #PLOTS Z AGAINST f
-plotter.plot(z,f,"A plot of the escape fraction against redshift","Redshift","f_esc",path)
+plotter.plot(EW,f,"A plot of the escape fraction against equivalent width","EW",r"$f_{esc}$",path)
