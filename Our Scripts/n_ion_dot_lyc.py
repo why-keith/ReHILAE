@@ -8,13 +8,15 @@ import plotter
 import math
 from Redshift import redshift as z
 import plot_saver as save
+import random_array_generator as rag
+import pandas as pd
 
 if __name__=="__main__":
     path=None
 else:
     path=save.folder
 
-#Z VALUES
+#TIME CONDITIONS
 startT = mod.startT
 finishT = mod.finishT
 TStep = mod.TStep
@@ -23,7 +25,6 @@ TStep = mod.TStep
 z,t = z(startT, finishT, TStep)
 
 #GENERATE f_esc ARRAY
-
 n_ion=[math.log(mod.n_ion_dot_UV(i)*2.938e+73) for i in z]
 
 #PLOTS Z AGAINST f

@@ -7,18 +7,20 @@ import numpy as np
 import MPhys_model as mod
 import plotter
 import math
+import random_array_generator as rag
+import pandas as pd
 
 #Z VALUES
 #startZ = mod.startZ
 #finishZ = mod.finishZ
 #zStep = mod.zStep
 
-#Z VALUES
+#TIME CONDITIONS
 startT = mod.startT
 finishT = mod.finishT
 TStep = mod.TStep
 
-#GENERATES Z AND T ARRAYS
+#GENERATES Z, Z_old, AND T ARRAYS
 def redshift_old(startZ, finishZ, zStep, alt = False): 
     
     Z = np.arange(startZ, finishZ, zStep)

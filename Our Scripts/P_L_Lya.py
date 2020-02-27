@@ -8,6 +8,8 @@ import plotter
 import math
 from Redshift import redshift as z
 import plot_saver as save
+import random_array_generator as rag
+import pandas as pd
 
 if __name__=="__main__":
     path=None
@@ -15,7 +17,7 @@ else:
     path=save.folder
 
 
-#Z VALUES
+#TIME CONDITIONS
 startT = mod.startT
 finishT = mod.finishT
 TStep = mod.TStep
@@ -25,7 +27,6 @@ z,t = z(startT, finishT, TStep)
 
 #GENERATE P_L_Lya ARRAY
 P_L_Lya=[math.log10(mod.P_L_Lya(i)) for i in z]
-
 
 #PLOTS Z AGAINST P_L_Lya
 plotter.plot(z,P_L_Lya,"A plot of the luminosity density of lyman alpha against redshift","Redshift (z)",r"$log_{10}(\rho_{L_{Lya}}) [erg s^{−1} Mpc^{−3}]$",path)
