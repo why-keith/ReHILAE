@@ -5,7 +5,7 @@ from astropy.io import fits
 import matplotlib.pyplot as plt
 import copy
 
-iterations = 100
+iterations = 10
 
 ############################################
 # Return condicence levels
@@ -42,11 +42,24 @@ def random_Arrays(x,y,error_down_y,error_up_y):
         y_new_list = [0 for i in range(len(y))]
         for j in range(len(y)): # Generates an array with random guassian distributed data points
             y_new_list[j]=(double_normal(y[j],error_down_y[j],error_up_y[j],1)[0])
-    
+                
         master_list.append(y_new_list) # Appends new array to master_list
-        print('Running iteration ' + str(i + 1) + '...')
     return master_list
     
+#################################
+# Generates median y values
+
+def median_y_values(length_of_each_array,array_of_random_arrays):
+    median_y_array = []
+    for i in range(length_of_each_array):
+        Y = []
+        for j in range(len(array_of_random_arrays)):
+            Y.append(array_of_random_arrays[j][i])
+        median_y_array.append(np.median(Y))
+    #print(median_y_array)
+    return mean_y_array
+    #plt.plot(x,median_y_array)
+    #plt.show()
 """    
 ##################################
 # Finds the max and min of the generated arrays
@@ -60,7 +73,6 @@ def random_Arrays(x,y,error_down_y,error_up_y):
             if master_list[j][i] < min_list[i]:
                 min_list[i] = master_list[j][i]
     return min_list, max_list
-
 ################################
 # Plots a graph with the max and min error arrays and fills inbetween
    
@@ -68,7 +80,5 @@ plt.fill_between(x,min_list,max_list,lw=1,color='#0066ff',alpha=0.1,zorder = 90)
     
 plt.plot(x,y)
 plt.show()
-
 #################################
 """
-
