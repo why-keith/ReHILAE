@@ -26,10 +26,10 @@ z,t = z(startT, finishT, TStep)
 z = np.asarray(z)
 
 #GENERATES EW ARRAY
-EW=[mod.EW(i) for i in t]
+EW=[mod.EW(i) for i in z]
 
 #PLOTS z AGAINST EW
-plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW",path)
+plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW [Å]",path) 
 
 #DUMMY ERRORS
 error_down_y = []
