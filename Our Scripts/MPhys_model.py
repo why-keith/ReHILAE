@@ -32,25 +32,6 @@ startT=0.124 #Start time
 finishT=14 #Finish time
 intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
-
-#FUNCTIONS######################################################
-def set_variables(_alpha=alpha,_T=T,_C=C,_startT=startT,_finishT=finishT,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py
-    global alpha
-    global T
-    global C
-    global startT
-    global finishT
-    global intervalNumber
-    global TStep
-    
-    alpha=_alpha
-    T=_T
-    C=_C
-    startT=_startT
-    finishT=_finishT
-    intervalNumber=_intervalNumber
-    TStep = (finishT - startT)/(intervalNumber)
-    return "α={} \nT={}\nC={}".format(alpha,T,C)
     
 def z(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
     if alt == False:
@@ -148,7 +129,7 @@ def EW(z):
     x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3])
     y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
     y_sigma = pylab.array([0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01, 0.01, 0.01])
-    p2 = pylab.polyfit(x, y, 1.0)
+    p2 = np.polyfit(x, y, 1.0)
     p = pylab.poly1d(p2)
     Params = p.coefficients
     pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=y_sigma)
@@ -173,7 +154,7 @@ def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
     x = pylab.array([79, 129, 83, 98, 75, 29, 15, 4]) # Equivalent Width
     y = pylab.array([0.132, 0.074, 0.072, 0.058, 0.056, 0.045, 0.032, 0.01]) # f_esc
     y_sigma = pylab.array([0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001])
-    p1 = pylab.polyfit(x,y,1.0)
+    p1 = np.polyfit(x,y,1.0)
     p = pylab.poly1d(p1)
     Params = p.coefficients
     pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=y_sigma)
