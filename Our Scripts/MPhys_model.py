@@ -6,7 +6,6 @@ import numpy as np
 import pylab
 from astropy.io import fits
 from astropy.table import Table
-from scipy.optimize import curve_fit
 
 
 
@@ -30,30 +29,30 @@ T=20000 #K Temperature
 C=3 #clumping factor
 startT=0.124 #Start time
 finishT=14 #Finish time
-intervalNumber = 10000
+intervalNumber = 1000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
 
-"""	
-def set_variables(_alpha=alpha,_T=T,_C=C,_startT=startT,_finishT=finishT,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py	
-    global alpha	
-    global T	
-    global C	
-    global startT	
-    global finishT	
-    global intervalNumber	
-    global TStep	
+#FUNCTIONS######################################################
+def set_variables(_alpha=alpha,_T=T,_C=C,_startT=startT,_finishT=finishT,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py
+    global alpha
+    global T
+    global C
+    global startT
+    global finishT
+    global intervalNumber
+    global TStep
+    
+    alpha=_alpha
+    T=_T
+    C=_C
+    startT=_startT
+    finishT=_finishT
+    intervalNumber=_intervalNumber
+    TStep = (finishT - startT)/(intervalNumber)
 
-    alpha=_alpha	
-    T=_T	
-    C=_C	
-    startT=_startT	
-    finishT=_finishT	
-    intervalNumber=_intervalNumber	
-    TStep = (finishT - startT)/(intervalNumber)	
-
-
+    
     return "α={} \nT={}\nC={}".format(alpha,T,C)
-"""  
+    
 def z(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
     if alt == False:
         return ((((28./(t))-1.)**(1./2.)-1.))
@@ -79,34 +78,25 @@ def t_rec(z): #s recombination time
 
 #UV FUNCTIONS###################################################From MPhys Paper
 def E_ion(z):#Hz/erg
-    return 10**25.6 #10**(24.4 + math.log10(1 + z))
-
-def Cubic(x, a1, a2, a3, a4):
-    return a1*x**3 + a2*x**2 +a3*x +a4
+    return 10**(24.4 + math.log10(1 + z))
 
 def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density 
-    """
-    From Bouwens 2015 Table 7
-
-    available at: https://arxiv.org/pdf/1403.4295.pdf
-
-    returns log10(P_uv)
-    """
     x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
     y = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62, 23.00])
-    y_sigma = pylab.array([0.06,0.06,0.06,0.06,0.06, 0.04,0.001])                                 
+    #0.0,0.45, 0.9, 1.3,1.8, 2.5 ,
+    #10.0**25.72, 10**25.87, 10**26.05, 10**26.30, 10**26.32, 10**26.36,                                        
     p1 = pylab.polyfit(x,y,3.0)
     p = pylab.poly1d(p1)
-    Params = p.coefficients
-    pfit, pcov = curve_fit(Cubic, x, y, p0=Params, sigma=y_sigma)
-    a1,a2,a3,a4 = pfit[0], pfit[1], pfit[2], pfit[3]
-    return Cubic(z,a1,a2,a3,a4) 
+    if z==14:
+       return 10.0**26.52
+    else:
+       return 10**p(z)
 
 def f_esc_UV(z): #escape fraction of UV
         return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction
 
 def n_ion_dot_UV(z): #s⁻¹ cm⁻³ 
-    return f_esc_UV(z) * E_ion(z) * (10**P_uv(z)) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+    return f_esc_UV(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
 def Q_Hii_dot_UV(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot_UV(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
@@ -115,47 +105,49 @@ def Q_Hii_dot_UV(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     
 #LYA FUNCTIONS#################################################First Improvements
 def P_L_Lya(z): # luminosity density of lyman alpha
-    """
-    SC4K data shown in Sobral et al. 2018 table C3
-
-    available at: https://arxiv.org/pdf/1712.04451.pdf
-
-    returns P_L_Lya
-    """
-
-    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8,7,10,11,12,13,14,16])
-    y1 = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10,.7,0.5,0.3,0.10,0.05,0.001,0.001])  # data from SC4K Sobral 
-    y = [math.log10(i*10**40) for i in y1]
-    y_sigma = pylab.array([0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01, 0.01, 0.01, 0.01 ,0.01,0.01,0.01, 0.01, 0.01, 0.01 ,0.01])
-    p2 = pylab.polyfit(x, y, 3.0)
+    # data from SC4K Sobral
+    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ])
+    y = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])  # data from SC4K Sobral 
+    p2 = pylab.polyfit(x, y, 2.0)
     p = pylab.poly1d(p2)
-    Params = p.coefficients
-    pfit, pcov = curve_fit(Cubic, x, y, p0=Params, sigma=y_sigma)
-    a1,a2,a3,a4 = pfit[0], pfit[1], pfit[2], pfit[3]
-    if p(z) <0:
+    
+ #   peak=np.max(y)
+  #  peak_position = np.where(y==peak)
+   # cutoff=x[peak_position[0][0]]
+    
+    if p(z) < 0:
         return 0
+
+  #  if z > cutoff:
+   #     return p(cutoff) * 10**40
+
     else:
-        return 10**(Cubic(z, a1,a2,a3,a4)) 
+        return p(z) * 10**40 
 
+#def f_esc_Lya(z): # esc fraction from Sobral 	
+#    return 0.0048*EW(z)	
 
-def linear(x, a1, a2):
-    return a1*x + a2
-
-def EW(z):
-    """
-    SC4K data shown in Calhau et al. 2019 Table C3
-
-    available at: https://lancaster.app.box.com/s/t75t3v713yuibkvjk3ioqdesunxpv1fb/file/618125008170
-    """
+def EW(z): # luminosity density of lyman alpha
     x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3])
     y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
-    y_sigma = pylab.array([0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01, 0.01, 0.01])
-    p2 = np.polyfit(x, y, 1.0)
+#    filename = 'Table_C3_Calhau19_Stacking_LAEs_X_rays_v1.fits'
+#    hdu_list = fits.open(filename) 
+#    evt_data = Table(hdu_list[1].data) 
+#    stack = evt_data.field(0)[4:15]
+#    redshift = []
+#    for i in stack: # cleaning data e.g. 'z=2.5-NO_AGN' => 2.5
+#        j = str(i).split('=')
+#        j = j[1]
+#        j = j.split('-')
+#        j = j[0]
+#        redshift.append(float(j))
+
+#    EquiWidth = evt_data.field(8)[4:15]
+#    EW = [float(i) for i in EquiWidth]
+#    x, y = pylab.array(redshift), pylab.array(EW)
+    p2 = pylab.polyfit(x, y, 1.0)
     p = pylab.poly1d(p2)
-    Params = p.coefficients
-    pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=y_sigma)
-    a1,a2= pfit[0], pfit[1]
-    return linear(z, a1, a2)
+    return p(z) 
 
 
 
@@ -164,29 +156,23 @@ def f_esc_Lya(z): # esc fravction from Sobral
     return 0.0048*EW(z)	
 
 def Q_ion_LyC(z): # replaces P_uv and E_ion	
-    return P_L_Lya(z) / (c_ha*(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))
+    return P_L_Lya(z) / (c_ha*(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))	
 
 def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
-    """
-    SDSS data shown in Verhamme et al. 2016 Table 1
-
-    availabke at: https://www.aanda.org/articles/aa/pdf/2017/01/aa29264-16.pdf
-    """
-    x = pylab.array([79, 129, 83, 98, 75, 29, 15, 4]) # Equivalent Width
-    y = pylab.array([0.132, 0.074, 0.072, 0.058, 0.056, 0.045, 0.032, 0.01]) # f_esc
-    y_sigma = pylab.array([0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001])
-    p1 = np.polyfit(x,y,1.0)
+    x = pylab.array([79, 129, 83, 98, 75, 29, 15, 4])
+    y = pylab.array([0.132, 0.074, 0.072, 0.058, 0.056, 0.045, 0.032, 0.01])
+    p1 = pylab.polyfit(x,y,1.0)
     p = pylab.poly1d(p1)
-    Params = p.coefficients
-    pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=y_sigma)
-    a1,a2= pfit[0], pfit[1]
-    return linear(z, a1, a2)
+    return p(EW(z))
 
 def n_ion_dot_LyC(z): # replaces n_ion_dot using Q_ion_LyC	
-    if Q_ion_LyC(z) * f_esc_LyC(EW(z)) / (2.938e+73) <= 0 :
+    if Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) < 0 :
         return 0 
     else:
-        return Q_ion_LyC(z) * f_esc_LyC(EW(z)) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+        return Q_ion_LyC(z) * f_esc_LyC(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
     
 def Q_Hii_dot(z,Q_Hii): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot_LyC(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+
+
+

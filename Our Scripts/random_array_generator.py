@@ -5,7 +5,7 @@ from astropy.io import fits
 import matplotlib.pyplot as plt
 import copy
 
-iterations = 100
+iterations = 10
 
 ############################################
 # Return condicence levels
@@ -47,6 +47,20 @@ def random_Arrays(x,y,error_down_y,error_up_y):
         print('Running iteration ' + str(i + 1) + '...')
     return master_list
     
+#################################
+# Generates median y values
+
+def median_y_values(x,array_of_random_arrays):
+    median_y_array = []
+    for i in range(len(x)):
+        Y = []
+        for j in range(len(array_of_random_arrays)):
+            Y.append(array_of_random_arrays[j][i])
+        median_y_array.append(np.median(Y))
+    print(median_y_array)
+    #return mean_y_array
+    #plt.plot(x,median_y_array)
+    #plt.show()
 """    
 ##################################
 # Finds the max and min of the generated arrays

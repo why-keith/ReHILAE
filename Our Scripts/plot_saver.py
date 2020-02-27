@@ -32,12 +32,12 @@ def importer(): #single thread method - depreciated
     import P_L_Lya
     import EWvsZ
     import Q_Z
-   # print("Still generating graphs...")            
+    print("Still generating graphs...")            
     import n_ion_dot_lyc
     import t_rec
     import Q_ion_lyc
     import f_esc    
-    print("Time elapsed = {}s".format(time.time()-start))
+
 
 if __name__=="__main__":
     
@@ -53,6 +53,6 @@ if __name__=="__main__":
         
     for job in jobs:
         job.join()
-      #  print(job)
     print("Time elapsed = {}s".format(time.time()-start))
     os.rename("plots\\"+folder,"plots\\"+str(datetime.now().strftime("%d-"+"%m-"+"%y "+"%H"+"%M"+"%S")))
+    

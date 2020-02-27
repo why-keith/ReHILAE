@@ -26,18 +26,18 @@ z,t = z(startT, finishT, TStep)
 z = np.asarray(z)
 
 #GENERATES EW ARRAY
-EW=[mod.EW(i) for i in z]
+EW=[mod.EW(i) for i in t]
 
 #PLOTS z AGAINST EW
-plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW [Å]",path) 
+plotter.plot(z,EW,"A plot of the equivalent width against redshift","Redshift","EW",path)
 
 #DUMMY ERRORS
 error_down_y = []
 error_up_y = []
 
 for i in range(len(z)):
-        error_down_y.append(EW[i]*0.05)
-        error_up_y.append(EW[i]*0.05)
+        error_down_y.append(.5)
+        error_up_y.append(.5)
 
 
 #GENERATES AND SAVES RANDOM ARRAYS 
@@ -48,3 +48,6 @@ df =  pd.DataFrame([Data], columns = ['Z', 'EW'])
 df.to_pickle("EW_data.csv")
 df = pd.read_pickle("EW_data.csv")
 print(df)
+
+#GENERATE MEDIAN Y ARRAY
+rag.median_y_values(z,y)
