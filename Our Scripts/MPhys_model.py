@@ -32,7 +32,28 @@ startT=0.124 #Start time
 finishT=14 #Finish time
 intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
-    
+
+"""	
+def set_variables(_alpha=alpha,_T=T,_C=C,_startT=startT,_finishT=finishT,_intervalNumber=intervalNumber): #allows changing of parameters from outside model.py	
+    global alpha	
+    global T	
+    global C	
+    global startT	
+    global finishT	
+    global intervalNumber	
+    global TStep	
+
+    alpha=_alpha	
+    T=_T	
+    C=_C	
+    startT=_startT	
+    finishT=_finishT	
+    intervalNumber=_intervalNumber	
+    TStep = (finishT - startT)/(intervalNumber)	
+
+
+    return "α={} \nT={}\nC={}".format(alpha,T,C)
+"""  
 def z(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
     if alt == False:
         return ((((28./(t))-1.)**(1./2.)-1.))

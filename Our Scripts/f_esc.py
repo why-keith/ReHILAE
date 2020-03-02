@@ -8,13 +8,15 @@ import plotter
 import math
 from Redshift import redshift as z
 import plot_saver as save
+import random_array_generator as rag
+import pandas as pd
 
 if __name__=="__main__":
     path=None
 else:
     path=save.folder
 
-#Z VALUES
+#TIME CONDITIONS
 startT = mod.startT
 finishT = mod.finishT
 TStep = mod.TStep
@@ -25,7 +27,9 @@ z,t = z(startT, finishT, TStep)
 #GENERATE f_esc ARRAY
 EW = [i for i in range(250)]
 f = [mod.f_esc_LyC(i) for i in EW]
+
 print(mod.f_esc_LyC(148.97))
+
 #PLOTS Z AGAINST f
 plotter.plot(EW,f,"A plot of the escape fraction against equivalent width","EW",r"$f_{esc}$",path)
 
