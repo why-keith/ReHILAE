@@ -20,6 +20,15 @@ c_ha=1.36E-12 #Recombination coefficient
 EW_avg=140.321828866 #Average equivalent width (angstroms)
 
 
+
+
+P1 = -0.05
+P2 = 0.44
+P3 = 38.99
+
+f1 = 0.00064
+f2 = 0.00941
+
 #PARAMETER DEFAULTS#############################################
 alpha=1.17
 T=20000 #K Temperature
@@ -29,6 +38,7 @@ finishT=14 #Finish time
 intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
 EW = 148.9705
+
 
 def red(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
     if alt == False:
@@ -50,6 +60,7 @@ def redshift(startT, finishT, TStep, alt = False):
 
 z,t = redshift(startT, finishT, TStep)
 
+
 def alpha_beta(): #cm³ s⁻¹ - recombination coefficient
     return 2.6*(10**(-13)) * ((T/(10**4))**(-0.76))
 
@@ -60,19 +71,24 @@ def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
 def P_L_Lya(x, P1, P2, P3):
+
     return 10**(P1*x**2 + P2*x +P3)
+
 
 def f_esc_LyC(x, f1, f2):
     return f1*x + f2
 
 def Q_ion_LyC(z, P1, P2, P3, f1, f2): # replaces P_uv and E_ion	
+
     return P_L_Lya(z, P1, P2, P3) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
+
 
 def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
     if Q_ion_LyC(z, P1, P2, P3,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
         return 0 
     else:
         return Q_ion_LyC(z, P1, P2, P3, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+
 
 def Q_Hii_dot(z, Q, P1, P2, P3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
     return (((n_ion_dot_LyC(z, P1, P2, P3, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
@@ -90,3 +106,4 @@ def main(arguements):
     Q[Q<0.0] = 0.0 # 100% HI
 
     return Q
+
