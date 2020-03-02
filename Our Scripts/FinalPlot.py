@@ -79,12 +79,44 @@ plt.legend()
 plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2)
 plt.fill_betweenx(median,6,10, color = "skyblue", alpha = 0.3, edgecolor = "black", linewidth = 1.2)
 #######################################################
-#
-"""
+#PLOTS ALL OF THE ITERATIONS
 plt.figure('Ionised Hydrogen')
-for i in data:
-    plt.plot(z,i)
 plt.xlabel('Redshift (z)')
 plt.ylabel('Fraction of Ionised Hydrogen')
+for i in data:
+    plt.plot(z,i)
 plt.show()
-"""
+######################################################
+#FINDS ITERATIONS THAT ARE ALLOWED USING LAEs
+temp1 = []
+for i in range(len(data)):
+    for j in range(len(data[i])):
+        #print(z[j])
+        if z[j] >=6 and z[j] <=10 and data[i][j-1] < 1 and data[i][j] ==1:
+            temp1.append(i)
+            break
+  
+temp2 = []
+for i in range(len(temp1)):
+    for j in range(len(data[i])):
+        if z[j] >=6 and z[j] <=10 and data[temp1[i]][j] <= 0.1:
+            temp2.append(temp1[i])
+            break
+
+print(len(temp1), len(temp2))
+
+print("List of allowed iterations using LAEs only: " + str(temp2))
+
+for i in range(len(temp2)):
+    plt.plot(z,data[temp2[i]])
+
+plt.xlabel('Redshift (z)')
+plt.ylabel('Fraction of Ionised Hydrogen')
+plt.show()          
+        
+    
+    
+    
+    
+    
+    
