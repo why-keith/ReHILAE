@@ -7,7 +7,6 @@ from astropy.table import Table
 from scipy.optimize import curve_fit
 from scipy.integrate import odeint
 
-
 #CONSTANTS######################################################
 H_0=0.0692 #Hubble's constant (Gyr⁻¹)
 W_M=0.308 #Matter energy density parameter
@@ -100,10 +99,11 @@ def dQ_dt(Q, t, P1, P2, P3, f1, f2):
     return dQ_dt
 
 #GENERATE Q ARRAY
-Q = odeint(dQ_dt, Q_Hii_zero, t, args=(P1, P2, P3, f1, f2))
-Q[Q>1.0] = 1.0 # 100% HII
-Q[Q<0.0] = 0.0 # 100% HI
 
-plt.plot(z, Q)
-plt.show()
+def main(arguements):
+    Q = odeint(dQ_dt, Q_Hii_zero, t, args=(arguements))
+    Q[Q>1.0] = 1.0 # 100% HII
+    Q[Q<0.0] = 0.0 # 100% HI
+
+    return Q
 
