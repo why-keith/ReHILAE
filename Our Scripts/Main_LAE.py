@@ -59,27 +59,28 @@ def n_H(): #cm^-3  hydrogen number density
 def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
-def P_L_Lya(x, P1, P2, P3):
-    return 10**(P1*x**2 + P2*x +P3)
+def P_L_Lya(x, P1, P2):
+    z = math.log10(1+x)
+    return P1*z + P2
 
 def f_esc_LyC(x, f1, f2):
     return f1*x + f2
 
-def Q_ion_LyC(z, P1, P2, P3, f1, f2): # replaces P_uv and E_ion	
-    return P_L_Lya(z, P1, P2, P3) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
+def Q_ion_LyC(z, P1, P2, f1, f2): # replaces P_uv and E_ion	
+    return 10**P_L_Lya(z, P1, P2) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
 
-def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
-    if Q_ion_LyC(z, P1, P2, P3,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
+def n_ion_dot_LyC(z, P1, P2,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
+    if Q_ion_LyC(z, P1, P2,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
         return 0 
     else:
-        return Q_ion_LyC(z, P1, P2, P3, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+        return Q_ion_LyC(z, P1, P2, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
-def Q_Hii_dot(z, Q, P1, P2, P3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
-    return (((n_ion_dot_LyC(z, P1, P2, P3, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+def Q_Hii_dot(z, Q, P1, P2, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
+    return (((n_ion_dot_LyC(z, P1, P2, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
 
-def dQ_dt(Q, t, P1, P2, P3, f1, f2):
+def dQ_dt(Q, t, P1, P2, f1, f2):
     
-    dQ_dt = Q_Hii_dot(red(t), Q, P1, P2, P3, f1, f2)
+    dQ_dt = Q_Hii_dot(red(t), Q, P1, P2, f1, f2)
     return dQ_dt
 
 #GENERATE Q ARRAY

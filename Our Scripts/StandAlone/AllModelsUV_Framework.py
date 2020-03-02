@@ -66,7 +66,7 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
        return 10**p(z)
 
 def f_esc_UV(z): #escape fraction of UV
-        return 0.23
+        return 0.2
 
 def n_ion_dot_UV(z): #s⁻¹ cm⁻³ 
     return f_esc_UV(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
@@ -97,9 +97,10 @@ def EW(z): # luminosity density of lyman alpha
     return p(z) 
 
 def E_ion_LAE():
-    return 10**25.6	
+    return 10**25.6		
 
 def f_esc_Lya(z): # esc fraction from Sobral 	
+    #return 0.13
     return 0.0048*EW(z)	
 
 def rhoUVfactor(z):
@@ -108,15 +109,18 @@ def rhoUVfactor(z):
     Slicing COSMOS with SC4K: the evolution of typical Lyα emitters and the Lyα escape fraction 
     from z ∼ 2 to z ∼ 6
     """
-    x = pylab.array([2.5,2.8,3.,3.2,3.3,3.7,4.1,4.6,4.8,5.1,5.3,5.8])
-    y = pylab.array([0.062322,0.153601,0.131852,0.12869,0.092707,0.058741,0.060894,0.065072,0.381782,0.252246,0.0811346,0.35733])
+    x1 = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4,17])
+    y = pylab.array([10.**(26.52), 10.**(26.30), 10.**(26.10), 10.**(25.98), 10.**(25.67), 10.**(25.32),10.**(23.12) ])
+    factors = pylab.array([0.40, 0.30, 0.5, 0.8, 1.0, 1.0,1.0 ]) # Fraction of UV luminosity density recovered by Lyman-alpha emitters
+    y = y * factors
+    y1 = pylab.array([math.log10(i) for i in y])
 
-    p2 = pylab.polyfit(x,y,3.0)
-    p = pylab.poly1d(p2)
-    return p(z)
+    p1 = pylab.polyfit(x1,y1,3.)
+    p = pylab.poly1d(p1)
+    return 10**p(z)
 
 def n_ion_dot_Lya(z):
-    return rhoUVfactor(z) * f_esc_Lya(z) * E_ion_LBG() * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+    return f_esc_Lya(z)*E_ion_LAE()*rhoUVfactor(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
 def Q_Hii_dot_Lya(z,Q_Hii): #s⁻¹	
     return (((n_ion_dot_Lya(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1

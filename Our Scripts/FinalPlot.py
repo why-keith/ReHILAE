@@ -14,18 +14,15 @@ TStep = Main_LAE.TStep
 
 ######################################################
 #GENERATE P_L_Lya ITERATIONS
-a = [-0.05]
-a_error = [0.01]
+a = [-2.97564]
+a_error = [0.64367]
 
-b = [0.44]
-b_error = [0.09]
+b = [41.96476]
+b_error = [0.54994]
 
-c = [38.99]
-c_error = [0.15]
  
 A_P_L_Lya = rag.random_Arrays(len(a),a,a_error,a_error)
 B_P_L_Lya = rag.random_Arrays(len(b),b,b_error,b_error)
-C_P_L_Lya = rag.random_Arrays(len(c),c,c_error,c_error)
 """
 P_L_Lya=[]
 for i in range(len(A_P_L_Lya)):
@@ -69,11 +66,11 @@ plt.show()
 """
 data = []
 z,t = redshift(startT, finishT, TStep)
-for i,j,k,l,m in zip(A_P_L_Lya,B_P_L_Lya,C_P_L_Lya,A_f_esc,B_f_esc):
-    arguements = (i[0],j[0],k[0],l[0],m[0])
+for i,j,k,l in zip(A_P_L_Lya,B_P_L_Lya,A_f_esc,B_f_esc):
+    arguements = (i[0],j[0],k[0],l[0])
     data.append((Main_LAE.main(arguements))) # TODO write this return to file and then plot after loop
 
-plt.figure('Ionised Hydrogen')
+plt.figure('Ionised_Hydrogen_10')
 for i in data:
     plt.plot(z,i)
 plt.xlabel('Redshift (z)')
