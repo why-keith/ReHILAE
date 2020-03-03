@@ -119,4 +119,5 @@ plt.show()
     
     
 print(Main_LAE.log_list)
+Main_LAE.log.close()
     
