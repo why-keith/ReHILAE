@@ -5,7 +5,8 @@ from astropy.io import fits
 import matplotlib.pyplot as plt
 import copy
 
-iterations = 1000
+iterations = 100
+
 
 ############################################
 # Return condicence levels
@@ -62,6 +63,7 @@ def median_y_values(length_of_each_array,array_of_random_arrays):
         lower_percentile.append(np.percentile(Y,16))
         
     #print(median_y_array)
+
     return median_y_array, upper_percentile, lower_percentile
     
     #plt.plot(x,median_y_array)
