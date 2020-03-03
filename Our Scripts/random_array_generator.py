@@ -7,6 +7,7 @@ import copy
 
 iterations = 100
 
+
 ############################################
 # Return condicence levels
 def plot_confidence_Lya(x_in,ysample,colour='g'):
@@ -51,13 +52,20 @@ def random_Arrays(x,y,error_down_y,error_up_y):
 
 def median_y_values(length_of_each_array,array_of_random_arrays):
     median_y_array = []
+    upper_percentile = []
+    lower_percentile = []
     for i in range(length_of_each_array):
         Y = []
         for j in range(len(array_of_random_arrays)):
             Y.append(array_of_random_arrays[j][i])
         median_y_array.append(np.median(Y))
+        upper_percentile.append(np.percentile(Y,84))
+        lower_percentile.append(np.percentile(Y,16))
+        
     #print(median_y_array)
-    return median_y_array
+
+    return median_y_array, upper_percentile, lower_percentile
+    
     #plt.plot(x,median_y_array)
     #plt.show()
 """    

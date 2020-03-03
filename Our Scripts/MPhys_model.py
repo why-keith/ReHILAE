@@ -81,8 +81,8 @@ def t_rec(z): #s recombination time
 def E_ion(z):#Hz/erg
     return 10**25.6 #10**(24.4 + math.log10(1 + z))
 
-def Cubic(x, a1, a2, a3, a4):
-    return a1*x**3 + a2*x**2 +a3*x +a4
+def squared(x, a1, a2, a3):
+    return a1*x**2 + a2*x +a3
 
 def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density 
     """
@@ -94,6 +94,7 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
     """
     z = math.log10(1+z)
     return -5.288*z + 30.39894
+
 
 def f_esc_UV(z): #escape fraction of UV
         return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction
@@ -115,8 +116,10 @@ def P_L_Lya(z): # luminosity density of lyman alpha
 
     returns P_L_Lya
     """
+
     z = math.log10(1+z)
     return -2.97564*z + 41.96476
+
 
 
 def linear(x, a1, a2):
@@ -128,14 +131,18 @@ def EW(z):
 
     available at: https://lancaster.app.box.com/s/t75t3v713yuibkvjk3ioqdesunxpv1fb/file/618125008170
     """
-    x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3])
-    y = pylab.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096])
-    y_sigma = pylab.array([0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01, 0.01, 0.01])
+    x = pylab.array([2.5,2.8,2.9,3.1, 3.3, 3.7, 4.1, 4.5, 4.8, 5.0, 5.3, 5.8])
+    y = np.array([117.134349876, 122.113769531, 172.679885864, 143.5936203, 149.371124268, 96.3648490905, 189.002449036, 181.127731323, 95.0448436864, 125.935153962, 143.343048096, 251.93561])
+    y_err_up =pylab.array([186.35171, 160.96419, 321.31418, 382.54525, 258.18398, 70.23115, 763.57573, 223.72103, 100.98794, 195.63354, 159.8391, 620.82504])
+    y_err_down =pylab.array([53.82247, 53.55149, 90.78461, 72.25881, 74.65443, 39.08451, 96.45726, 85.27828, 42.09321, 52.08989, 71.00167, 186.34499])
+    error = [(y_err_up[i]-y_err_down[i])/2 for i in range(len(y_err_down))]
     p2 = np.polyfit(x, y, 1.0)
     p = pylab.poly1d(p2)
     Params = p.coefficients
-    pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=y_sigma)
+    pfit, pcov = curve_fit(linear, x, y, p0=Params, sigma=error)
     a1,a2= pfit[0], pfit[1]
+    aver = np.mean(y)
+    print(aver)
     return linear(z, a1, a2)
 
 
@@ -155,7 +162,7 @@ def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
     """
     x = pylab.array([79, 129, 83, 98, 75, 29, 15, 4]) # Equivalent Width
     y = pylab.array([0.132, 0.074, 0.072, 0.058, 0.056, 0.045, 0.032, 0.01]) # f_esc
-    y_sigma = pylab.array([0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001])
+    y_sigma = [0.2*y[i] for i in range(len(y))]
     p1 = np.polyfit(x,y,1.0)
     p = pylab.poly1d(p1)
     Params = p.coefficients
