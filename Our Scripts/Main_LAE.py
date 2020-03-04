@@ -21,6 +21,7 @@ EW_avg=140.321828866 #Average equivalent width (angstroms)
 
 
 log_list=[0,0,0,0]
+log_dict={"z":[], "Q_Hii_dot":[], "n_ion_dot_LyC":[], "f_esc_LyC":0}
 log=open(r"log.txt","a")
 
 P1 = -0.05
@@ -76,33 +77,57 @@ def P_L_Lya(x, P1, P2, P3):
     return 10**(P1*x**2 + P2*x +P3)
 
 
-def f_esc_LyC(x, f1, f2):  #//////////////////////////////////////////////////////////////////////////////////
-    log.write("f_esc\n")
-    print("f_esc")
+def f_esc_LyC(x, f1, f2):  #////////////////////////////////////////////////////////////////////////////////// LOGGED
+    log.write("f_esc_LyC\n")
+    #print("f_esc_LyC")
     log_list[0]+=1
-    return f1*x + f2
+    
+    f_esc=f1*x + f2
+    """
+    print(f_esc)
+    print(log_dict.get("f_esc_LyC"))
+    print("---------")
+    """
+    if log_dict.get("f_esc_LyC")==0: #Logging for pandas
+        log_dict["f_esc_LyC"]=f_esc
+    #    print("logged")
+    
+    return f_esc
 
 def Q_ion_LyC(z, P1, P2, P3, f1, f2): # replaces P_uv and E_ion	
 
     return P_L_Lya(z, P1, P2, P3) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
 
 
-def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	 /////////////////////////////////////////////////
-    log.write("n_ion_dot\n")
-    print("n_ion_dot")
+def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	 ////////////////////////// LOGGED
+    log.write("n_ion_dot    z = "+str(z)+"\n")
+   # print("n_ion_dot")
     log_list[1]+=1
     if Q_ion_LyC(z, P1, P2, P3,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
-        return 0 
+        n_ion_dot= 0 
     else:
-        return Q_ion_LyC(z, P1, P2, P3, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
-
+        n_ion_dot= Q_ion_LyC(z, P1, P2, P3, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+        
+    if len(log_dict.get("n_ion_dot_LyC"))==0 or log_dict.get("n_ion_dot_LyC")[-1]!=n_ion_dot: #Logging for pandas
+        log_dict["n_ion_dot_LyC"].append(n_ion_dot)
+      #  print("logged")
+        
+        
+    return n_ion_dot
 
 def Q_Hii_dot(z, Q, P1, P2, P3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹    /////////////////////////////////////////
-    log.write("Q_Hii_dot\n")
-    print("Q_Hii_dot")
+    log.write("Q_Hii_dot    z = "+str(z)+"\n")
+   # print("Q_Hii_dot")
     log_list[2]+=1
-    # print((((n_ion_dot_LyC(z, P1, P2, P3, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16))
-    return (((n_ion_dot_LyC(z, P1, P2, P3, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+    Q_dot=(((n_ion_dot_LyC(z, P1, P2, P3, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16)
+    
+    if len(log_dict.get("Q_Hii_dot"))==0 or log_dict.get("Q_Hii_dot")[-1]!=Q_dot: #Logging for pandas
+        log_dict["Q_Hii_dot"].append(Q_dot)
+      #  print("logged")
+    
+    
+    
+    return Q_dot # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
 
 def dQ_dt(Q, t, P1, P2, P3, f1, f2):    
     dQ_dt = Q_Hii_dot(red(t), Q, P1, P2, P3, f1, f2)
@@ -114,9 +139,9 @@ def main(arguements):
     Q = odeint(dQ_dt, Q_Hii_zero, t, args=(arguements))
     Q[Q>1.0] = 1.0 # 100% HII
     Q[Q<0.0] = 0.0 # 100% HI
-    print("Q")
+   # print("Q")
     log.write("Q+\n")
     log_list[3]+=1
-    print("----------------------------")
+   # print("----------------------------")
     return Q    #///////////////////////////////////////////////////////////////////////
 

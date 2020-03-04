@@ -119,5 +119,7 @@ plt.show()
     
     
 print(Main_LAE.log_list)
+print(len(Main_LAE.log_dict.get("n_ion_dot_LyC")))
+print(len(Main_LAE.log_dict.get("Q_Hii_dot")))
 Main_LAE.log.close()
     
