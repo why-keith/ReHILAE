@@ -117,5 +117,6 @@ plt.show()
         
     
 #print(Main_LAE.init_conditions)
-dataframe=pd.DataFrame(data=Main_LAE.init_conditions)
-print(dataframe)
+df=pd.DataFrame(data=Main_LAE.init_conditions)
+print(df)
+pd.DataFrame.to_csv(df,"output.csv")
