@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import copy
 import sys
 
-iterations = 100
+iterations = 2000
 RA_loops=0
 
 ############################################
