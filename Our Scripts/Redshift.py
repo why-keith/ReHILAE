@@ -10,6 +10,7 @@ import math
 import random_array_generator as rag
 import pandas as pd
 
+
 #Z VALUES
 #startZ = mod.startZ
 #finishZ = mod.finishZ

@@ -3,21 +3,15 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
-
-x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8,7,10,11,12,13,14,16])
-y1 = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10,.7,0.5,0.3,0.10,0.05,0.001,0.001])  # data from SC4K Sobral 
-y = [math.log10(i*10**40) for i in y1]
-y_sigma = pylab.array([0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01, 0.01, 0.01, 0.01 ,0.01,0.01,0.01, 0.01, 0.01, 0.01 ,0.01])
-p2 = pylab.polyfit(x, y, 3.0)
+# DATA
 
 def Function(x,a1,a2):
 	return a1*x + a2
 
-xs = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8,7,10,11,12,13,14,16])
-y1 = pylab.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10,.7,0.5,0.3,0.10,0.05,0.001,0.001])  # data from SC4K Sobral 
-ys = [math.log10(i*10**40) for i in y1]
+xs = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4])
+ys = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62])
 xs_log = pylab.array([math.log10(i+1) for i in xs])
-y_sigma = pylab.array([0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01, 0.01, 0.01, 0.01 ,0.01,0.01,0.01, 0.01, 0.01, 0.01 ,0.01]) 
+y_sigma = pylab.array([0.06,0.06,0.06,0.06,0.06, 0.04])   
 
 p2 = pylab.polyfit(xs_log, ys, 1.0)
 p = pylab.poly1d(p2)
@@ -50,18 +44,18 @@ plt.scatter(xs_log, ys, color='black')
 #plt.errorbar(xs, ys, yerr=y_sigma, ls = 'none', color='black')
 plt.plot(xdata, data, color='red', label=r'foo')
 plt.xlabel(r'$log(z+1)$')
-plt.ylabel(r'$log(\rho_{L_{Ly\alpha}})$')
+plt.ylabel(r'$log(\rho_{UV})$')
 plt.legend()
 plt.show()
 
 def rhoUV(z):
     z = math.log10(1+z)
-    return -2.97564*z + 41.96476
+    return -5.288*z + 30.39894
 
 zs = np.linspace(0.051, 14,10000)
 densities = [rhoUV(z) for z in zs]
 
 plt.plot(zs, densities)
-plt.xlabel('redshift')
-plt.ylabel(r'$log(\rho_{L_{Ly\alpha}})$')
+plt.xlabel('Redshift (z)')
+plt.ylabel(r'$log(\rho_{UV})$')
 plt.show()

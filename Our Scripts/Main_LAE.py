@@ -2,10 +2,12 @@ import math
 import numpy as np
 import pylab
 import matplotlib.pyplot as plt
-from astropy.io import fits
+from astropy.io import fits as py
 from astropy.table import Table
 from scipy.optimize import curve_fit
 from scipy.integrate import odeint
+from scipy.interpolate import interp1d
+
 
 #CONSTANTS######################################################
 H_0=0.0692 #Hubble's constant (Gyr⁻¹)
@@ -19,12 +21,13 @@ Q_Hii_zero=0. #Q_Hii for Z=10
 c_ha=1.36E-12 #Recombination coefficient
 EW_avg=140.321828866 #Average equivalent width (angstroms)
 
+P1_1 = -0.48111
+P1_2 = 40.10956
 
-
-
-P1 = -0.05
-P2 = 0.44
-P3 = 38.99
+P2_1 = -1e-05
+P2_2 = -0.02997
+P2_3 = 0.33135
+P2_4 = 39.16689
 
 f1 = 0.00064
 f2 = 0.00941
@@ -39,6 +42,27 @@ intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
 EW = 148.9705
 
+FPlanck = 'Our Scripts/Redshift_time_FPlanck_cosmology.fits'
+
+# Which Cosmology to use:
+USING_NOW = FPlanck
+
+#LOAD Redshift-time dependence
+A=py.open(USING_NOW) 
+NOW=A[1].data 
+#LOAD GENERAL PROPERTIES - what will be plotted
+Redshift = NOW.field('Redshift') 
+Time =  NOW.field('Time_Gyr') 
+# time to redshift relation
+t_to_z = interp1d(Time,Redshift,kind='linear',bounds_error=None)
+
+############################################################
+# Integration limits and conversion z to time
+#
+ts = np.linspace(0.25,13.4,60000)  # Produce time grid  - 50000 steps seems to be a good minimum for convergence
+zs= t_to_z(ts)
+t0 = 0.0
+###############################################################
 
 def red(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
     if alt == False:
@@ -55,7 +79,7 @@ def t(z, alt=False): #calculates comsic time (Gyrs) from redshift
 def redshift(startT, finishT, TStep, alt = False):
     
     T = np.arange(startT, finishT, TStep)
-    Z=red(T, alt)
+    Z=t_to_z(T)
     return Z,T
 
 z,t = redshift(startT, finishT, TStep)
@@ -71,38 +95,70 @@ def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
 
-def P_L_Lya(x, P1, P2):
+def P_L_Lya_Power(x, P1_1, P1_2):
     z = math.log10(1+x)
-    return P1*z + P2
+    return P1_1*z + P1_2
 
-
+def P_L_Lya_Quad(x ,P2_1, P2_2, P2_3 ):
+    return  P2_1*x**2 + P2_2*x + P2_3
 
 def f_esc_LyC(x, f1, f2):
     return f1*x + f2
 
-def Q_ion_LyC(z, P1, P2, f1, f2): # replaces P_uv and E_ion	
-    return 10**P_L_Lya(z, P1, P2) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
+################################################################ Power Law
 
-def n_ion_dot_LyC(z, P1, P2,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
-    if Q_ion_LyC(z, P1, P2,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
+def Q_ion_LyC_PL(z, P1_1, P1_2, f1, f2): # replaces P_uv and E_ion	
+    return 10**P_L_Lya_Power(z, P1_1, P1_2) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
+
+def n_ion_dot_LyC_PL(z, P1_1, P1_2,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
+    if Q_ion_LyC_PL(z, P1_1, P1_2,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
 
         return 0 
     else:
-        return Q_ion_LyC(z, P1, P2, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+        return Q_ion_LyC_PL(z, P1_1, P1_2, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
-def Q_Hii_dot(z, Q, P1, P2, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
-    return (((n_ion_dot_LyC(z, P1, P2, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+def Q_Hii_dot_PL(z, Q, P1_1, P1_2, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
+    return (((n_ion_dot_LyC_PL(z, P1_1, P1_2, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
 
 
-def dQ_dt(Q, t, P1, P2, f1, f2):
+def dQ_dt_PL(Q, t, P1_1, P1_2, f1, f2):
     
-    dQ_dt = Q_Hii_dot(red(t), Q, P1, P2, f1, f2)
+    dQ_dt = Q_Hii_dot_PL(red(t), Q, P1_1, P1_2, f1, f2)
     return dQ_dt
 
 #GENERATE Q ARRAY
 
-def main(arguements):
-    Q = odeint(dQ_dt, Q_Hii_zero, t, args=(arguements))
+def main_PL(arguements):
+    Q = odeint(dQ_dt_PL, Q_Hii_zero, t, args=(arguements))
+    Q[Q>1.0] = 1.0 # 100% HII
+    Q[Q<0.0] = 0.0 # 100% HI
+
+    return Q
+
+
+################################################################### Cubic
+
+def Q_ion_LyC_Q(z, P2_1, P2_2, P2_3, f1, f2): # replaces P_uv and E_ion	
+    return 10**P_L_Lya_Quad(z, P2_1, P2_2, P2_3) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
+
+def n_ion_dot_LyC_Q(z, P2_1, P2_2, P2_3,   f1, f2): # replaces n_ion_dot using Q_ion_LyC	
+    if Q_ion_LyC_Q(z, P2_1, P2_2, P2_3,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
+        return 0 
+    else:
+        return Q_ion_LyC_Q(z, P2_1, P2_2, P2_3,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+
+def Q_Hii_dot_Q(z, Q, P2_1, P2_2, P2_3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
+    return (((n_ion_dot_LyC_Q(z, P2_1, P2_2, P2_3, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+
+
+def dQ_dt_Q(Q, t, P2_1, P2_2, P2_3, f1, f2):
+    dQ_dt = Q_Hii_dot_Q(red(t), Q, P2_1, P2_2, P2_3, f1, f2)
+    return dQ_dt
+
+#GENERATE Q ARRAY
+
+def main_Q(arguements):
+    Q = odeint(dQ_dt_Q, Q_Hii_zero, t, args=(arguements))
     Q[Q>1.0] = 1.0 # 100% HII
     Q[Q<0.0] = 0.0 # 100% HI
 
