@@ -4,8 +4,9 @@ import math
 from astropy.io import fits 
 import matplotlib.pyplot as plt
 import copy
+import sys
 
-iterations = 10
+iterations = 1000
 RA_loops=0
 
 ############################################
@@ -47,7 +48,10 @@ def random_Arrays(x,y,error_down_y,error_up_y):
             y_new_list[j]=(double_normal(y[j],error_down_y[j],error_up_y[j],1)[0])
                 
         master_list.append(y_new_list) # Appends new array to master_list
-        print("{}%".format(round(i/(iterations*5),3)*100+ RA_loops*20))
+        
+        sys.stdout.write("\rSimulation Running - {}%".format(round((i/(iterations*5)*100+ RA_loops*20)/2,3)))
+        sys.stdout.flush()
+        
     RA_loops+=1
     return master_list
     
@@ -65,8 +69,12 @@ def median_y_values(length_of_each_array,array_of_random_arrays):
         median_y_array.append(np.median(Y))
         upper_percentile.append(np.percentile(Y,97.72))
         lower_percentile.append(np.percentile(Y,100-97.72))
-        
+       
+        sys.stdout.write("\rSimulation Running - {}%".format(round((100*i/length_of_each_array)/2 +50,3)))
+        sys.stdout.flush()
+              
     #print(median_y_array)
+    print("\nGenerating plots...")
     return median_y_array, upper_percentile, lower_percentile
     
     #plt.plot(x,median_y_array)

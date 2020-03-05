@@ -77,7 +77,7 @@ def P_L_Lya(x, P1, P2, P3):
     return 10**(P1*x**2 + P2*x +P3)
 
 
-def f_esc_LyC(x, f1, f2):  #////////////////////////////////////////////////////////////////////////////////// LOGGED
+def f_esc_LyC(x, f1, f2):  
    # log.write("f_esc_LyC\n")
     #print("f_esc_LyC")
    # log_list[0]+=1
@@ -86,11 +86,10 @@ def f_esc_LyC(x, f1, f2):  #////////////////////////////////////////////////////
     return f_esc
 
 def Q_ion_LyC(z, P1, P2, P3, f1, f2): # replaces P_uv and E_ion	
-
     return P_L_Lya(z, P1, P2, P3) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
 
 
-def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	 ////////////////////////// LOGGED
+def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC
 #    log.write("n_ion_dot    z = "+str(z)+"\n")
    # print("n_ion_dot")
     #log_list[1]+=1
@@ -101,7 +100,7 @@ def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
 
     return n_ion_dot
 
-def Q_Hii_dot(z, Q, P1, P2, P3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹    /////////////////////////////////////////
+def Q_Hii_dot(z, Q, P1, P2, P3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹   
 #    log.write("Q_Hii_dot    z = "+str(z)+"\n")
    # print("Q_Hii_dot")
     #log_list[2]+=1
@@ -131,7 +130,6 @@ def main(arguements):
      #   print(init_conditions[i])
 
     
-    
    # print("----------------------------")
-    return Q    #///////////////////////////////////////////////////////////////////////
+    return Q
 
