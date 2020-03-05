@@ -71,8 +71,7 @@ data = []
 z,t = redshift(startT, finishT, TStep)
 for i,j,k,l,m in zip(A_P_L_Lya,B_P_L_Lya,C_P_L_Lya,A_f_esc,B_f_esc):
     arguements = (i[0],j[0],k[0],l[0],m[0])
-    data.append((Main_LAE.main(arguements))) # TODO write this return to file and then plot after loop  - Values of Q
-   # print("|")
+    data.append((Main_LAE.main(arguements))) 
 #######################################################
 #PLOTS MEDIAN OF Q_Hii_dot AND SHADES PERCENTILES
 median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(data[0]),data)
