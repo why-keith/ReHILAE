@@ -5,10 +5,6 @@ import random_array_generator as rag
 import pandas as pd
 import Main_LAE
 from Redshift import redshift
-import time
-
-
-start=time.time()
 
 #TIME CONDITIONS
 startT = Main_LAE.startT
@@ -50,7 +46,6 @@ b_error = [0.00364]
  
 A_f_esc = rag.random_Arrays(len(a),a,a_error,a_error)
 B_f_esc = rag.random_Arrays(len(b),b,b_error,b_error)
-
 """
 f_esc=[]
 for i in range(len(A_f_esc)):
@@ -66,10 +61,10 @@ plt.show()
 #######################################################
 data = []
 z,t = redshift(startT, finishT, TStep)
+for i,j,k,l in zip(A_P_L_Lya,B_P_L_Lya,A_f_esc,B_f_esc):
+    arguements = (i[0],j[0],k[0],l[0])
+    data.append((Main_LAE.main(arguements))) # TODO write this return to file and then plot after loop
 
-for i,j,k,l,m in zip(A_P_L_Lya,B_P_L_Lya,C_P_L_Lya,A_f_esc,B_f_esc):
-    arguements = (i[0],j[0],k[0],l[0],m[0])
-    data.append((Main_LAE.main(arguements))) 
 
 plt.figure('Ionised_Hydrogen_10')
 
@@ -81,10 +76,8 @@ plt.ylabel("Fractions of Ionised Hydrogen")
 plt.plot(z,median, color = "midnightblue", label="Median")
 plt.legend()
 
-plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.2, color = "steelblue", edgecolor = "black", linewidth = 1.2)
+plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2)
 plt.fill_betweenx(median,6,10, color = "skyblue", alpha = 0.3, edgecolor = "black", linewidth = 1.2)
-plt.plot([6,6],[0,1],linestyle="--",color="black")
-plt.plot([10,10],[0,1],linestyle="--",color="black")
 #######################################################
 #PLOTS ALL OF THE ITERATIONS
 plt.figure('Ionised Hydrogen')
@@ -111,7 +104,7 @@ for i in range(len(temp1)):
             temp2.append(temp1[i])
             break
 
-#print(len(temp1), len(temp2))
+print(len(temp1), len(temp2))
 
 print("List of allowed iterations using LAEs only: " + str(temp2))
 
@@ -123,8 +116,8 @@ plt.ylabel('Fraction of Ionised Hydrogen')
 plt.show()          
         
     
-#print(Main_LAE.init_conditions)
-df=pd.DataFrame(data=Main_LAE.init_conditions)
-print(df)
-pd.DataFrame.to_csv(df,"initial_conditions.csv")
-print("Time elapsed = {}s".format(round(time.time()-start,2)))
+    
+    
+    
+    
+    
