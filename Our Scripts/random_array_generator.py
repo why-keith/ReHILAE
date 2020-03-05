@@ -102,4 +102,3 @@ plt.fill_between(x,min_list,max_list,lw=1,color='#0066ff',alpha=0.1,zorder = 90)
 plt.plot(x,y)
 plt.show()
 #################################
-"""
