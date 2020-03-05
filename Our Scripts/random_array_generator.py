@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import copy
 import sys
 
-iterations = 1000
+iterations = 100
 RA_loops=0
 
 ############################################
@@ -49,7 +49,7 @@ def random_Arrays(x,y,error_down_y,error_up_y):
                 
         master_list.append(y_new_list) # Appends new array to master_list
         
-        sys.stdout.write("\rSimulation Running - {}%".format(round((i/(iterations*5)*100+ RA_loops*20)/2,3)))
+        sys.stdout.write("\rSimulation Running - {}%       ".format(round((i/(iterations*5)*100+ RA_loops*20)/2,3)))
         sys.stdout.flush()
         
     RA_loops+=1
@@ -70,10 +70,12 @@ def median_y_values(length_of_each_array,array_of_random_arrays):
         upper_percentile.append(np.percentile(Y,97.72))
         lower_percentile.append(np.percentile(Y,100-97.72))
        
-        sys.stdout.write("\rSimulation Running - {}%".format(round((100*i/length_of_each_array)/2 +50,3)))
+        sys.stdout.write("\rSimulation Running - {}%         ".format(round((100*i/length_of_each_array)/2 +50,3)))
         sys.stdout.flush()
               
-    #print(median_y_array)
+    sys.stdout.write("\rSimulation Running - 100%      ")
+    sys.stdout.flush()    
+    
     print("\nGenerating plots...")
     return median_y_array, upper_percentile, lower_percentile
     
