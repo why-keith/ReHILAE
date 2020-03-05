@@ -76,17 +76,11 @@ def P_L_Lya(x, P1, P2, P3):
     return 10**(P1*x**2 + P2*x +P3)
 
 
-
 def f_esc_LyC(x, f1, f2):  
     return f1*x + f2
 
-
 def Q_ion_LyC(z, P1, P2, P3, f1, f2): # replaces P_uv and E_ion	
     return P_L_Lya(z, P1, P2, P3) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
-
-
-def n_ion_dot_LyC(z, P1, P2,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
-    if Q_ion_LyC(z, P1, P2,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
 
 
 def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC
@@ -104,7 +98,6 @@ def Q_Hii_dot(z, Q, P1, P2, P3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
 
 def dQ_dt(Q, t, P1, P2, P3, f1, f2):    
     dQ_dt = Q_Hii_dot(red(t), Q, P1, P2, P3, f1, f2)
-
     return dQ_dt
 
 #GENERATE Q ARRAY

@@ -92,9 +92,15 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
 
     returns log10(P_uv)
     """
-    z = math.log10(1+z)
-    return -5.288*z + 30.39894
-
+    x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
+    y = pylab.array([26.52, 26.30, 26.10, 25.98, 25.67, 24.62, 23.00])
+    y_sigma = pylab.array([0.06,0.06,0.06,0.06,0.06, 0.04,0.001])                                 
+    p1 = pylab.polyfit(x,y,2.0)
+    p = pylab.poly1d(p1)
+    Params = p.coefficients
+    pfit, pcov = curve_fit(squared, x, y, p0=Params, sigma=y_sigma)
+    a1,a2,a3 = pfit[0], pfit[1], pfit[2]
+    return squared(z,a1,a2,a3) 
 
 def f_esc_UV(z): #escape fraction of UV
         return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction
@@ -117,9 +123,17 @@ def P_L_Lya(z): # luminosity density of lyman alpha
     returns P_L_Lya
     """
 
-    z = math.log10(1+z)
-    return -2.97564*z + 41.96476
-
+    x = pylab.array([2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8])#,7,10,11,12,13,14,16])
+    y1 = pylab.array([ 0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10]) #,.7,0.5,0.3,0.10,0.05,0.001,0.001])  # data from SC4K Sobral 
+    y = [math.log10(i*10**40) for i in y1]
+    y_sigma = pylab.array([0.05,0.075,0.095, 0.095,0.09,0.095,0.18,0.13,0.35,0.32,0.40, 0.185, 0.185])#,0.01,0.01,0.01, 0.01, 0.01, 0.01 ,0.01])
+    p2 = pylab.polyfit(x, y, 2.0)
+    p = pylab.poly1d(p2)
+    Params = p.coefficients
+    pfit, pcov = curve_fit(squared, x, y, p0=Params, sigma=y_sigma)
+    a1,a2,a3 = pfit[0], pfit[1], pfit[2]
+    print("a1=", a1, "a2=", a2, "a3=", a3)
+    return 10**(squared(z, a1,a2,a3)) 
 
 
 def linear(x, a1, a2):
@@ -152,7 +166,7 @@ def f_esc_Lya(z): # esc fravction from Sobral
     return 0.0048*EW(z)	
 
 def Q_ion_LyC(z): # replaces P_uv and E_ion	
-    return 10**P_L_Lya(z) / (c_ha*(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))
+    return P_L_Lya(z) / (c_ha*(1 - f_esc_LyC(EW(z)))*(0.042 * EW(z)))
 
 def f_esc_LyC(z):  #escape fraction of lyman continuum from Lya
     """

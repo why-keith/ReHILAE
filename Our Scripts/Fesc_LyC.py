@@ -40,7 +40,7 @@ data = [Function(i,a1,a2) for i in xdata]
 
 plt.scatter(xs, ys, color='black')
 plt.errorbar(xs, ys, yerr=ys_err, ls = 'none', color='black')
-plt.plot(xdata, data, color='red', label=r'$f_{esc,LyC}$ = (0.00064±0.00013)$EW_{0}$  + (0.00941±0.00364)')
+plt.plot(xdata, data, color='red', label=r'$f_{esc,LyC}$ = (0.00064±0.00013)$EW_{0}$  + (0.00941±0.00364')
 plt.xlabel(r'Equivalent Width ($\dot{A}$)')
 plt.ylabel(r'$f_{esc,LyC}$')
 plt.legend()
