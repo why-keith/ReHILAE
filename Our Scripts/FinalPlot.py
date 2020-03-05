@@ -5,6 +5,9 @@ import random_array_generator as rag
 import pandas as pd
 import Main_LAE
 from Redshift import redshift
+import time
+
+start=time.time()
 
 #TIME CONDITIONS
 startT = Main_LAE.startT
@@ -49,6 +52,7 @@ b_error = [0.00364]
  
 A_f_esc = rag.random_Arrays(len(a),a,a_error,a_error)
 B_f_esc = rag.random_Arrays(len(b),b,b_error,b_error)
+print("Generating plots...")
 """
 f_esc=[]
 for i in range(len(A_f_esc)):
@@ -77,8 +81,10 @@ plt.ylabel("Fractions of Ionised Hydrogen")
 plt.plot(z,median, color = "midnightblue", label="Median")
 plt.legend()
 
-plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2)
+plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.2, color = "steelblue", edgecolor = "black", linewidth = 1.2)
 plt.fill_betweenx(median,6,10, color = "skyblue", alpha = 0.3, edgecolor = "black", linewidth = 1.2)
+plt.plot([6,6],[0,1],linestyle="--",color="black")
+plt.plot([10,10],[0,1],linestyle="--",color="black")
 #######################################################
 #PLOTS ALL OF THE ITERATIONS
 plt.figure('Ionised Hydrogen')
@@ -119,4 +125,5 @@ plt.show()
 #print(Main_LAE.init_conditions)
 df=pd.DataFrame(data=Main_LAE.init_conditions)
 print(df)
-pd.DataFrame.to_csv(df,"output.csv")
+pd.DataFrame.to_csv(df,"initial_conditions.csv")
+print("Time elapsed = {}s".format(time.time()-start))
