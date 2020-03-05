@@ -20,9 +20,9 @@ c_ha=1.36E-12 #Recombination coefficient
 EW_avg=140.321828866 #Average equivalent width (angstroms)
 
 
-#log_list=[0,0,0,0]
-init_conditions={"P1":np.array([]), "P2":np.array([]), "P3":np.array([]), "f1":np.array([]), "f2":np.array([])}
-#log=open(r"log.txt","a")
+
+init_conditions={"P1":np.array([]), "P2":np.array([]), "P3":np.array([]), "f1":np.array([]), "f2":np.array([])} #records the inital conditions of each iteration
+
 
 P1 = -0.05
 P2 = 0.44
@@ -39,7 +39,7 @@ startT=0.124 #Start time
 finishT=14 #Finish time
 intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
-EW = 148.9705
+EW = 148.9705  #Equivalent width
 
 
 def red(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
@@ -54,7 +54,7 @@ def t(z, alt=False): #calculates comsic time (Gyrs) from redshift
     else:
         return ( 2 * math.pow(H_0, -1) ) / (3 * math.pow(W_lambda, 0.5) ) * math.sinh(  math.pow(W_lambda / W_M, 0.5) * math.pow(z + 1, -1.5) )
 
-def redshift(startT, finishT, TStep, alt = False):
+def redshift(startT, finishT, TStep, alt = False): #Generates an array of t and an array of Z from t
     
     T = np.arange(startT, finishT, TStep)
     Z=red(T, alt)
@@ -73,26 +73,17 @@ def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
 def P_L_Lya(x, P1, P2, P3):
-
     return 10**(P1*x**2 + P2*x +P3)
 
 
 def f_esc_LyC(x, f1, f2):  
-   # log.write("f_esc_LyC\n")
-    #print("f_esc_LyC")
-   # log_list[0]+=1
-    
-    f_esc=f1*x + f2
-    return f_esc
+    return f1*x + f2
 
 def Q_ion_LyC(z, P1, P2, P3, f1, f2): # replaces P_uv and E_ion	
     return P_L_Lya(z, P1, P2, P3) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
 
 
 def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC
-#    log.write("n_ion_dot    z = "+str(z)+"\n")
-   # print("n_ion_dot")
-    #log_list[1]+=1
     if Q_ion_LyC(z, P1, P2, P3,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
         n_ion_dot= 0 
     else:
@@ -101,12 +92,9 @@ def n_ion_dot_LyC(z, P1, P2, P3,  f1, f2): # replaces n_ion_dot using Q_ion_LyC
     return n_ion_dot
 
 def Q_Hii_dot(z, Q, P1, P2, P3, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹   
-#    log.write("Q_Hii_dot    z = "+str(z)+"\n")
-   # print("Q_Hii_dot")
-    #log_list[2]+=1
     Q_dot=(((n_ion_dot_LyC(z, P1, P2, P3, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16)    
     
-    return Q_dot # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+    return Q_dot # conversion from Gyr^-1 to s^-1
 
 def dQ_dt(Q, t, P1, P2, P3, f1, f2):    
     dQ_dt = Q_Hii_dot(red(t), Q, P1, P2, P3, f1, f2)
@@ -116,20 +104,11 @@ def dQ_dt(Q, t, P1, P2, P3, f1, f2):
 
 def main(arguements):
     Q = odeint(dQ_dt, Q_Hii_zero, t, args=(arguements))
- #   print("arguements = {}".format(arguements))
- #   print(type(arguements))
     Q[Q>1.0] = 1.0 # 100% HII
     Q[Q<0.0] = 0.0 # 100% HI
-   # print("Q")
-  #  log.write("Q+\n")
-    #log_list[3]+=1
-    
-    for i,j in zip(init_conditions,range(len(arguements))):        
-    #    print("appending {} to {}".format(j,i))
-        init_conditions[i]=np.append(init_conditions[i],arguements[j])
-     #   print(init_conditions[i])
 
-    
-   # print("----------------------------")
+    for i,j in zip(init_conditions,range(len(arguements))):        
+        init_conditions[i]=np.append(init_conditions[i],arguements[j])
+
     return Q
 
