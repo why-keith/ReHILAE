@@ -4,18 +4,19 @@ import math
 from astropy.io import fits 
 import matplotlib.pyplot as plt
 import copy
+import sys
 
-iterations = 100
-
+iterations = 2000
+RA_loops=0
 
 ############################################
 # Return condicence levels
 def plot_confidence_Lya(x_in,ysample,colour='g'):
     lower = np.percentile(ysample,16,axis=0)  # Equivalent to 1 sigma
     upper = np.percentile(ysample,84,axis=0) # Equivalent to 1 sigma
-    lower2 = np.percentile(ysample,100-97.72,axis=0)  #, Equivalent to 2 sigma
+    lower2 = np.percentile(ysample,100-97.72,axis=0)  # Equivalent to 2 sigma
     upper2 = np.percentile(ysample,97.72,axis=0) # Equivalent to 2 sigma
-    lower3 = np.percentile(ysample,0.15,axis=0)  #, Equivalent to 3 sigma
+    lower3 = np.percentile(ysample,0.15,axis=0)  # Equivalent to 3 sigma
     upper3 = np.percentile(ysample,99.85,axis=0) # Equivalent to 3 sigma
     return x_in,lower,upper, lower2, upper2, lower3, upper3
 
@@ -37,14 +38,21 @@ def double_normal(phi,err_down,err_up,size):
 # Generates random error arrays
 
 def random_Arrays(x,y,error_down_y,error_up_y):
-    master_list = []
+    global RA_loops
     
+    master_list = []
+   # print(RA_loops)
     for i in range(iterations): # Creates 'iteration' number of arrays with new random guassian distributed data points
         y_new_list = [0 for i in range(len(y))]
         for j in range(len(y)): # Generates an array with random guassian distributed data points
             y_new_list[j]=(double_normal(y[j],error_down_y[j],error_up_y[j],1)[0])
                 
         master_list.append(y_new_list) # Appends new array to master_list
+        
+        sys.stdout.write("\rSimulation Running - {}%       ".format(round((i/(iterations*5)*100+ RA_loops*20)/2,3)))
+        sys.stdout.flush()
+        
+    RA_loops+=1
     return master_list
     
 #################################
@@ -59,11 +67,16 @@ def median_y_values(length_of_each_array,array_of_random_arrays):
         for j in range(len(array_of_random_arrays)):
             Y.append(array_of_random_arrays[j][i])
         median_y_array.append(np.median(Y))
-        upper_percentile.append(np.percentile(Y,84))
-        lower_percentile.append(np.percentile(Y,16))
-        
-    #print(median_y_array)
-
+        upper_percentile.append(np.percentile(Y,97.72))
+        lower_percentile.append(np.percentile(Y,100-97.72))
+       
+        sys.stdout.write("\rSimulation Running - {}%         ".format(round((100*i/length_of_each_array)/2 +50,3)))
+        sys.stdout.flush()
+              
+    sys.stdout.write("\rSimulation Running - 100%      ")
+    sys.stdout.flush()    
+    
+    print("\nGenerating plots...")
     return median_y_array, upper_percentile, lower_percentile
     
     #plt.plot(x,median_y_array)
@@ -89,4 +102,3 @@ plt.fill_between(x,min_list,max_list,lw=1,color='#0066ff',alpha=0.1,zorder = 90)
 plt.plot(x,y)
 plt.show()
 #################################
-"""
