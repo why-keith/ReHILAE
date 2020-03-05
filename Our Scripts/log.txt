@@ -23497,3 +23497,9642 @@ f_esc_LyC
 f_esc_LyC
 f_esc_LyC
 Q+
+Q_Hii_dot    z = 13.993546999056068
+n_ion_dot    z = 13.993546999056068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593321707
+n_ion_dot    z = 13.992617593321707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593321707
+n_ion_dot    z = 13.992617593321707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378928
+n_ion_dot    z = 13.991688359378928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378928
+n_ion_dot    z = 13.991688359378928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.851920804053899
+n_ion_dot    z = 11.851920804053899
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.851920804053899
+n_ion_dot    z = 11.851920804053899
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.851920804053899
+n_ion_dot    z = 11.851920804053899
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.358977899992851
+n_ion_dot    z = 13.358977899992851
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.358977899992851
+n_ion_dot    z = 13.358977899992851
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.79973906864711
+n_ion_dot    z = 12.79973906864711
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.79973906864711
+n_ion_dot    z = 12.79973906864711
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.851920804053899
+n_ion_dot    z = 11.851920804053899
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.851920804053899
+n_ion_dot    z = 11.851920804053899
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.074787419023838
+n_ion_dot    z = 11.074787419023838
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.074787419023838
+n_ion_dot    z = 11.074787419023838
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.400287803413093
+n_ion_dot    z = 11.400287803413093
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.400287803413093
+n_ion_dot    z = 11.400287803413093
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.9928031876868
+n_ion_dot    z = 10.9928031876868
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.9928031876868
+n_ion_dot    z = 10.9928031876868
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.62270292157203
+n_ion_dot    z = 10.62270292157203
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.62270292157203
+n_ion_dot    z = 10.62270292157203
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.7236709883325
+n_ion_dot    z = 10.7236709883325
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.7236709883325
+n_ion_dot    z = 10.7236709883325
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.471724378960763
+n_ion_dot    z = 10.471724378960763
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.471724378960763
+n_ion_dot    z = 10.471724378960763
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.235205779496651
+n_ion_dot    z = 10.235205779496651
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.235205779496651
+n_ion_dot    z = 10.235205779496651
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.957507912894302
+n_ion_dot    z = 9.957507912894302
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.957507912894302
+n_ion_dot    z = 9.957507912894302
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.69923226895101
+n_ion_dot    z = 9.69923226895101
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.69923226895101
+n_ion_dot    z = 9.69923226895101
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.45821113023792
+n_ion_dot    z = 9.45821113023792
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.45821113023792
+n_ion_dot    z = 9.45821113023792
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.232601132610212
+n_ion_dot    z = 9.232601132610212
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.232601132610212
+n_ion_dot    z = 9.232601132610212
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.850101921236062
+n_ion_dot    z = 8.850101921236062
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.850101921236062
+n_ion_dot    z = 8.850101921236062
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.507033954785042
+n_ion_dot    z = 8.507033954785042
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.507033954785042
+n_ion_dot    z = 8.507033954785042
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.19704164510473
+n_ion_dot    z = 8.19704164510473
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.19704164510473
+n_ion_dot    z = 8.19704164510473
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.9151173403962165
+n_ion_dot    z = 7.9151173403962165
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.9151173403962165
+n_ion_dot    z = 7.9151173403962165
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.657254682522808
+n_ion_dot    z = 7.657254682522808
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.657254682522808
+n_ion_dot    z = 7.657254682522808
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.3624875144534165
+n_ion_dot    z = 7.3624875144534165
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.3624875144534165
+n_ion_dot    z = 7.3624875144534165
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.095434498139902
+n_ion_dot    z = 7.095434498139902
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.095434498139902
+n_ion_dot    z = 7.095434498139902
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.851994434868958
+n_ion_dot    z = 6.851994434868958
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.851994434868958
+n_ion_dot    z = 6.851994434868958
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.628868767487635
+n_ion_dot    z = 6.628868767487635
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.628868767487635
+n_ion_dot    z = 6.628868767487635
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.423370259684977
+n_ion_dot    z = 6.423370259684977
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.423370259684977
+n_ion_dot    z = 6.423370259684977
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.233284618550713
+n_ion_dot    z = 6.233284618550713
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.233284618550713
+n_ion_dot    z = 6.233284618550713
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.0273226479726025
+n_ion_dot    z = 6.0273226479726025
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.0273226479726025
+n_ion_dot    z = 6.0273226479726025
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.837602694228762
+n_ion_dot    z = 5.837602694228762
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.837602694228762
+n_ion_dot    z = 5.837602694228762
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.6620863901129495
+n_ion_dot    z = 5.6620863901129495
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.6620863901129495
+n_ion_dot    z = 5.6620863901129495
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.49907663576211
+n_ion_dot    z = 5.49907663576211
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.49907663576211
+n_ion_dot    z = 5.49907663576211
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.347147471071905
+n_ion_dot    z = 5.347147471071905
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.347147471071905
+n_ion_dot    z = 5.347147471071905
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.205090794878331
+n_ion_dot    z = 5.205090794878331
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.205090794878331
+n_ion_dot    z = 5.205090794878331
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.021655899663688
+n_ion_dot    z = 5.021655899663688
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.021655899663688
+n_ion_dot    z = 5.021655899663688
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.853077738182976
+n_ion_dot    z = 4.853077738182976
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.853077738182976
+n_ion_dot    z = 4.853077738182976
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.697440472416858
+n_ion_dot    z = 4.697440472416858
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.697440472416858
+n_ion_dot    z = 4.697440472416858
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.553157480537544
+n_ion_dot    z = 4.553157480537544
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.553157480537544
+n_ion_dot    z = 4.553157480537544
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.418901998988589
+n_ion_dot    z = 4.418901998988589
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.418901998988589
+n_ion_dot    z = 4.418901998988589
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.2935548286115095
+n_ion_dot    z = 4.2935548286115095
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.2935548286115095
+n_ion_dot    z = 4.2935548286115095
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.176164355011509
+n_ion_dot    z = 4.176164355011509
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.176164355011509
+n_ion_dot    z = 4.176164355011509
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.031039038312876
+n_ion_dot    z = 4.031039038312876
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.031039038312876
+n_ion_dot    z = 4.031039038312876
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.896932317199566
+n_ion_dot    z = 3.896932317199566
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.896932317199566
+n_ion_dot    z = 3.896932317199566
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7725037836972426
+n_ion_dot    z = 3.7725037836972426
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7725037836972426
+n_ion_dot    z = 3.7725037836972426
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.6566309867321385
+n_ion_dot    z = 3.6566309867321385
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.6566309867321385
+n_ion_dot    z = 3.6566309867321385
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.548365867046803
+n_ion_dot    z = 3.548365867046803
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.548365867046803
+n_ion_dot    z = 3.548365867046803
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.446901384929637
+n_ion_dot    z = 3.446901384929637
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.446901384929637
+n_ion_dot    z = 3.446901384929637
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.351545636926015
+n_ion_dot    z = 3.351545636926015
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.351545636926015
+n_ion_dot    z = 3.351545636926015
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.261701552931224
+n_ion_dot    z = 3.261701552931224
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.261701552931224
+n_ion_dot    z = 3.261701552931224
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.13223171240978
+n_ion_dot    z = 3.13223171240978
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.13223171240978
+n_ion_dot    z = 3.13223171240978
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0131323411873288
+n_ion_dot    z = 3.0131323411873288
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0131323411873288
+n_ion_dot    z = 3.0131323411873288
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9030694548425995
+n_ion_dot    z = 2.9030694548425995
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9030694548425995
+n_ion_dot    z = 2.9030694548425995
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.800937912532016
+n_ion_dot    z = 2.800937912532016
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.800937912532016
+n_ion_dot    z = 2.800937912532016
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7058132684952243
+n_ion_dot    z = 2.7058132684952243
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7058132684952243
+n_ion_dot    z = 2.7058132684952243
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.616915456165682
+n_ion_dot    z = 2.616915456165682
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.616915456165682
+n_ion_dot    z = 2.616915456165682
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.533581014571007
+n_ion_dot    z = 2.533581014571007
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.533581014571007
+n_ion_dot    z = 2.533581014571007
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4552415792556666
+n_ion_dot    z = 2.4552415792556666
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4552415792556666
+n_ion_dot    z = 2.4552415792556666
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.326824125526741
+n_ion_dot    z = 2.326824125526741
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.326824125526741
+n_ion_dot    z = 2.326824125526741
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.210401565064915
+n_ion_dot    z = 2.210401565064915
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.210401565064915
+n_ion_dot    z = 2.210401565064915
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1041747711214183
+n_ion_dot    z = 2.1041747711214183
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1041747711214183
+n_ion_dot    z = 2.1041747711214183
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0067017316236755
+n_ion_dot    z = 2.0067017316236755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0067017316236755
+n_ion_dot    z = 2.0067017316236755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9168112180040553
+n_ion_dot    z = 1.9168112180040553
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9168112180040553
+n_ion_dot    z = 1.9168112180040553
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8335406731981454
+n_ion_dot    z = 1.8335406731981454
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8335406731981454
+n_ion_dot    z = 1.8335406731981454
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7560906765013766
+n_ion_dot    z = 1.7560906765013766
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7560906765013766
+n_ion_dot    z = 1.7560906765013766
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6837909972127685
+n_ion_dot    z = 1.6837909972127685
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6837909972127685
+n_ion_dot    z = 1.6837909972127685
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6007730187166205
+n_ion_dot    z = 1.6007730187166205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6007730187166205
+n_ion_dot    z = 1.6007730187166205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5238566136606662
+n_ion_dot    z = 1.5238566136606662
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5238566136606662
+n_ion_dot    z = 1.5238566136606662
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4522995502709346
+n_ion_dot    z = 1.4522995502709346
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4522995502709346
+n_ion_dot    z = 1.4522995502709346
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3854803502018043
+n_ion_dot    z = 1.3854803502018043
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3854803502018043
+n_ion_dot    z = 1.3854803502018043
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3228741136039295
+n_ion_dot    z = 1.3228741136039295
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3228741136039295
+n_ion_dot    z = 1.3228741136039295
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2640340111817259
+n_ion_dot    z = 1.2640340111817259
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2640340111817259
+n_ion_dot    z = 1.2640340111817259
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.208576936864897
+n_ion_dot    z = 1.208576936864897
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.208576936864897
+n_ion_dot    z = 1.208576936864897
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1561722586994998
+n_ion_dot    z = 1.1561722586994998
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1561722586994998
+n_ion_dot    z = 1.1561722586994998
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0818040014482997
+n_ion_dot    z = 1.0818040014482997
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0818040014482997
+n_ion_dot    z = 1.0818040014482997
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.012969538313277
+n_ion_dot    z = 1.012969538313277
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.012969538313277
+n_ion_dot    z = 1.012969538313277
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9489686232603609
+n_ion_dot    z = 0.9489686232603609
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9489686232603609
+n_ion_dot    z = 0.9489686232603609
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8892189410182556
+n_ion_dot    z = 0.8892189410182556
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8892189410182556
+n_ion_dot    z = 0.8892189410182556
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8332316688273558
+n_ion_dot    z = 0.8332316688273558
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8332316688273558
+n_ion_dot    z = 0.8332316688273558
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.780592959169707
+n_ion_dot    z = 0.780592959169707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.780592959169707
+n_ion_dot    z = 0.780592959169707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7309497186800349
+n_ion_dot    z = 0.7309497186800349
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7309497186800349
+n_ion_dot    z = 0.7309497186800349
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6839985522182717
+n_ion_dot    z = 0.6839985522182717
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6839985522182717
+n_ion_dot    z = 0.6839985522182717
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6135314261233253
+n_ion_dot    z = 0.6135314261233253
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6135314261233253
+n_ion_dot    z = 0.6135314261233253
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5484381846865589
+n_ion_dot    z = 0.5484381846865589
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5484381846865589
+n_ion_dot    z = 0.5484381846865589
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.48797843680232944
+n_ion_dot    z = 0.48797843680232944
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.48797843680232944
+n_ion_dot    z = 0.48797843680232944
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4315447030310189
+n_ion_dot    z = 0.4315447030310189
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4315447030310189
+n_ion_dot    z = 0.4315447030310189
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.37863291720935033
+n_ion_dot    z = 0.37863291720935033
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.37863291720935033
+n_ion_dot    z = 0.37863291720935033
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3288205388343193
+n_ion_dot    z = 0.3288205388343193
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3288205388343193
+n_ion_dot    z = 0.3288205388343193
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.28175005482390936
+n_ion_dot    z = 0.28175005482390936
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.28175005482390936
+n_ion_dot    z = 0.28175005482390936
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2371163650564423
+n_ion_dot    z = 0.2371163650564423
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2371163650564423
+n_ion_dot    z = 0.2371163650564423
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15118461607830036
+n_ion_dot    z = 0.15118461607830036
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15118461607830036
+n_ion_dot    z = 0.15118461607830036
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.07274783553119701
+n_ion_dot    z = 0.07274783553119701
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.07274783553119701
+n_ion_dot    z = 0.07274783553119701
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.0003479439510643001
+n_ion_dot    z = 0.0003479439510643001
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.0003479439510643001
+n_ion_dot    z = 0.0003479439510643001
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.06716249550156528
+n_ion_dot    z = -0.06716249550156528
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.06716249550156528
+n_ion_dot    z = -0.06716249550156528
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q+
+Q_Hii_dot    z = 13.993546999056068
+n_ion_dot    z = 13.993546999056068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.99261759332173
+n_ion_dot    z = 13.99261759332173
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.99261759332173
+n_ion_dot    z = 13.99261759332173
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378974
+n_ion_dot    z = 13.991688359378974
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378974
+n_ion_dot    z = 13.991688359378974
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.728389461163248
+n_ion_dot    z = 13.728389461163248
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.728389461163248
+n_ion_dot    z = 13.728389461163248
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.47841553565757
+n_ion_dot    z = 13.47841553565757
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.47841553565757
+n_ion_dot    z = 13.47841553565757
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.24067804931118
+n_ion_dot    z = 13.24067804931118
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.24067804931118
+n_ion_dot    z = 13.24067804931118
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.957887990072068
+n_ion_dot    z = 12.957887990072068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.957887990072068
+n_ion_dot    z = 12.957887990072068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.691198188689475
+n_ion_dot    z = 12.691198188689475
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.691198188689475
+n_ion_dot    z = 12.691198188689475
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.43913481020742
+n_ion_dot    z = 12.43913481020742
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.43913481020742
+n_ion_dot    z = 12.43913481020742
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.20040627209071
+n_ion_dot    z = 12.20040627209071
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.20040627209071
+n_ion_dot    z = 12.20040627209071
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.904591445494063
+n_ion_dot    z = 11.904591445494063
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.904591445494063
+n_ion_dot    z = 11.904591445494063
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.627670365350031
+n_ion_dot    z = 11.627670365350031
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.627670365350031
+n_ion_dot    z = 11.627670365350031
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.367710941527159
+n_ion_dot    z = 11.367710941527159
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.367710941527159
+n_ion_dot    z = 11.367710941527159
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.123046892696673
+n_ion_dot    z = 11.123046892696673
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.123046892696673
+n_ion_dot    z = 11.123046892696673
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.892232501749353
+n_ion_dot    z = 10.892232501749353
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.892232501749353
+n_ion_dot    z = 10.892232501749353
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.562432260802549
+n_ion_dot    z = 10.562432260802549
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.562432260802549
+n_ion_dot    z = 10.562432260802549
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.258394293567804
+n_ion_dot    z = 10.258394293567804
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.258394293567804
+n_ion_dot    z = 10.258394293567804
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.317597254605598
+n_ion_dot    z = 10.317597254605598
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.317597254605598
+n_ion_dot    z = 10.317597254605598
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.087539701159425
+n_ion_dot    z = 10.087539701159425
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.087539701159425
+n_ion_dot    z = 10.087539701159425
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.870827714620395
+n_ion_dot    z = 9.870827714620395
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.870827714620395
+n_ion_dot    z = 9.870827714620395
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.666216464209263
+n_ion_dot    z = 9.666216464209263
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.666216464209263
+n_ion_dot    z = 9.666216464209263
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.472617882655724
+n_ion_dot    z = 9.472617882655724
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.472617882655724
+n_ion_dot    z = 9.472617882655724
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.214482770780121
+n_ion_dot    z = 9.214482770780121
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.214482770780121
+n_ion_dot    z = 9.214482770780121
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.257987353813883
+n_ion_dot    z = 9.257987353813883
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.257987353813883
+n_ion_dot    z = 9.257987353813883
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.055884405142743
+n_ion_dot    z = 9.055884405142743
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.055884405142743
+n_ion_dot    z = 9.055884405142743
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.865133152513806
+n_ion_dot    z = 8.865133152513806
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.865133152513806
+n_ion_dot    z = 8.865133152513806
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.684706697448632
+n_ion_dot    z = 8.684706697448632
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.684706697448632
+n_ion_dot    z = 8.684706697448632
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.513703701386481
+n_ion_dot    z = 8.513703701386481
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.513703701386481
+n_ion_dot    z = 8.513703701386481
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.351329310236732
+n_ion_dot    z = 8.351329310236732
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.351329310236732
+n_ion_dot    z = 8.351329310236732
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.143917169737167
+n_ion_dot    z = 8.143917169737167
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.143917169737167
+n_ion_dot    z = 8.143917169737167
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.949525793750768
+n_ion_dot    z = 7.949525793750768
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.949525793750768
+n_ion_dot    z = 7.949525793750768
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.766843593431323
+n_ion_dot    z = 7.766843593431323
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.766843593431323
+n_ion_dot    z = 7.766843593431323
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.594736860930755
+n_ion_dot    z = 7.594736860930755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.594736860930755
+n_ion_dot    z = 7.594736860930755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.432219903373301
+n_ion_dot    z = 7.432219903373301
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.432219903373301
+n_ion_dot    z = 7.432219903373301
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.2784310858509755
+n_ion_dot    z = 7.2784310858509755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.2784310858509755
+n_ion_dot    z = 7.2784310858509755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.132613449638521
+n_ion_dot    z = 7.132613449638521
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.132613449638521
+n_ion_dot    z = 7.132613449638521
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.902839746719503
+n_ion_dot    z = 6.902839746719503
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.902839746719503
+n_ion_dot    z = 6.902839746719503
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.691145310133198
+n_ion_dot    z = 6.691145310133198
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.691145310133198
+n_ion_dot    z = 6.691145310133198
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.734039592804266
+n_ion_dot    z = 6.734039592804266
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.734039592804266
+n_ion_dot    z = 6.734039592804266
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.575399694363788
+n_ion_dot    z = 6.575399694363788
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.575399694363788
+n_ion_dot    z = 6.575399694363788
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.425935953481112
+n_ion_dot    z = 6.425935953481112
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.425935953481112
+n_ion_dot    z = 6.425935953481112
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.28479281642182
+n_ion_dot    z = 6.28479281642182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.28479281642182
+n_ion_dot    z = 6.28479281642182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.151222457450091
+n_ion_dot    z = 6.151222457450091
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.151222457450091
+n_ion_dot    z = 6.151222457450091
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.024567940084067
+n_ion_dot    z = 6.024567940084067
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.024567940084067
+n_ion_dot    z = 6.024567940084067
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.889520664795932
+n_ion_dot    z = 5.889520664795932
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.889520664795932
+n_ion_dot    z = 5.889520664795932
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.761779075792871
+n_ion_dot    z = 5.761779075792871
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.761779075792871
+n_ion_dot    z = 5.761779075792871
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.640703979925192
+n_ion_dot    z = 5.640703979925192
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.640703979925192
+n_ion_dot    z = 5.640703979925192
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.525731886025376
+n_ion_dot    z = 5.525731886025376
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.525731886025376
+n_ion_dot    z = 5.525731886025376
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.416363851838568
+n_ion_dot    z = 5.416363851838568
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.416363851838568
+n_ion_dot    z = 5.416363851838568
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.312156275884896
+n_ion_dot    z = 5.312156275884896
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.312156275884896
+n_ion_dot    z = 5.312156275884896
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.212713245700771
+n_ion_dot    z = 5.212713245700771
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.212713245700771
+n_ion_dot    z = 5.212713245700771
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.086212125850817
+n_ion_dot    z = 5.086212125850817
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.086212125850817
+n_ion_dot    z = 5.086212125850817
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.96689093775495
+n_ion_dot    z = 4.96689093775495
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.96689093775495
+n_ion_dot    z = 4.96689093775495
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.854090724242505
+n_ion_dot    z = 4.854090724242505
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.854090724242505
+n_ion_dot    z = 4.854090724242505
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.747234271688532
+n_ion_dot    z = 4.747234271688532
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.747234271688532
+n_ion_dot    z = 4.747234271688532
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.645813514482194
+n_ion_dot    z = 4.645813514482194
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.645813514482194
+n_ion_dot    z = 4.645813514482194
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.549379233450147
+n_ion_dot    z = 4.549379233450147
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.549379233450147
+n_ion_dot    z = 4.549379233450147
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.457532570260187
+n_ion_dot    z = 4.457532570260187
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.457532570260187
+n_ion_dot    z = 4.457532570260187
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.329866872470985
+n_ion_dot    z = 4.329866872470985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.329866872470985
+n_ion_dot    z = 4.329866872470985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.210397556255508
+n_ion_dot    z = 4.210397556255508
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.210397556255508
+n_ion_dot    z = 4.210397556255508
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.09827601243805
+n_ion_dot    z = 4.09827601243805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.09827601243805
+n_ion_dot    z = 4.09827601243805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.992771876515955
+n_ion_dot    z = 3.992771876515955
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.992771876515955
+n_ion_dot    z = 3.992771876515955
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8932526472870403
+n_ion_dot    z = 3.8932526472870403
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8932526472870403
+n_ion_dot    z = 3.8932526472870403
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.799167441741184
+n_ion_dot    z = 3.799167441741184
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.799167441741184
+n_ion_dot    z = 3.799167441741184
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7100339293329547
+n_ion_dot    z = 3.7100339293329547
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7100339293329547
+n_ion_dot    z = 3.7100339293329547
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.578893549414846
+n_ion_dot    z = 3.578893549414846
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.578893549414846
+n_ion_dot    z = 3.578893549414846
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4575476226590593
+n_ion_dot    z = 3.4575476226590593
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4575476226590593
+n_ion_dot    z = 3.4575476226590593
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.3448206403159233
+n_ion_dot    z = 3.3448206403159233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.3448206403159233
+n_ion_dot    z = 3.3448206403159233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.239725824681888
+n_ion_dot    z = 3.239725824681888
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.239725824681888
+n_ion_dot    z = 3.239725824681888
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1414278579794415
+n_ion_dot    z = 3.1414278579794415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1414278579794415
+n_ion_dot    z = 3.1414278579794415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.049214231595732
+n_ion_dot    z = 3.049214231595732
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.049214231595732
+n_ion_dot    z = 3.049214231595732
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9624729540633417
+n_ion_dot    z = 2.9624729540633417
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9624729540633417
+n_ion_dot    z = 2.9624729540633417
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8806750143282733
+n_ion_dot    z = 2.8806750143282733
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8806750143282733
+n_ion_dot    z = 2.8806750143282733
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.787449298366675
+n_ion_dot    z = 2.787449298366675
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.787449298366675
+n_ion_dot    z = 2.787449298366675
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7001129235780064
+n_ion_dot    z = 2.7001129235780064
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7001129235780064
+n_ion_dot    z = 2.7001129235780064
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6180599146456793
+n_ion_dot    z = 2.6180599146456793
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6180599146456793
+n_ion_dot    z = 2.6180599146456793
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.540768287933547
+n_ion_dot    z = 2.540768287933547
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.540768287933547
+n_ion_dot    z = 2.540768287933547
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.467785642629866
+n_ion_dot    z = 2.467785642629866
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.467785642629866
+n_ion_dot    z = 2.467785642629866
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.3987176631802405
+n_ion_dot    z = 2.3987176631802405
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.3987176631802405
+n_ion_dot    z = 2.3987176631802405
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.3332188623231773
+n_ion_dot    z = 2.3332188623231773
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.3332188623231773
+n_ion_dot    z = 2.3332188623231773
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.2709850662447124
+n_ion_dot    z = 2.2709850662447124
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.2709850662447124
+n_ion_dot    z = 2.2709850662447124
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1858047053462117
+n_ion_dot    z = 2.1858047053462117
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1858047053462117
+n_ion_dot    z = 2.1858047053462117
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1062435320223236
+n_ion_dot    z = 2.1062435320223236
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1062435320223236
+n_ion_dot    z = 2.1062435320223236
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0316939654987327
+n_ion_dot    z = 2.0316939654987327
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0316939654987327
+n_ion_dot    z = 2.0316939654987327
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9616367678100497
+n_ion_dot    z = 1.9616367678100497
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9616367678100497
+n_ion_dot    z = 1.9616367678100497
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8956251706711535
+n_ion_dot    z = 1.8956251706711535
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8956251706711535
+n_ion_dot    z = 1.8956251706711535
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.833272355941221
+n_ion_dot    z = 1.833272355941221
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.833272355941221
+n_ion_dot    z = 1.833272355941221
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7742414830728412
+n_ion_dot    z = 1.7742414830728412
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7742414830728412
+n_ion_dot    z = 1.7742414830728412
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7182376728442312
+n_ion_dot    z = 1.7182376728442312
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7182376728442312
+n_ion_dot    z = 1.7182376728442312
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6162352975868064
+n_ion_dot    z = 1.6162352975868064
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6162352975868064
+n_ion_dot    z = 1.6162352975868064
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.523261150502973
+n_ion_dot    z = 1.523261150502973
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.523261150502973
+n_ion_dot    z = 1.523261150502973
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4380068109934006
+n_ion_dot    z = 1.4380068109934006
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4380068109934006
+n_ion_dot    z = 1.4380068109934006
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3594152236618697
+n_ion_dot    z = 1.3594152236618697
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3594152236618697
+n_ion_dot    z = 1.3594152236618697
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.286621748346597
+n_ion_dot    z = 1.286621748346597
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.286621748346597
+n_ion_dot    z = 1.286621748346597
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2189112804863869
+n_ion_dot    z = 1.2189112804863869
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2189112804863869
+n_ion_dot    z = 1.2189112804863869
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.155686506890658
+n_ion_dot    z = 1.155686506890658
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.155686506890658
+n_ion_dot    z = 1.155686506890658
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0964440321177769
+n_ion_dot    z = 1.0964440321177769
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0964440321177769
+n_ion_dot    z = 1.0964440321177769
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0407561677522033
+n_ion_dot    z = 1.0407561677522033
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0407561677522033
+n_ion_dot    z = 1.0407561677522033
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.988256862035412
+n_ion_dot    z = 0.988256862035412
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.988256862035412
+n_ion_dot    z = 0.988256862035412
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9304194962455743
+n_ion_dot    z = 0.9304194962455743
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9304194962455743
+n_ion_dot    z = 0.9304194962455743
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8760883733183753
+n_ion_dot    z = 0.8760883733183753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8760883733183753
+n_ion_dot    z = 0.8760883733183753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8248932560868045
+n_ion_dot    z = 0.8248932560868045
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8248932560868045
+n_ion_dot    z = 0.8248932560868045
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.776516225977331
+n_ion_dot    z = 0.776516225977331
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.776516225977331
+n_ion_dot    z = 0.776516225977331
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7306825084210753
+n_ion_dot    z = 0.7306825084210753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7306825084210753
+n_ion_dot    z = 0.7306825084210753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6871531918567515
+n_ion_dot    z = 0.6871531918567515
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6871531918567515
+n_ion_dot    z = 0.6871531918567515
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6457193948273949
+n_ion_dot    z = 0.6457193948273949
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6457193948273949
+n_ion_dot    z = 0.6457193948273949
+f_esc_LyC
+Q_Hii_dot    z = 13.993546999056068
+n_ion_dot    z = 13.993546999056068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.99261765565976
+n_ion_dot    z = 13.99261765565976
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.99261765565976
+n_ion_dot    z = 13.99261765565976
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688484031993
+n_ion_dot    z = 13.991688484031993
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688484031993
+n_ion_dot    z = 13.991688484031993
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.954409771384306
+n_ion_dot    z = 13.954409771384306
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.954409771384306
+n_ion_dot    z = 13.954409771384306
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.91740614704095
+n_ion_dot    z = 13.91740614704095
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.91740614704095
+n_ion_dot    z = 13.91740614704095
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.880674240333382
+n_ion_dot    z = 13.880674240333382
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.880674240333382
+n_ion_dot    z = 13.880674240333382
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.759475000115346
+n_ion_dot    z = 13.759475000115346
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.759475000115346
+n_ion_dot    z = 13.759475000115346
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.782605479544456
+n_ion_dot    z = 13.782605479544456
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.782605479544456
+n_ion_dot    z = 13.782605479544456
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.686439031099804
+n_ion_dot    z = 13.686439031099804
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.686439031099804
+n_ion_dot    z = 13.686439031099804
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.592114106288863
+n_ion_dot    z = 13.592114106288863
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.592114106288863
+n_ion_dot    z = 13.592114106288863
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.499572602061493
+n_ion_dot    z = 13.499572602061493
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.499572602061493
+n_ion_dot    z = 13.499572602061493
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.323656321935365
+n_ion_dot    z = 13.323656321935365
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.323656321935365
+n_ion_dot    z = 13.323656321935365
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.153952420319971
+n_ion_dot    z = 13.153952420319971
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.153952420319971
+n_ion_dot    z = 13.153952420319971
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.990103210529275
+n_ion_dot    z = 12.990103210529275
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.990103210529275
+n_ion_dot    z = 12.990103210529275
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.831779194314588
+n_ion_dot    z = 12.831779194314588
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.831779194314588
+n_ion_dot    z = 12.831779194314588
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.67867626837523
+n_ion_dot    z = 12.67867626837523
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.67867626837523
+n_ion_dot    z = 12.67867626837523
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.387879489621453
+n_ion_dot    z = 12.387879489621453
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.387879489621453
+n_ion_dot    z = 12.387879489621453
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.437866908228537
+n_ion_dot    z = 12.437866908228537
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.437866908228537
+n_ion_dot    z = 12.437866908228537
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.209258070861765
+n_ion_dot    z = 12.209258070861765
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.209258070861765
+n_ion_dot    z = 12.209258070861765
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.991851764150507
+n_ion_dot    z = 11.991851764150507
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.991851764150507
+n_ion_dot    z = 11.991851764150507
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.78476068948445
+n_ion_dot    z = 11.78476068948445
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.78476068948445
+n_ion_dot    z = 11.78476068948445
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.58719293946464
+n_ion_dot    z = 11.58719293946464
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.58719293946464
+n_ion_dot    z = 11.58719293946464
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.398439204187895
+n_ion_dot    z = 11.398439204187895
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.398439204187895
+n_ion_dot    z = 11.398439204187895
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.120915181940168
+n_ion_dot    z = 11.120915181940168
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.120915181940168
+n_ion_dot    z = 11.120915181940168
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.861079536455938
+n_ion_dot    z = 10.861079536455938
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.861079536455938
+n_ion_dot    z = 10.861079536455938
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.617126716208755
+n_ion_dot    z = 10.617126716208755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.617126716208755
+n_ion_dot    z = 10.617126716208755
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.670495584983145
+n_ion_dot    z = 10.670495584983145
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.670495584983145
+n_ion_dot    z = 10.670495584983145
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.488730366712812
+n_ion_dot    z = 10.488730366712812
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.488730366712812
+n_ion_dot    z = 10.488730366712812
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.315122882737741
+n_ion_dot    z = 10.315122882737741
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.315122882737741
+n_ion_dot    z = 10.315122882737741
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.149079496746197
+n_ion_dot    z = 10.149079496746197
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.149079496746197
+n_ion_dot    z = 10.149079496746197
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.990065357388445
+n_ion_dot    z = 9.990065357388445
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.990065357388445
+n_ion_dot    z = 9.990065357388445
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.837597118952036
+n_ion_dot    z = 9.837597118952036
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.837597118952036
+n_ion_dot    z = 9.837597118952036
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.691236734313476
+n_ion_dot    z = 9.691236734313476
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.691236734313476
+n_ion_dot    z = 9.691236734313476
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.449640487731761
+n_ion_dot    z = 9.449640487731761
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.449640487731761
+n_ion_dot    z = 9.449640487731761
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.223538256921906
+n_ion_dot    z = 9.223538256921906
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.223538256921906
+n_ion_dot    z = 9.223538256921906
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.26419831230152
+n_ion_dot    z = 9.26419831230152
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.26419831230152
+n_ion_dot    z = 9.26419831230152
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.0881774633102
+n_ion_dot    z = 9.0881774633102
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.0881774633102
+n_ion_dot    z = 9.0881774633102
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.92080445292703
+n_ion_dot    z = 8.92080445292703
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.92080445292703
+n_ion_dot    z = 8.92080445292703
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.76139190217341
+n_ion_dot    z = 8.76139190217341
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.76139190217341
+n_ion_dot    z = 8.76139190217341
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.609326594117448
+n_ion_dot    z = 8.609326594117448
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.609326594117448
+n_ion_dot    z = 8.609326594117448
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.464059492488971
+n_ion_dot    z = 8.464059492488971
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.464059492488971
+n_ion_dot    z = 8.464059492488971
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.30612431330587
+n_ion_dot    z = 8.30612431330587
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.30612431330587
+n_ion_dot    z = 8.30612431330587
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.155730006412844
+n_ion_dot    z = 8.155730006412844
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.155730006412844
+n_ion_dot    z = 8.155730006412844
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.012293275893114
+n_ion_dot    z = 8.012293275893114
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.012293275893114
+n_ion_dot    z = 8.012293275893114
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.875292122421055
+n_ion_dot    z = 7.875292122421055
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.875292122421055
+n_ion_dot    z = 7.875292122421055
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.744257801472658
+n_ion_dot    z = 7.744257801472658
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.744257801472658
+n_ion_dot    z = 7.744257801472658
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.618768034616018
+n_ion_dot    z = 7.618768034616018
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.618768034616018
+n_ion_dot    z = 7.618768034616018
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.498441249467813
+n_ion_dot    z = 7.498441249467813
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.498441249467813
+n_ion_dot    z = 7.498441249467813
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.349412911726164
+n_ion_dot    z = 7.349412911726164
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.349412911726164
+n_ion_dot    z = 7.349412911726164
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.207823651555444
+n_ion_dot    z = 7.207823651555444
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.207823651555444
+n_ion_dot    z = 7.207823651555444
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.073072304533852
+n_ion_dot    z = 7.073072304533852
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.073072304533852
+n_ion_dot    z = 7.073072304533852
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.944623624275049
+n_ion_dot    z = 6.944623624275049
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.944623624275049
+n_ion_dot    z = 6.944623624275049
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.821999269846318
+n_ion_dot    z = 6.821999269846318
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.821999269846318
+n_ion_dot    z = 6.821999269846318
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.704770255003088
+n_ion_dot    z = 6.704770255003088
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.704770255003088
+n_ion_dot    z = 6.704770255003088
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.59255058703465
+n_ion_dot    z = 6.59255058703465
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.59255058703465
+n_ion_dot    z = 6.59255058703465
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.484991879875676
+n_ion_dot    z = 6.484991879875676
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.484991879875676
+n_ion_dot    z = 6.484991879875676
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.332798897624754
+n_ion_dot    z = 6.332798897624754
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.332798897624754
+n_ion_dot    z = 6.332798897624754
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.1893226105473635
+n_ion_dot    z = 6.1893226105473635
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.1893226105473635
+n_ion_dot    z = 6.1893226105473635
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.05375775806561
+n_ion_dot    z = 6.05375775806561
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.05375775806561
+n_ion_dot    z = 6.05375775806561
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.925399581499338
+n_ion_dot    z = 5.925399581499338
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.925399581499338
+n_ion_dot    z = 5.925399581499338
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.803628248280663
+n_ion_dot    z = 5.803628248280663
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.803628248280663
+n_ion_dot    z = 5.803628248280663
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.687896128700092
+n_ion_dot    z = 5.687896128700092
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.687896128700092
+n_ion_dot    z = 5.687896128700092
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.577717327631767
+n_ion_dot    z = 5.577717327631767
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.577717327631767
+n_ion_dot    z = 5.577717327631767
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.472659013619649
+n_ion_dot    z = 5.472659013619649
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.472659013619649
+n_ion_dot    z = 5.472659013619649
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.30510195222366
+n_ion_dot    z = 5.30510195222366
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.30510195222366
+n_ion_dot    z = 5.30510195222366
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.149542346893797
+n_ion_dot    z = 5.149542346893797
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.149542346893797
+n_ion_dot    z = 5.149542346893797
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.0046050260624195
+n_ion_dot    z = 5.0046050260624195
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.0046050260624195
+n_ion_dot    z = 5.0046050260624195
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.869125998806317
+n_ion_dot    z = 4.869125998806317
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.869125998806317
+n_ion_dot    z = 4.869125998806317
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.742112497712095
+n_ion_dot    z = 4.742112497712095
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.742112497712095
+n_ion_dot    z = 4.742112497712095
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.622711890829813
+n_ion_dot    z = 4.622711890829813
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.622711890829813
+n_ion_dot    z = 4.622711890829813
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.510187226124614
+n_ion_dot    z = 4.510187226124614
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.510187226124614
+n_ion_dot    z = 4.510187226124614
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.4038977983816405
+n_ion_dot    z = 4.4038977983816405
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.4038977983816405
+n_ion_dot    z = 4.4038977983816405
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.290582564379668
+n_ion_dot    z = 4.290582564379668
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.290582564379668
+n_ion_dot    z = 4.290582564379668
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.183812741223027
+n_ion_dot    z = 4.183812741223027
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.183812741223027
+n_ion_dot    z = 4.183812741223027
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.082975975346253
+n_ion_dot    z = 4.082975975346253
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.082975975346253
+n_ion_dot    z = 4.082975975346253
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.987537311157026
+n_ion_dot    z = 3.987537311157026
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.987537311157026
+n_ion_dot    z = 3.987537311157026
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8970270464646735
+n_ion_dot    z = 3.8970270464646735
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8970270464646735
+n_ion_dot    z = 3.8970270464646735
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8110308390083008
+n_ion_dot    z = 3.8110308390083008
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8110308390083008
+n_ion_dot    z = 3.8110308390083008
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7291815869710687
+n_ion_dot    z = 3.7291815869710687
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7291815869710687
+n_ion_dot    z = 3.7291815869710687
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.651152719373478
+n_ion_dot    z = 3.651152719373478
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.651152719373478
+n_ion_dot    z = 3.651152719373478
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.543433963126386
+n_ion_dot    z = 3.543433963126386
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.543433963126386
+n_ion_dot    z = 3.543433963126386
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4424555039201064
+n_ion_dot    z = 3.4424555039201064
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4424555039201064
+n_ion_dot    z = 3.4424555039201064
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.3475340874653794
+n_ion_dot    z = 3.3475340874653794
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.3475340874653794
+n_ion_dot    z = 3.3475340874653794
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.2580797781581685
+n_ion_dot    z = 3.2580797781581685
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.2580797781581685
+n_ion_dot    z = 3.2580797781581685
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.173580178651622
+n_ion_dot    z = 3.173580178651622
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.173580178651622
+n_ion_dot    z = 3.173580178651622
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.093587793700374
+n_ion_dot    z = 3.093587793700374
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.093587793700374
+n_ion_dot    z = 3.093587793700374
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0177098236302298
+n_ion_dot    z = 3.0177098236302298
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0177098236302298
+n_ion_dot    z = 3.0177098236302298
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9455998538935844
+n_ion_dot    z = 2.9455998538935844
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9455998538935844
+n_ion_dot    z = 2.9455998538935844
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.822693584315604
+n_ion_dot    z = 2.822693584315604
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.822693584315604
+n_ion_dot    z = 2.822693584315604
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.70975227951123
+n_ion_dot    z = 2.70975227951123
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.70975227951123
+n_ion_dot    z = 2.70975227951123
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6054758547475876
+n_ion_dot    z = 2.6054758547475876
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6054758547475876
+n_ion_dot    z = 2.6054758547475876
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.5087903082497753
+n_ion_dot    z = 2.5087903082497753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.5087903082497753
+n_ion_dot    z = 2.5087903082497753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.418799528334293
+n_ion_dot    z = 2.418799528334293
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.418799528334293
+n_ion_dot    z = 2.418799528334293
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.334749093162494
+n_ion_dot    z = 2.334749093162494
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.334749093162494
+n_ion_dot    z = 2.334749093162494
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.2559986880584133
+n_ion_dot    z = 2.2559986880584133
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.2559986880584133
+n_ion_dot    z = 2.2559986880584133
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.182000815989575
+n_ion_dot    z = 2.182000815989575
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.182000815989575
+n_ion_dot    z = 2.182000815989575
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1002180745362984
+n_ion_dot    z = 2.1002180745362984
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1002180745362984
+n_ion_dot    z = 2.1002180745362984
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.023728563289126
+n_ion_dot    z = 2.023728563289126
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.023728563289126
+n_ion_dot    z = 2.023728563289126
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9519693732915235
+n_ion_dot    z = 1.9519693732915235
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9519693732915235
+n_ion_dot    z = 1.9519693732915235
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.884458151603205
+n_ion_dot    z = 1.884458151603205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.884458151603205
+n_ion_dot    z = 1.884458151603205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8207788458941052
+n_ion_dot    z = 1.8207788458941052
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8207788458941052
+n_ion_dot    z = 1.8207788458941052
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7605704171324774
+n_ion_dot    z = 1.7605704171324774
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7605704171324774
+n_ion_dot    z = 1.7605704171324774
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.703517816456198
+n_ion_dot    z = 1.703517816456198
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.703517816456198
+n_ion_dot    z = 1.703517816456198
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6493447081936639
+n_ion_dot    z = 1.6493447081936639
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6493447081936639
+n_ion_dot    z = 1.6493447081936639
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5782724897837879
+n_ion_dot    z = 1.5782724897837879
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5782724897837879
+n_ion_dot    z = 1.5782724897837879
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5117433148819832
+n_ion_dot    z = 1.5117433148819832
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5117433148819832
+n_ion_dot    z = 1.5117433148819832
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.449272969917808
+n_ion_dot    z = 1.449272969917808
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.449272969917808
+n_ion_dot    z = 1.449272969917808
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3904466620315996
+n_ion_dot    z = 1.3904466620315996
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3904466620315996
+n_ion_dot    z = 1.3904466620315996
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3349067061780717
+n_ion_dot    z = 1.3349067061780717
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3349067061780717
+n_ion_dot    z = 1.3349067061780717
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2823427818532478
+n_ion_dot    z = 1.2823427818532478
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2823427818532478
+n_ion_dot    z = 1.2823427818532478
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2324841486095184
+n_ion_dot    z = 1.2324841486095184
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2324841486095184
+n_ion_dot    z = 1.2324841486095184
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1850933711954572
+n_ion_dot    z = 1.1850933711954572
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1850933711954572
+n_ion_dot    z = 1.1850933711954572
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.121819964283294
+n_ion_dot    z = 1.121819964283294
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.121819964283294
+n_ion_dot    z = 1.121819964283294
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0625635369913224
+n_ion_dot    z = 1.0625635369913224
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0625635369913224
+n_ion_dot    z = 1.0625635369913224
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.006888340322547
+n_ion_dot    z = 1.006888340322547
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.006888340322547
+n_ion_dot    z = 1.006888340322547
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9544220059366977
+n_ion_dot    z = 0.9544220059366977
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9544220059366977
+n_ion_dot    z = 0.9544220059366977
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9048441336457784
+n_ion_dot    z = 0.9048441336457784
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9048441336457784
+n_ion_dot    z = 0.9048441336457784
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8578772955537961
+n_ion_dot    z = 0.8578772955537961
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8578772955537961
+n_ion_dot    z = 0.8578772955537961
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8132798741644951
+n_ion_dot    z = 0.8132798741644951
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8132798741644951
+n_ion_dot    z = 0.8132798741644951
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7708403081337634
+n_ion_dot    z = 0.7708403081337634
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7708403081337634
+n_ion_dot    z = 0.7708403081337634
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7130645012461354
+n_ion_dot    z = 0.7130645012461354
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7130645012461354
+n_ion_dot    z = 0.7130645012461354
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6589115948813591
+n_ion_dot    z = 0.6589115948813591
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6589115948813591
+n_ion_dot    z = 0.6589115948813591
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6079746971221078
+n_ion_dot    z = 0.6079746971221078
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6079746971221078
+n_ion_dot    z = 0.6079746971221078
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5599074482144213
+n_ion_dot    z = 0.5599074482144213
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5599074482144213
+n_ion_dot    z = 0.5599074482144213
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5144128311105567
+n_ion_dot    z = 0.5144128311105567
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5144128311105567
+n_ion_dot    z = 0.5144128311105567
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.47123440920655746
+n_ion_dot    z = 0.47123440920655746
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.47123440920655746
+n_ion_dot    z = 0.47123440920655746
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4301493919018853
+n_ion_dot    z = 0.4301493919018853
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4301493919018853
+n_ion_dot    z = 0.4301493919018853
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3909630931684227
+n_ion_dot    z = 0.3909630931684227
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3909630931684227
+n_ion_dot    z = 0.3909630931684227
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3366930592021331
+n_ion_dot    z = 0.3366930592021331
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3366930592021331
+n_ion_dot    z = 0.3366930592021331
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.28566501165624136
+n_ion_dot    z = 0.28566501165624136
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.28566501165624136
+n_ion_dot    z = 0.28566501165624136
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.23749053579627133
+n_ion_dot    z = 0.23749053579627133
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.23749053579627133
+n_ion_dot    z = 0.23749053579627133
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.19183959375772774
+n_ion_dot    z = 0.19183959375772774
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.19183959375772774
+n_ion_dot    z = 0.19183959375772774
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.1484292914948233
+n_ion_dot    z = 0.1484292914948233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.1484292914948233
+n_ion_dot    z = 0.1484292914948233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.10701513368474602
+n_ion_dot    z = 0.10701513368474602
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.10701513368474602
+n_ion_dot    z = 0.10701513368474602
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.06738413199933113
+n_ion_dot    z = 0.06738413199933113
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.06738413199933113
+n_ion_dot    z = 0.06738413199933113
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.02934931033446886
+n_ion_dot    z = 0.02934931033446886
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.02934931033446886
+n_ion_dot    z = 0.02934931033446886
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.02440310877835805
+n_ion_dot    z = -0.02440310877835805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.02440310877835805
+n_ion_dot    z = -0.02440310877835805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q+
+Q_Hii_dot    z = 13.993546999056068
+n_ion_dot    z = 13.993546999056068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.99261759332171
+n_ion_dot    z = 13.99261759332171
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.99261759332171
+n_ion_dot    z = 13.99261759332171
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378932
+n_ion_dot    z = 13.991688359378932
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378932
+n_ion_dot    z = 13.991688359378932
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.613336809327985
+n_ion_dot    z = 13.613336809327985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.613336809327985
+n_ion_dot    z = 13.613336809327985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.262099967758704
+n_ion_dot    z = 13.262099967758704
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.262099967758704
+n_ion_dot    z = 13.262099967758704
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.934883078734314
+n_ion_dot    z = 12.934883078734314
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.934883078734314
+n_ion_dot    z = 12.934883078734314
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.99442601903046
+n_ion_dot    z = 12.99442601903046
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.99442601903046
+n_ion_dot    z = 12.99442601903046
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.741185787899303
+n_ion_dot    z = 12.741185787899303
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.741185787899303
+n_ion_dot    z = 12.741185787899303
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.501125454239967
+n_ion_dot    z = 12.501125454239967
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.501125454239967
+n_ion_dot    z = 12.501125454239967
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.54777354418712
+n_ion_dot    z = 12.54777354418712
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.54777354418712
+n_ion_dot    z = 12.54777354418712
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.362249926774947
+n_ion_dot    z = 12.362249926774947
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.362249926774947
+n_ion_dot    z = 12.362249926774947
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.184092143197656
+n_ion_dot    z = 12.184092143197656
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.184092143197656
+n_ion_dot    z = 12.184092143197656
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.958014029034048
+n_ion_dot    z = 11.958014029034048
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.958014029034048
+n_ion_dot    z = 11.958014029034048
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.743096628222496
+n_ion_dot    z = 11.743096628222496
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.743096628222496
+n_ion_dot    z = 11.743096628222496
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.538449554338785
+n_ion_dot    z = 11.538449554338785
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.538449554338785
+n_ion_dot    z = 11.538449554338785
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.343278816496525
+n_ion_dot    z = 11.343278816496525
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.343278816496525
+n_ion_dot    z = 11.343278816496525
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.030745475338941
+n_ion_dot    z = 11.030745475338941
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.030745475338941
+n_ion_dot    z = 11.030745475338941
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.740618275413985
+n_ion_dot    z = 10.740618275413985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.740618275413985
+n_ion_dot    z = 10.740618275413985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.470337575733987
+n_ion_dot    z = 10.470337575733987
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.470337575733987
+n_ion_dot    z = 10.470337575733987
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.217735339673432
+n_ion_dot    z = 10.217735339673432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.217735339673432
+n_ion_dot    z = 10.217735339673432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.98096132003585
+n_ion_dot    z = 9.98096132003585
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.98096132003585
+n_ion_dot    z = 9.98096132003585
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.732925673398631
+n_ion_dot    z = 9.732925673398631
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.732925673398631
+n_ion_dot    z = 9.732925673398631
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.500799815284587
+n_ion_dot    z = 9.500799815284587
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.500799815284587
+n_ion_dot    z = 9.500799815284587
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.282949045343871
+n_ion_dot    z = 9.282949045343871
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.282949045343871
+n_ion_dot    z = 9.282949045343871
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.077964607444265
+n_ion_dot    z = 9.077964607444265
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.077964607444265
+n_ion_dot    z = 9.077964607444265
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.884625056899834
+n_ion_dot    z = 8.884625056899834
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.884625056899834
+n_ion_dot    z = 8.884625056899834
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.701865406411128
+n_ion_dot    z = 8.701865406411128
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.701865406411128
+n_ion_dot    z = 8.701865406411128
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.463146686338494
+n_ion_dot    z = 8.463146686338494
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.463146686338494
+n_ion_dot    z = 8.463146686338494
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.240994189056673
+n_ion_dot    z = 8.240994189056673
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.240994189056673
+n_ion_dot    z = 8.240994189056673
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.033571405300995
+n_ion_dot    z = 8.033571405300995
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.033571405300995
+n_ion_dot    z = 8.033571405300995
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.839314873335827
+n_ion_dot    z = 7.839314873335827
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.839314873335827
+n_ion_dot    z = 7.839314873335827
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.656884101390284
+n_ion_dot    z = 7.656884101390284
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.656884101390284
+n_ion_dot    z = 7.656884101390284
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.485122277093584
+n_ion_dot    z = 7.485122277093584
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.485122277093584
+n_ion_dot    z = 7.485122277093584
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.32302512112075
+n_ion_dot    z = 7.32302512112075
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.32302512112075
+n_ion_dot    z = 7.32302512112075
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.1217319000594586
+n_ion_dot    z = 7.1217319000594586
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.1217319000594586
+n_ion_dot    z = 7.1217319000594586
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.934112377865118
+n_ion_dot    z = 6.934112377865118
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.934112377865118
+n_ion_dot    z = 6.934112377865118
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.758679883690701
+n_ion_dot    z = 6.758679883690701
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.758679883690701
+n_ion_dot    z = 6.758679883690701
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.594164730247398
+n_ion_dot    z = 6.594164730247398
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.594164730247398
+n_ion_dot    z = 6.594164730247398
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.43947511705763
+n_ion_dot    z = 6.43947511705763
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.43947511705763
+n_ion_dot    z = 6.43947511705763
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.293666313377817
+n_ion_dot    z = 6.293666313377817
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.293666313377817
+n_ion_dot    z = 6.293666313377817
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.155916125209208
+n_ion_dot    z = 6.155916125209208
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.155916125209208
+n_ion_dot    z = 6.155916125209208
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.025505185988599
+n_ion_dot    z = 6.025505185988599
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.025505185988599
+n_ion_dot    z = 6.025505185988599
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.846238805272703
+n_ion_dot    z = 5.846238805272703
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.846238805272703
+n_ion_dot    z = 5.846238805272703
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.679692252219373
+n_ion_dot    z = 5.679692252219373
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.679692252219373
+n_ion_dot    z = 5.679692252219373
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.52442152969803
+n_ion_dot    z = 5.52442152969803
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.52442152969803
+n_ion_dot    z = 5.52442152969803
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.379202333860088
+n_ion_dot    z = 5.379202333860088
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.379202333860088
+n_ion_dot    z = 5.379202333860088
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.24298885746264
+n_ion_dot    z = 5.24298885746264
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.24298885746264
+n_ion_dot    z = 5.24298885746264
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.114881658872791
+n_ion_dot    z = 5.114881658872791
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.114881658872791
+n_ion_dot    z = 5.114881658872791
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.994102329490551
+n_ion_dot    z = 4.994102329490551
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.994102329490551
+n_ion_dot    z = 4.994102329490551
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.879973322404541
+n_ion_dot    z = 4.879973322404541
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.879973322404541
+n_ion_dot    z = 4.879973322404541
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7410093619428615
+n_ion_dot    z = 4.7410093619428615
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7410093619428615
+n_ion_dot    z = 4.7410093619428615
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.611108771670411
+n_ion_dot    z = 4.611108771670411
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.611108771670411
+n_ion_dot    z = 4.611108771670411
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.489320112769642
+n_ion_dot    z = 4.489320112769642
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.489320112769642
+n_ion_dot    z = 4.489320112769642
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.374826274182245
+n_ion_dot    z = 4.374826274182245
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.374826274182245
+n_ion_dot    z = 4.374826274182245
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.266921025584969
+n_ion_dot    z = 4.266921025584969
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.266921025584969
+n_ion_dot    z = 4.266921025584969
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.164990386743507
+n_ion_dot    z = 4.164990386743507
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.164990386743507
+n_ion_dot    z = 4.164990386743507
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.068497685952688
+n_ion_dot    z = 4.068497685952688
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.068497685952688
+n_ion_dot    z = 4.068497685952688
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9769714741568194
+n_ion_dot    z = 3.9769714741568194
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9769714741568194
+n_ion_dot    z = 3.9769714741568194
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8275988645636234
+n_ion_dot    z = 3.8275988645636234
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8275988645636234
+n_ion_dot    z = 3.8275988645636234
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.6902756292460905
+n_ion_dot    z = 3.6902756292460905
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.6902756292460905
+n_ion_dot    z = 3.6902756292460905
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.5634478103979133
+n_ion_dot    z = 3.5634478103979133
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.5634478103979133
+n_ion_dot    z = 3.5634478103979133
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4458286033806482
+n_ion_dot    z = 3.4458286033806482
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4458286033806482
+n_ion_dot    z = 3.4458286033806482
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.336342041027603
+n_ion_dot    z = 3.336342041027603
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.336342041027603
+n_ion_dot    z = 3.336342041027603
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.2340805419075407
+n_ion_dot    z = 3.2340805419075407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.2340805419075407
+n_ion_dot    z = 3.2340805419075407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1382724610396293
+n_ion_dot    z = 3.1382724610396293
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1382724610396293
+n_ion_dot    z = 3.1382724610396293
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0482569717223233
+n_ion_dot    z = 3.0482569717223233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0482569717223233
+n_ion_dot    z = 3.0482569717223233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.963464397941387
+n_ion_dot    z = 2.963464397941387
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.963464397941387
+n_ion_dot    z = 2.963464397941387
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8834006523566855
+n_ion_dot    z = 2.8834006523566855
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8834006523566855
+n_ion_dot    z = 2.8834006523566855
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7975910470933147
+n_ion_dot    z = 2.7975910470933147
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7975910470933147
+n_ion_dot    z = 2.7975910470933147
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7167858181225504
+n_ion_dot    z = 2.7167858181225504
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7167858181225504
+n_ion_dot    z = 2.7167858181225504
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6405081249253795
+n_ion_dot    z = 2.6405081249253795
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6405081249253795
+n_ion_dot    z = 2.6405081249253795
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.5683425118871193
+n_ion_dot    z = 2.5683425118871193
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.5683425118871193
+n_ion_dot    z = 2.5683425118871193
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4999251012175066
+n_ion_dot    z = 2.4999251012175066
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4999251012175066
+n_ion_dot    z = 2.4999251012175066
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4349356358859415
+n_ion_dot    z = 2.4349356358859415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4349356358859415
+n_ion_dot    z = 2.4349356358859415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.373090973722182
+n_ion_dot    z = 2.373090973722182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.373090973722182
+n_ion_dot    z = 2.373090973722182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.2919191029428836
+n_ion_dot    z = 2.2919191029428836
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.2919191029428836
+n_ion_dot    z = 2.2919191029428836
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.215747653125414
+n_ion_dot    z = 2.215747653125414
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.215747653125414
+n_ion_dot    z = 2.215747653125414
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.144071160527224
+n_ion_dot    z = 2.144071160527224
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.144071160527224
+n_ion_dot    z = 2.144071160527224
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.076453054206618
+n_ion_dot    z = 2.076453054206618
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.076453054206618
+n_ion_dot    z = 2.076453054206618
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0125140243861557
+n_ion_dot    z = 2.0125140243861557
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0125140243861557
+n_ion_dot    z = 2.0125140243861557
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9519227053328727
+n_ion_dot    z = 1.9519227053328727
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9519227053328727
+n_ion_dot    z = 1.9519227053328727
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8943881473284017
+n_ion_dot    z = 1.8943881473284017
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8943881473284017
+n_ion_dot    z = 1.8943881473284017
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7951297730912432
+n_ion_dot    z = 1.7951297730912432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7951297730912432
+n_ion_dot    z = 1.7951297730912432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7041030646175046
+n_ion_dot    z = 1.7041030646175046
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7041030646175046
+n_ion_dot    z = 1.7041030646175046
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.62019213380818
+n_ion_dot    z = 1.62019213380818
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.62019213380818
+n_ion_dot    z = 1.62019213380818
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5424823749144245
+n_ion_dot    z = 1.5424823749144245
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5424823749144245
+n_ion_dot    z = 1.5424823749144245
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4702160114655576
+n_ion_dot    z = 1.4702160114655576
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4702160114655576
+n_ion_dot    z = 1.4702160114655576
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4027590876629654
+n_ion_dot    z = 1.4027590876629654
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4027590876629654
+n_ion_dot    z = 1.4027590876629654
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3395765766591197
+n_ion_dot    z = 1.3395765766591197
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3395765766591197
+n_ion_dot    z = 1.3395765766591197
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2802133469700183
+n_ion_dot    z = 1.2802133469700183
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2802133469700183
+n_ion_dot    z = 1.2802133469700183
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2242794239266228
+n_ion_dot    z = 1.2242794239266228
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2242794239266228
+n_ion_dot    z = 1.2242794239266228
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1714384454474822
+n_ion_dot    z = 1.1714384454474822
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1714384454474822
+n_ion_dot    z = 1.1714384454474822
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1213985246349734
+n_ion_dot    z = 1.1213985246349734
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1213985246349734
+n_ion_dot    z = 1.1213985246349734
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0739049475786726
+n_ion_dot    z = 1.0739049475786726
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0739049475786726
+n_ion_dot    z = 1.0739049475786726
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0198385650999375
+n_ion_dot    z = 1.0198385650999375
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0198385650999375
+n_ion_dot    z = 1.0198385650999375
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.968795492214173
+n_ion_dot    z = 0.968795492214173
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.968795492214173
+n_ion_dot    z = 0.968795492214173
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9204828278508903
+n_ion_dot    z = 0.9204828278508903
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9204828278508903
+n_ion_dot    z = 0.9204828278508903
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8746458396361692
+n_ion_dot    z = 0.8746458396361692
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8746458396361692
+n_ion_dot    z = 0.8746458396361692
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8310617772646245
+n_ion_dot    z = 0.8310617772646245
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8310617772646245
+n_ion_dot    z = 0.8310617772646245
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7895348696198741
+n_ion_dot    z = 0.7895348696198741
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7895348696198741
+n_ion_dot    z = 0.7895348696198741
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7498922468039328
+n_ion_dot    z = 0.7498922468039328
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7498922468039328
+n_ion_dot    z = 0.7498922468039328
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6940645917804991
+n_ion_dot    z = 0.6940645917804991
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6940645917804991
+n_ion_dot    z = 0.6940645917804991
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6416348821381799
+n_ion_dot    z = 0.6416348821381799
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6416348821381799
+n_ion_dot    z = 0.6416348821381799
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5922309395526482
+n_ion_dot    z = 0.5922309395526482
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5922309395526482
+n_ion_dot    z = 0.5922309395526482
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5455345854755762
+n_ion_dot    z = 0.5455345854755762
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5455345854755762
+n_ion_dot    z = 0.5455345854755762
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5012718915410919
+n_ion_dot    z = 0.5012718915410919
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5012718915410919
+n_ion_dot    z = 0.5012718915410919
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.45920549719334236
+n_ion_dot    z = 0.45920549719334236
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.45920549719334236
+n_ion_dot    z = 0.45920549719334236
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4191284950859795
+n_ion_dot    z = 0.4191284950859795
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4191284950859795
+n_ion_dot    z = 0.4191284950859795
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3686797471485632
+n_ion_dot    z = 0.3686797471485632
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3686797471485632
+n_ion_dot    z = 0.3686797471485632
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.32105388658705714
+n_ion_dot    z = 0.32105388658705714
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.32105388658705714
+n_ion_dot    z = 0.32105388658705714
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.27593782516534215
+n_ion_dot    z = 0.27593782516534215
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.27593782516534215
+n_ion_dot    z = 0.27593782516534215
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2330625827019488
+n_ion_dot    z = 0.2330625827019488
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2330625827019488
+n_ion_dot    z = 0.2330625827019488
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.1921953619919099
+n_ion_dot    z = 0.1921953619919099
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.1921953619919099
+n_ion_dot    z = 0.1921953619919099
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15313327501196183
+n_ion_dot    z = 0.15313327501196183
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15313327501196183
+n_ion_dot    z = 0.15313327501196183
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.11569832479385811
+n_ion_dot    z = 0.11569832479385811
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.11569832479385811
+n_ion_dot    z = 0.11569832479385811
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.067144512500251
+n_ion_dot    z = 0.067144512500251
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.067144512500251
+n_ion_dot    z = 0.067144512500251
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.020964668408908205
+n_ion_dot    z = 0.020964668408908205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.020964668408908205
+n_ion_dot    z = 0.020964668408908205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.023137557315370705
+n_ion_dot    z = -0.023137557315370705
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.023137557315370705
+n_ion_dot    z = -0.023137557315370705
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q+
+Q_Hii_dot    z = 13.993546999056068
+n_ion_dot    z = 13.993546999056068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593321707
+n_ion_dot    z = 13.992617593321707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593321707
+n_ion_dot    z = 13.992617593321707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378928
+n_ion_dot    z = 13.991688359378928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378928
+n_ion_dot    z = 13.991688359378928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.395918763235208
+n_ion_dot    z = 13.395918763235208
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.395918763235208
+n_ion_dot    z = 13.395918763235208
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.865586881074567
+n_ion_dot    z = 12.865586881074567
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.865586881074567
+n_ion_dot    z = 12.865586881074567
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.970472890653015
+n_ion_dot    z = 12.970472890653015
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.970472890653015
+n_ion_dot    z = 12.970472890653015
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.58042450157698
+n_ion_dot    z = 12.58042450157698
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.58042450157698
+n_ion_dot    z = 12.58042450157698
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.657707465328555
+n_ion_dot    z = 12.657707465328555
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.657707465328555
+n_ion_dot    z = 12.657707465328555
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.364915699066676
+n_ion_dot    z = 12.364915699066676
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.364915699066676
+n_ion_dot    z = 12.364915699066676
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.090055661396182
+n_ion_dot    z = 12.090055661396182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.090055661396182
+n_ion_dot    z = 12.090055661396182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.160184073977925
+n_ion_dot    z = 12.160184073977925
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.160184073977925
+n_ion_dot    z = 12.160184073977925
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.964514911097227
+n_ion_dot    z = 11.964514911097227
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.964514911097227
+n_ion_dot    z = 11.964514911097227
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.777257820326906
+n_ion_dot    z = 11.777257820326906
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.777257820326906
+n_ion_dot    z = 11.777257820326906
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.557254708602269
+n_ion_dot    z = 11.557254708602269
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.557254708602269
+n_ion_dot    z = 11.557254708602269
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.348150305376068
+n_ion_dot    z = 11.348150305376068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.348150305376068
+n_ion_dot    z = 11.348150305376068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.149072104697591
+n_ion_dot    z = 11.149072104697591
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.149072104697591
+n_ion_dot    z = 11.149072104697591
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.959242379727321
+n_ion_dot    z = 10.959242379727321
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.959242379727321
+n_ion_dot    z = 10.959242379727321
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.695047165258599
+n_ion_dot    z = 10.695047165258599
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.695047165258599
+n_ion_dot    z = 10.695047165258599
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.447469489634864
+n_ion_dot    z = 10.447469489634864
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.447469489634864
+n_ion_dot    z = 10.447469489634864
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.214834293701704
+n_ion_dot    z = 10.214834293701704
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.214834293701704
+n_ion_dot    z = 10.214834293701704
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.995693812303223
+n_ion_dot    z = 9.995693812303223
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.995693812303223
+n_ion_dot    z = 9.995693812303223
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.788789394672648
+n_ion_dot    z = 9.788789394672648
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.788789394672648
+n_ion_dot    z = 9.788789394672648
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.524442878880462
+n_ion_dot    z = 9.524442878880462
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.524442878880462
+n_ion_dot    z = 9.524442878880462
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.278415662180851
+n_ion_dot    z = 9.278415662180851
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.278415662180851
+n_ion_dot    z = 9.278415662180851
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.048680651895836
+n_ion_dot    z = 9.048680651895836
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.048680651895836
+n_ion_dot    z = 9.048680651895836
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.088002503406056
+n_ion_dot    z = 9.088002503406056
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.088002503406056
+n_ion_dot    z = 9.088002503406056
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.907668923318408
+n_ion_dot    z = 8.907668923318408
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.907668923318408
+n_ion_dot    z = 8.907668923318408
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.73655379974581
+n_ion_dot    z = 8.73655379974581
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.73655379974581
+n_ion_dot    z = 8.73655379974581
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.573895639467988
+n_ion_dot    z = 8.573895639467988
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.573895639467988
+n_ion_dot    z = 8.573895639467988
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.419018230148898
+n_ion_dot    z = 8.419018230148898
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.419018230148898
+n_ion_dot    z = 8.419018230148898
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.224609143808685
+n_ion_dot    z = 8.224609143808685
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.224609143808685
+n_ion_dot    z = 8.224609143808685
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.041592871068707
+n_ion_dot    z = 8.041592871068707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.041592871068707
+n_ion_dot    z = 8.041592871068707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.868895306283774
+n_ion_dot    z = 7.868895306283774
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.868895306283774
+n_ion_dot    z = 7.868895306283774
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.70557902455392
+n_ion_dot    z = 7.70557902455392
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.70557902455392
+n_ion_dot    z = 7.70557902455392
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.550821700231362
+n_ion_dot    z = 7.550821700231362
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.550821700231362
+n_ion_dot    z = 7.550821700231362
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.403898549581598
+n_ion_dot    z = 7.403898549581598
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.403898549581598
+n_ion_dot    z = 7.403898549581598
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.229509890375867
+n_ion_dot    z = 7.229509890375867
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.229509890375867
+n_ion_dot    z = 7.229509890375867
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.065355120926796
+n_ion_dot    z = 7.065355120926796
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.065355120926796
+n_ion_dot    z = 7.065355120926796
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.910467362125399
+n_ion_dot    z = 6.910467362125399
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.910467362125399
+n_ion_dot    z = 6.910467362125399
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.764003032748175
+n_ion_dot    z = 6.764003032748175
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.764003032748175
+n_ion_dot    z = 6.764003032748175
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.6252223404710415
+n_ion_dot    z = 6.6252223404710415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.6252223404710415
+n_ion_dot    z = 6.6252223404710415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.4934734179751885
+n_ion_dot    z = 6.4934734179751885
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.4934734179751885
+n_ion_dot    z = 6.4934734179751885
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.36817932564083
+n_ion_dot    z = 6.36817932564083
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.36817932564083
+n_ion_dot    z = 6.36817932564083
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.175274129071573
+n_ion_dot    z = 6.175274129071573
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.175274129071573
+n_ion_dot    z = 6.175274129071573
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.996428661595801
+n_ion_dot    z = 5.996428661595801
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.996428661595801
+n_ion_dot    z = 5.996428661595801
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.830006229379935
+n_ion_dot    z = 5.830006229379935
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.830006229379935
+n_ion_dot    z = 5.830006229379935
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.863258553361146
+n_ion_dot    z = 5.863258553361146
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.863258553361146
+n_ion_dot    z = 5.863258553361146
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.737222093666328
+n_ion_dot    z = 5.737222093666328
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.737222093666328
+n_ion_dot    z = 5.737222093666328
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.617701010176877
+n_ion_dot    z = 5.617701010176877
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.617701010176877
+n_ion_dot    z = 5.617701010176877
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.504149589680824
+n_ion_dot    z = 5.504149589680824
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.504149589680824
+n_ion_dot    z = 5.504149589680824
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.396084081992432
+n_ion_dot    z = 5.396084081992432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.396084081992432
+n_ion_dot    z = 5.396084081992432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.293073935932709
+n_ion_dot    z = 5.293073935932709
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.293073935932709
+n_ion_dot    z = 5.293073935932709
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.17665523604836
+n_ion_dot    z = 5.17665523604836
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.17665523604836
+n_ion_dot    z = 5.17665523604836
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.0662661910655435
+n_ion_dot    z = 5.0662661910655435
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.0662661910655435
+n_ion_dot    z = 5.0662661910655435
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.9614002916862745
+n_ion_dot    z = 4.9614002916862745
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.9614002916862745
+n_ion_dot    z = 4.9614002916862745
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.861608710106251
+n_ion_dot    z = 4.861608710106251
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.861608710106251
+n_ion_dot    z = 4.861608710106251
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7664921178711
+n_ion_dot    z = 4.7664921178711
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7664921178711
+n_ion_dot    z = 4.7664921178711
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.675693879174993
+n_ion_dot    z = 4.675693879174993
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.675693879174993
+n_ion_dot    z = 4.675693879174993
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.588894354422572
+n_ion_dot    z = 4.588894354422572
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.588894354422572
+n_ion_dot    z = 4.588894354422572
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.474861460520555
+n_ion_dot    z = 4.474861460520555
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.474861460520555
+n_ion_dot    z = 4.474861460520555
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.367262912039078
+n_ion_dot    z = 4.367262912039078
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.367262912039078
+n_ion_dot    z = 4.367262912039078
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.265510536870132
+n_ion_dot    z = 4.265510536870132
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.265510536870132
+n_ion_dot    z = 4.265510536870132
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.169088857035508
+n_ion_dot    z = 4.169088857035508
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.169088857035508
+n_ion_dot    z = 4.169088857035508
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.077543926632489
+n_ion_dot    z = 4.077543926632489
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.077543926632489
+n_ion_dot    z = 4.077543926632489
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.990474195862384
+n_ion_dot    z = 3.990474195862384
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.990474195862384
+n_ion_dot    z = 3.990474195862384
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9075229803423523
+n_ion_dot    z = 3.9075229803423523
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9075229803423523
+n_ion_dot    z = 3.9075229803423523
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.791139824762902
+n_ion_dot    z = 3.791139824762902
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.791139824762902
+n_ion_dot    z = 3.791139824762902
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.682250841703115
+n_ion_dot    z = 3.682250841703115
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.682250841703115
+n_ion_dot    z = 3.682250841703115
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.5800762122299634
+n_ion_dot    z = 3.5800762122299634
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.5800762122299634
+n_ion_dot    z = 3.5800762122299634
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4839453246730407
+n_ion_dot    z = 3.4839453246730407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4839453246730407
+n_ion_dot    z = 3.4839453246730407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.393277858172933
+n_ion_dot    z = 3.393277858172933
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.393277858172933
+n_ion_dot    z = 3.393277858172933
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.3075687235714604
+n_ion_dot    z = 3.3075687235714604
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.3075687235714604
+n_ion_dot    z = 3.3075687235714604
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.2263759651500807
+n_ion_dot    z = 3.2263759651500807
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.2263759651500807
+n_ion_dot    z = 3.2263759651500807
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1115736181796
+n_ion_dot    z = 3.1115736181796
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1115736181796
+n_ion_dot    z = 3.1115736181796
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0050321242884266
+n_ion_dot    z = 3.0050321242884266
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0050321242884266
+n_ion_dot    z = 3.0050321242884266
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.905791650861407
+n_ion_dot    z = 2.905791650861407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.905791650861407
+n_ion_dot    z = 2.905791650861407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8130418060061504
+n_ion_dot    z = 2.8130418060061504
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8130418060061504
+n_ion_dot    z = 2.8130418060061504
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7260929784679995
+n_ion_dot    z = 2.7260929784679995
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7260929784679995
+n_ion_dot    z = 2.7260929784679995
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6443541230459364
+n_ion_dot    z = 2.6443541230459364
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.6443541230459364
+n_ion_dot    z = 2.6443541230459364
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.567315345352179
+n_ion_dot    z = 2.567315345352179
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.567315345352179
+n_ion_dot    z = 2.567315345352179
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.494534106588156
+n_ion_dot    z = 2.494534106588156
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.494534106588156
+n_ion_dot    z = 2.494534106588156
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.408962743663519
+n_ion_dot    z = 2.408962743663519
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.408962743663519
+n_ion_dot    z = 2.408962743663519
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.328791423370533
+n_ion_dot    z = 2.328791423370533
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.328791423370533
+n_ion_dot    z = 2.328791423370533
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.253462528410802
+n_ion_dot    z = 2.253462528410802
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.253462528410802
+n_ion_dot    z = 2.253462528410802
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1824960107844373
+n_ion_dot    z = 2.1824960107844373
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1824960107844373
+n_ion_dot    z = 2.1824960107844373
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1154760361634506
+n_ion_dot    z = 2.1154760361634506
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1154760361634506
+n_ion_dot    z = 2.1154760361634506
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.052040336403928
+n_ion_dot    z = 2.052040336403928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.052040336403928
+n_ion_dot    z = 2.052040336403928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9918716441364137
+n_ion_dot    z = 1.9918716441364137
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9918716441364137
+n_ion_dot    z = 1.9918716441364137
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9346907446633597
+n_ion_dot    z = 1.9346907446633597
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9346907446633597
+n_ion_dot    z = 1.9346907446633597
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.856986913548639
+n_ion_dot    z = 1.856986913548639
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.856986913548639
+n_ion_dot    z = 1.856986913548639
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7843479857490006
+n_ion_dot    z = 1.7843479857490006
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7843479857490006
+n_ion_dot    z = 1.7843479857490006
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7162286910256221
+n_ion_dot    z = 1.7162286910256221
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7162286910256221
+n_ion_dot    z = 1.7162286910256221
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.65216271147828
+n_ion_dot    z = 1.65216271147828
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.65216271147828
+n_ion_dot    z = 1.65216271147828
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5917485489031185
+n_ion_dot    z = 1.5917485489031185
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5917485489031185
+n_ion_dot    z = 1.5917485489031185
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.534638367481099
+n_ion_dot    z = 1.534638367481099
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.534638367481099
+n_ion_dot    z = 1.534638367481099
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.480529098568062
+n_ion_dot    z = 1.480529098568062
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.480529098568062
+n_ion_dot    z = 1.480529098568062
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.429155284656384
+n_ion_dot    z = 1.429155284656384
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.429155284656384
+n_ion_dot    z = 1.429155284656384
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3511814524162626
+n_ion_dot    z = 1.3511814524162626
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3511814524162626
+n_ion_dot    z = 1.3511814524162626
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2789287377264542
+n_ion_dot    z = 1.2789287377264542
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2789287377264542
+n_ion_dot    z = 1.2789287377264542
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2116948971982366
+n_ion_dot    z = 1.2116948971982366
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2116948971982366
+n_ion_dot    z = 1.2116948971982366
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1488928301855075
+n_ion_dot    z = 1.1488928301855075
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1488928301855075
+n_ion_dot    z = 1.1488928301855075
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.090027343676478
+n_ion_dot    z = 1.090027343676478
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.090027343676478
+n_ion_dot    z = 1.090027343676478
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.034677405646562
+n_ion_dot    z = 1.034677405646562
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.034677405646562
+n_ion_dot    z = 1.034677405646562
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.982482417123163
+n_ion_dot    z = 0.982482417123163
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.982482417123163
+n_ion_dot    z = 0.982482417123163
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9185662640989651
+n_ion_dot    z = 0.9185662640989651
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9185662640989651
+n_ion_dot    z = 0.9185662640989651
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8589143287292205
+n_ion_dot    z = 0.8589143287292205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8589143287292205
+n_ion_dot    z = 0.8589143287292205
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8030326668129819
+n_ion_dot    z = 0.8030326668129819
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8030326668129819
+n_ion_dot    z = 0.8030326668129819
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7505035789537096
+n_ion_dot    z = 0.7505035789537096
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7505035789537096
+n_ion_dot    z = 0.7505035789537096
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7009710560430531
+n_ion_dot    z = 0.7009710560430531
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7009710560430531
+n_ion_dot    z = 0.7009710560430531
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6541294838318119
+n_ion_dot    z = 0.6541294838318119
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6541294838318119
+n_ion_dot    z = 0.6541294838318119
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6097147772483094
+n_ion_dot    z = 0.6097147772483094
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6097147772483094
+n_ion_dot    z = 0.6097147772483094
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5674973495347935
+n_ion_dot    z = 0.5674973495347935
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5674973495347935
+n_ion_dot    z = 0.5674973495347935
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5092311583800082
+n_ion_dot    z = 0.5092311583800082
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5092311583800082
+n_ion_dot    z = 0.5092311583800082
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.45471140412053934
+n_ion_dot    z = 0.45471140412053934
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.45471140412053934
+n_ion_dot    z = 0.45471140412053934
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4034871812856038
+n_ion_dot    z = 0.4034871812856038
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4034871812856038
+n_ion_dot    z = 0.4034871812856038
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.35517802599164305
+n_ion_dot    z = 0.35517802599164305
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.35517802599164305
+n_ion_dot    z = 0.35517802599164305
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.30946014973369684
+n_ion_dot    z = 0.30946014973369684
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.30946014973369684
+n_ion_dot    z = 0.30946014973369684
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2660558104200492
+n_ion_dot    z = 0.2660558104200492
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2660558104200492
+n_ion_dot    z = 0.2660558104200492
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.22472500636172765
+n_ion_dot    z = 0.22472500636172765
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.22472500636172765
+n_ion_dot    z = 0.22472500636172765
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.1852589131839013
+n_ion_dot    z = 0.1852589131839013
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.1852589131839013
+n_ion_dot    z = 0.1852589131839013
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.13244689960994815
+n_ion_dot    z = 0.13244689960994815
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.13244689960994815
+n_ion_dot    z = 0.13244689960994815
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.08253868789362384
+n_ion_dot    z = 0.08253868789362384
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.08253868789362384
+n_ion_dot    z = 0.08253868789362384
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.03516065594723594
+n_ion_dot    z = 0.03516065594723594
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.03516065594723594
+n_ion_dot    z = 0.03516065594723594
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.010007207572279575
+n_ion_dot    z = -0.010007207572279575
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.010007207572279575
+n_ion_dot    z = -0.010007207572279575
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q+
+Q_Hii_dot    z = 13.993546999056068
+n_ion_dot    z = 13.993546999056068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593321707
+n_ion_dot    z = 13.992617593321707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593321707
+n_ion_dot    z = 13.992617593321707
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378928
+n_ion_dot    z = 13.991688359378928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359378928
+n_ion_dot    z = 13.991688359378928
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.01143850266986
+n_ion_dot    z = 13.01143850266986
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.01143850266986
+n_ion_dot    z = 13.01143850266986
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.200378589609203
+n_ion_dot    z = 12.200378589609203
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.200378589609203
+n_ion_dot    z = 12.200378589609203
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.43232695813985
+n_ion_dot    z = 12.43232695813985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.43232695813985
+n_ion_dot    z = 12.43232695813985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.919123258095405
+n_ion_dot    z = 11.919123258095405
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.919123258095405
+n_ion_dot    z = 11.919123258095405
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.021108564879446
+n_ion_dot    z = 12.021108564879446
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.021108564879446
+n_ion_dot    z = 12.021108564879446
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.64522895950253
+n_ion_dot    z = 11.64522895950253
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.64522895950253
+n_ion_dot    z = 11.64522895950253
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.299893573708605
+n_ion_dot    z = 11.299893573708605
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.299893573708605
+n_ion_dot    z = 11.299893573708605
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.383130367981714
+n_ion_dot    z = 11.383130367981714
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.383130367981714
+n_ion_dot    z = 11.383130367981714
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.136554513756103
+n_ion_dot    z = 11.136554513756103
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.136554513756103
+n_ion_dot    z = 11.136554513756103
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.904024905573431
+n_ion_dot    z = 10.904024905573431
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.904024905573431
+n_ion_dot    z = 10.904024905573431
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.619354382443866
+n_ion_dot    z = 10.619354382443866
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.619354382443866
+n_ion_dot    z = 10.619354382443866
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.35399790370819
+n_ion_dot    z = 10.35399790370819
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.35399790370819
+n_ion_dot    z = 10.35399790370819
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.105862020449884
+n_ion_dot    z = 10.105862020449884
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.105862020449884
+n_ion_dot    z = 10.105862020449884
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.873157852240338
+n_ion_dot    z = 9.873157852240338
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.873157852240338
+n_ion_dot    z = 9.873157852240338
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.49903874139705
+n_ion_dot    z = 9.49903874139705
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.49903874139705
+n_ion_dot    z = 9.49903874139705
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.160665265649037
+n_ion_dot    z = 9.160665265649037
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.160665265649037
+n_ion_dot    z = 9.160665265649037
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.852673747691007
+n_ion_dot    z = 8.852673747691007
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.852673747691007
+n_ion_dot    z = 8.852673747691007
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.570763913627603
+n_ion_dot    z = 8.570763913627603
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.570763913627603
+n_ion_dot    z = 8.570763913627603
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.311442302037289
+n_ion_dot    z = 8.311442302037289
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.311442302037289
+n_ion_dot    z = 8.311442302037289
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.003612515679666
+n_ion_dot    z = 8.003612515679666
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.003612515679666
+n_ion_dot    z = 8.003612515679666
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.724001108565432
+n_ion_dot    z = 7.724001108565432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.724001108565432
+n_ion_dot    z = 7.724001108565432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.468532614053322
+n_ion_dot    z = 7.468532614053322
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.468532614053322
+n_ion_dot    z = 7.468532614053322
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.233911002233274
+n_ion_dot    z = 7.233911002233274
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.233911002233274
+n_ion_dot    z = 7.233911002233274
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.017437907677104
+n_ion_dot    z = 7.017437907677104
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.017437907677104
+n_ion_dot    z = 7.017437907677104
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.816880123474749
+n_ion_dot    z = 6.816880123474749
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.816880123474749
+n_ion_dot    z = 6.816880123474749
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.595128584886949
+n_ion_dot    z = 6.595128584886949
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.595128584886949
+n_ion_dot    z = 6.595128584886949
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.390864256397706
+n_ion_dot    z = 6.390864256397706
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.390864256397706
+n_ion_dot    z = 6.390864256397706
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.20189408103397
+n_ion_dot    z = 6.20189408103397
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.20189408103397
+n_ion_dot    z = 6.20189408103397
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.026391884844752
+n_ion_dot    z = 6.026391884844752
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.026391884844752
+n_ion_dot    z = 6.026391884844752
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.862823043176693
+n_ion_dot    z = 5.862823043176693
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.862823043176693
+n_ion_dot    z = 5.862823043176693
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.709887230905082
+n_ion_dot    z = 5.709887230905082
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.709887230905082
+n_ion_dot    z = 5.709887230905082
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.510818300566822
+n_ion_dot    z = 5.510818300566822
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.510818300566822
+n_ion_dot    z = 5.510818300566822
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.3280049893737615
+n_ion_dot    z = 5.3280049893737615
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.3280049893737615
+n_ion_dot    z = 5.3280049893737615
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.159336826403034
+n_ion_dot    z = 5.159336826403034
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.159336826403034
+n_ion_dot    z = 5.159336826403034
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.003068305682798
+n_ion_dot    z = 5.003068305682798
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.003068305682798
+n_ion_dot    z = 5.003068305682798
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.857741534565715
+n_ion_dot    z = 4.857741534565715
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.857741534565715
+n_ion_dot    z = 4.857741534565715
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7221280217823605
+n_ion_dot    z = 4.7221280217823605
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7221280217823605
+n_ion_dot    z = 4.7221280217823605
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.595184248470402
+n_ion_dot    z = 4.595184248470402
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.595184248470402
+n_ion_dot    z = 4.595184248470402
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.440359093124967
+n_ion_dot    z = 4.440359093124967
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.440359093124967
+n_ion_dot    z = 4.440359093124967
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.297223195215034
+n_ion_dot    z = 4.297223195215034
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.297223195215034
+n_ion_dot    z = 4.297223195215034
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.164364212607483
+n_ion_dot    z = 4.164364212607483
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.164364212607483
+n_ion_dot    z = 4.164364212607483
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.0405979385620485
+n_ion_dot    z = 4.0405979385620485
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.0405979385620485
+n_ion_dot    z = 4.0405979385620485
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9249229929252074
+n_ion_dot    z = 3.9249229929252074
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9249229929252074
+n_ion_dot    z = 3.9249229929252074
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8164860491058983
+n_ion_dot    z = 3.8164860491058983
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8164860491058983
+n_ion_dot    z = 3.8164860491058983
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7145548185045216
+n_ion_dot    z = 3.7145548185045216
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.7145548185045216
+n_ion_dot    z = 3.7145548185045216
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.556477040210585
+n_ion_dot    z = 3.556477040210585
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.556477040210585
+n_ion_dot    z = 3.556477040210585
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4124713864245972
+n_ion_dot    z = 3.4124713864245972
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4124713864245972
+n_ion_dot    z = 3.4124713864245972
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.280543124245579
+n_ion_dot    z = 3.280543124245579
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.280543124245579
+n_ion_dot    z = 3.280543124245579
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1590726648239107
+n_ion_dot    z = 3.1590726648239107
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1590726648239107
+n_ion_dot    z = 3.1590726648239107
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.046729428416559
+n_ion_dot    z = 3.046729428416559
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.046729428416559
+n_ion_dot    z = 3.046729428416559
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9424087150376517
+n_ion_dot    z = 2.9424087150376517
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.9424087150376517
+n_ion_dot    z = 2.9424087150376517
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8451846539134182
+n_ion_dot    z = 2.8451846539134182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8451846539134182
+n_ion_dot    z = 2.8451846539134182
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7542746052137326
+n_ion_dot    z = 2.7542746052137326
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7542746052137326
+n_ion_dot    z = 2.7542746052137326
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.669011858679553
+n_ion_dot    z = 2.669011858679553
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.669011858679553
+n_ion_dot    z = 2.669011858679553
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.5795351524650885
+n_ion_dot    z = 2.5795351524650885
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.5795351524650885
+n_ion_dot    z = 2.5795351524650885
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4957364685928667
+n_ion_dot    z = 2.4957364685928667
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4957364685928667
+n_ion_dot    z = 2.4957364685928667
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4170276830208435
+n_ion_dot    z = 2.4170276830208435
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4170276830208435
+n_ion_dot    z = 2.4170276830208435
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.342902719425044
+n_ion_dot    z = 2.342902719425044
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.342902719425044
+n_ion_dot    z = 2.342902719425044
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.272923384629126
+n_ion_dot    z = 2.272923384629126
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.272923384629126
+n_ion_dot    z = 2.272923384629126
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.206708083529087
+n_ion_dot    z = 2.206708083529087
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.206708083529087
+n_ion_dot    z = 2.206708083529087
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.14392274621284
+n_ion_dot    z = 2.14392274621284
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.14392274621284
+n_ion_dot    z = 2.14392274621284
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0542283204341945
+n_ion_dot    z = 2.0542283204341945
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.0542283204341945
+n_ion_dot    z = 2.0542283204341945
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.970926311752868
+n_ion_dot    z = 1.970926311752868
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.970926311752868
+n_ion_dot    z = 1.970926311752868
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8932707637364805
+n_ion_dot    z = 1.8932707637364805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8932707637364805
+n_ion_dot    z = 1.8932707637364805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8206323950535555
+n_ion_dot    z = 1.8206323950535555
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8206323950535555
+n_ion_dot    z = 1.8206323950535555
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7524761143356669
+n_ion_dot    z = 1.7524761143356669
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7524761143356669
+n_ion_dot    z = 1.7524761143356669
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6883436163467658
+n_ion_dot    z = 1.6883436163467658
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6883436163467658
+n_ion_dot    z = 1.6883436163467658
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.627839755536011
+n_ion_dot    z = 1.627839755536011
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.627839755536011
+n_ion_dot    z = 1.627839755536011
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.548157429900157
+n_ion_dot    z = 1.548157429900157
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.548157429900157
+n_ion_dot    z = 1.548157429900157
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4741808524657753
+n_ion_dot    z = 1.4741808524657753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4741808524657753
+n_ion_dot    z = 1.4741808524657753
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4052316056613403
+n_ion_dot    z = 1.4052316056613403
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4052316056613403
+n_ion_dot    z = 1.4052316056613403
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3407392549437462
+n_ion_dot    z = 1.3407392549437462
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3407392549437462
+n_ion_dot    z = 1.3407392549437462
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.280220176294463
+n_ion_dot    z = 1.280220176294463
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.280220176294463
+n_ion_dot    z = 1.280220176294463
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2232612488805494
+n_ion_dot    z = 1.2232612488805494
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2232612488805494
+n_ion_dot    z = 1.2232612488805494
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1695071441424072
+n_ion_dot    z = 1.1695071441424072
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1695071441424072
+n_ion_dot    z = 1.1695071441424072
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.091742275664045
+n_ion_dot    z = 1.091742275664045
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.091742275664045
+n_ion_dot    z = 1.091742275664045
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0199956194525006
+n_ion_dot    z = 1.0199956194525006
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0199956194525006
+n_ion_dot    z = 1.0199956194525006
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9534774420228849
+n_ion_dot    z = 0.9534774420228849
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9534774420228849
+n_ion_dot    z = 0.9534774420228849
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8915357040322602
+n_ion_dot    z = 0.8915357040322602
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8915357040322602
+n_ion_dot    z = 0.8915357040322602
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8336265691501676
+n_ion_dot    z = 0.8336265691501676
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8336265691501676
+n_ion_dot    z = 0.8336265691501676
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7792922870090675
+n_ion_dot    z = 0.7792922870090675
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7792922870090675
+n_ion_dot    z = 0.7792922870090675
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7281443646935479
+n_ion_dot    z = 0.7281443646935479
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7281443646935479
+n_ion_dot    z = 0.7281443646935479
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6451116076379446
+n_ion_dot    z = 0.6451116076379446
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6451116076379446
+n_ion_dot    z = 0.6451116076379446
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5694190273452648
+n_ion_dot    z = 0.5694190273452648
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5694190273452648
+n_ion_dot    z = 0.5694190273452648
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.49991274626917526
+n_ion_dot    z = 0.49991274626917526
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.49991274626917526
+n_ion_dot    z = 0.49991274626917526
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.43567401622457025
+n_ion_dot    z = 0.43567401622457025
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.43567401622457025
+n_ion_dot    z = 0.43567401622457025
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.37596042931180085
+n_ion_dot    z = 0.37596042931180085
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.37596042931180085
+n_ion_dot    z = 0.37596042931180085
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.320164121013659
+n_ion_dot    z = 0.320164121013659
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.320164121013659
+n_ion_dot    z = 0.320164121013659
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2677814400921896
+n_ion_dot    z = 0.2677814400921896
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2677814400921896
+n_ion_dot    z = 0.2677814400921896
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.20967052731559233
+n_ion_dot    z = 0.20967052731559233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.20967052731559233
+n_ion_dot    z = 0.20967052731559233
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15516355046850894
+n_ion_dot    z = 0.15516355046850894
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15516355046850894
+n_ion_dot    z = 0.15516355046850894
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.103776353569772
+n_ion_dot    z = 0.103776353569772
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.103776353569772
+n_ion_dot    z = 0.103776353569772
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.055101529182648656
+n_ion_dot    z = 0.055101529182648656
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.055101529182648656
+n_ion_dot    z = 0.055101529182648656
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.008792161823715228
+n_ion_dot    z = 0.008792161823715228
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.008792161823715228
+n_ion_dot    z = 0.008792161823715228
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.0354506319714295
+n_ion_dot    z = -0.0354506319714295
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.0354506319714295
+n_ion_dot    z = -0.0354506319714295
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q+
+Q_Hii_dot    z = 13.993546999056068
+n_ion_dot    z = 13.993546999056068
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593325212
+n_ion_dot    z = 13.992617593325212
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.992617593325212
+n_ion_dot    z = 13.992617593325212
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359385936
+n_ion_dot    z = 13.991688359385936
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.991688359385936
+n_ion_dot    z = 13.991688359385936
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.854703327648416
+n_ion_dot    z = 13.854703327648416
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.854703327648416
+n_ion_dot    z = 13.854703327648416
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.721384425800041
+n_ion_dot    z = 13.721384425800041
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.721384425800041
+n_ion_dot    z = 13.721384425800041
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.591570802408638
+n_ion_dot    z = 13.591570802408638
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.591570802408638
+n_ion_dot    z = 13.591570802408638
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.372294409097053
+n_ion_dot    z = 13.372294409097053
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.372294409097053
+n_ion_dot    z = 13.372294409097053
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.162556538996665
+n_ion_dot    z = 13.162556538996665
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 13.162556538996665
+n_ion_dot    z = 13.162556538996665
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.961684293959323
+n_ion_dot    z = 12.961684293959323
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.961684293959323
+n_ion_dot    z = 12.961684293959323
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.769069422663279
+n_ion_dot    z = 12.769069422663279
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.769069422663279
+n_ion_dot    z = 12.769069422663279
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.425186075702307
+n_ion_dot    z = 12.425186075702307
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.425186075702307
+n_ion_dot    z = 12.425186075702307
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.105677036679596
+n_ion_dot    z = 12.105677036679596
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 12.105677036679596
+n_ion_dot    z = 12.105677036679596
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.807788873368334
+n_ion_dot    z = 11.807788873368334
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.807788873368334
+n_ion_dot    z = 11.807788873368334
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.52918489325702
+n_ion_dot    z = 11.52918489325702
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.52918489325702
+n_ion_dot    z = 11.52918489325702
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.267867398713987
+n_ion_dot    z = 11.267867398713987
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.267867398713987
+n_ion_dot    z = 11.267867398713987
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.02211696481756
+n_ion_dot    z = 11.02211696481756
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 11.02211696481756
+n_ion_dot    z = 11.02211696481756
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.790444503296607
+n_ion_dot    z = 10.790444503296607
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.790444503296607
+n_ion_dot    z = 10.790444503296607
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.571553047833234
+n_ion_dot    z = 10.571553047833234
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.571553047833234
+n_ion_dot    z = 10.571553047833234
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.234298906227343
+n_ion_dot    z = 10.234298906227343
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.234298906227343
+n_ion_dot    z = 10.234298906227343
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.370468474727783
+n_ion_dot    z = 10.370468474727783
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.370468474727783
+n_ion_dot    z = 10.370468474727783
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.179416802328666
+n_ion_dot    z = 10.179416802328666
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.179416802328666
+n_ion_dot    z = 10.179416802328666
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.221952241567097
+n_ion_dot    z = 10.221952241567097
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.221952241567097
+n_ion_dot    z = 10.221952241567097
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.079050249920241
+n_ion_dot    z = 10.079050249920241
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 10.079050249920241
+n_ion_dot    z = 10.079050249920241
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.9414167681482
+n_ion_dot    z = 9.9414167681482
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.9414167681482
+n_ion_dot    z = 9.9414167681482
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.808735163574417
+n_ion_dot    z = 9.808735163574417
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.808735163574417
+n_ion_dot    z = 9.808735163574417
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.649113206283921
+n_ion_dot    z = 9.649113206283921
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.649113206283921
+n_ion_dot    z = 9.649113206283921
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.496283779959453
+n_ion_dot    z = 9.496283779959453
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.496283779959453
+n_ion_dot    z = 9.496283779959453
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.349777362248556
+n_ion_dot    z = 9.349777362248556
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.349777362248556
+n_ion_dot    z = 9.349777362248556
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.209168659975942
+n_ion_dot    z = 9.209168659975942
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.209168659975942
+n_ion_dot    z = 9.209168659975942
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.074071392055783
+n_ion_dot    z = 9.074071392055783
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 9.074071392055783
+n_ion_dot    z = 9.074071392055783
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.817766383452472
+n_ion_dot    z = 8.817766383452472
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.817766383452472
+n_ion_dot    z = 8.817766383452472
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.579842111139332
+n_ion_dot    z = 8.579842111139332
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.579842111139332
+n_ion_dot    z = 8.579842111139332
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.641549790111549
+n_ion_dot    z = 8.641549790111549
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.641549790111549
+n_ion_dot    z = 8.641549790111549
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.474370116791249
+n_ion_dot    z = 8.474370116791249
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.474370116791249
+n_ion_dot    z = 8.474370116791249
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.315478440737119
+n_ion_dot    z = 8.315478440737119
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.315478440737119
+n_ion_dot    z = 8.315478440737119
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.164209977623532
+n_ion_dot    z = 8.164209977623532
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.164209977623532
+n_ion_dot    z = 8.164209977623532
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.019972304271251
+n_ion_dot    z = 8.019972304271251
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 8.019972304271251
+n_ion_dot    z = 8.019972304271251
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.768889060317649
+n_ion_dot    z = 7.768889060317649
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.768889060317649
+n_ion_dot    z = 7.768889060317649
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.845597376682594
+n_ion_dot    z = 7.845597376682594
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.845597376682594
+n_ion_dot    z = 7.845597376682594
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.680804813195536
+n_ion_dot    z = 7.680804813195536
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.680804813195536
+n_ion_dot    z = 7.680804813195536
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.524745242857589
+n_ion_dot    z = 7.524745242857589
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.524745242857589
+n_ion_dot    z = 7.524745242857589
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.5506032269663415
+n_ion_dot    z = 7.5506032269663415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.5506032269663415
+n_ion_dot    z = 7.5506032269663415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.4259918742176225
+n_ion_dot    z = 7.4259918742176225
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.4259918742176225
+n_ion_dot    z = 7.4259918742176225
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.306580486299611
+n_ion_dot    z = 7.306580486299611
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.306580486299611
+n_ion_dot    z = 7.306580486299611
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.192015920535695
+n_ion_dot    z = 7.192015920535695
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.192015920535695
+n_ion_dot    z = 7.192015920535695
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.081977738715009
+n_ion_dot    z = 7.081977738715009
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 7.081977738715009
+n_ion_dot    z = 7.081977738715009
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.976174412648069
+n_ion_dot    z = 6.976174412648069
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.976174412648069
+n_ion_dot    z = 6.976174412648069
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.81528713222518
+n_ion_dot    z = 6.81528713222518
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.81528713222518
+n_ion_dot    z = 6.81528713222518
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.663569112802981
+n_ion_dot    z = 6.663569112802981
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.663569112802981
+n_ion_dot    z = 6.663569112802981
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.520177781988867
+n_ion_dot    z = 6.520177781988867
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.520177781988867
+n_ion_dot    z = 6.520177781988867
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.38437518052126
+n_ion_dot    z = 6.38437518052126
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.38437518052126
+n_ion_dot    z = 6.38437518052126
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.255511830941292
+n_ion_dot    z = 6.255511830941292
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.255511830941292
+n_ion_dot    z = 6.255511830941292
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.133013546125728
+n_ion_dot    z = 6.133013546125728
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.133013546125728
+n_ion_dot    z = 6.133013546125728
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.016370564746407
+n_ion_dot    z = 6.016370564746407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 6.016370564746407
+n_ion_dot    z = 6.016370564746407
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.872795613374381
+n_ion_dot    z = 5.872795613374381
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.872795613374381
+n_ion_dot    z = 5.872795613374381
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.737467902369745
+n_ion_dot    z = 5.737467902369745
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.737467902369745
+n_ion_dot    z = 5.737467902369745
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.609622884041843
+n_ion_dot    z = 5.609622884041843
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.609622884041843
+n_ion_dot    z = 5.609622884041843
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.488591759407432
+n_ion_dot    z = 5.488591759407432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.488591759407432
+n_ion_dot    z = 5.488591759407432
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.3737865893913375
+n_ion_dot    z = 5.3737865893913375
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.3737865893913375
+n_ion_dot    z = 5.3737865893913375
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.264688141600131
+n_ion_dot    z = 5.264688141600131
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.264688141600131
+n_ion_dot    z = 5.264688141600131
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.160835897812227
+n_ion_dot    z = 5.160835897812227
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.160835897812227
+n_ion_dot    z = 5.160835897812227
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.017067919368578
+n_ion_dot    z = 5.017067919368578
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 5.017067919368578
+n_ion_dot    z = 5.017067919368578
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.882594387253925
+n_ion_dot    z = 4.882594387253925
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.882594387253925
+n_ion_dot    z = 4.882594387253925
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7564484825892395
+n_ion_dot    z = 4.7564484825892395
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.7564484825892395
+n_ion_dot    z = 4.7564484825892395
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.637798683461732
+n_ion_dot    z = 4.637798683461732
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.637798683461732
+n_ion_dot    z = 4.637798683461732
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.525925349391063
+n_ion_dot    z = 4.525925349391063
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.525925349391063
+n_ion_dot    z = 4.525925349391063
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.420202076285871
+n_ion_dot    z = 4.420202076285871
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.420202076285871
+n_ion_dot    z = 4.420202076285871
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.320080714170992
+n_ion_dot    z = 4.320080714170992
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.320080714170992
+n_ion_dot    z = 4.320080714170992
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.176897857619229
+n_ion_dot    z = 4.176897857619229
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.176897857619229
+n_ion_dot    z = 4.176897857619229
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.04419872146536
+n_ion_dot    z = 4.04419872146536
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 4.04419872146536
+n_ion_dot    z = 4.04419872146536
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9207519605802474
+n_ion_dot    z = 3.9207519605802474
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.9207519605802474
+n_ion_dot    z = 3.9207519605802474
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8055198452819825
+n_ion_dot    z = 3.8055198452819825
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.8055198452819825
+n_ion_dot    z = 3.8055198452819825
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.6976207846986036
+n_ion_dot    z = 3.6976207846986036
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.6976207846986036
+n_ion_dot    z = 3.6976207846986036
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.5963003526436506
+n_ion_dot    z = 3.5963003526436506
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.5963003526436506
+n_ion_dot    z = 3.5963003526436506
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.500908626237459
+n_ion_dot    z = 3.500908626237459
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.500908626237459
+n_ion_dot    z = 3.500908626237459
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4108822735019277
+n_ion_dot    z = 3.4108822735019277
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.4108822735019277
+n_ion_dot    z = 3.4108822735019277
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.30621745129159
+n_ion_dot    z = 3.30621745129159
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.30621745129159
+n_ion_dot    z = 3.30621745129159
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.20821190251805
+n_ion_dot    z = 3.20821190251805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.20821190251805
+n_ion_dot    z = 3.20821190251805
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1161787038180044
+n_ion_dot    z = 3.1161787038180044
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.1161787038180044
+n_ion_dot    z = 3.1161787038180044
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0295263482191794
+n_ion_dot    z = 3.0295263482191794
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 3.0295263482191794
+n_ion_dot    z = 3.0295263482191794
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.947742344994135
+n_ion_dot    z = 2.947742344994135
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.947742344994135
+n_ion_dot    z = 2.947742344994135
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8703801390405728
+n_ion_dot    z = 2.8703801390405728
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.8703801390405728
+n_ion_dot    z = 2.8703801390405728
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7970485837680985
+n_ion_dot    z = 2.7970485837680985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7970485837680985
+n_ion_dot    z = 2.7970485837680985
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7274033984670587
+n_ion_dot    z = 2.7274033984670587
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.7274033984670587
+n_ion_dot    z = 2.7274033984670587
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.631553808240206
+n_ion_dot    z = 2.631553808240206
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.631553808240206
+n_ion_dot    z = 2.631553808240206
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.542120771389169
+n_ion_dot    z = 2.542120771389169
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.542120771389169
+n_ion_dot    z = 2.542120771389169
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4584052120449247
+n_ion_dot    z = 2.4584052120449247
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.4584052120449247
+n_ion_dot    z = 2.4584052120449247
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.379810422244296
+n_ion_dot    z = 2.379810422244296
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.379810422244296
+n_ion_dot    z = 2.379810422244296
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.305823547593468
+n_ion_dot    z = 2.305823547593468
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.305823547593468
+n_ion_dot    z = 2.305823547593468
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.236001008997746
+n_ion_dot    z = 2.236001008997746
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.236001008997746
+n_ion_dot    z = 2.236001008997746
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1699569081003642
+n_ion_dot    z = 2.1699569081003642
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1699569081003642
+n_ion_dot    z = 2.1699569081003642
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1073537204520867
+n_ion_dot    z = 2.1073537204520867
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.1073537204520867
+n_ion_dot    z = 2.1073537204520867
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.007170106533637
+n_ion_dot    z = 2.007170106533637
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 2.007170106533637
+n_ion_dot    z = 2.007170106533637
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9149785375206627
+n_ion_dot    z = 1.9149785375206627
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.9149785375206627
+n_ion_dot    z = 1.9149785375206627
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8297399983607474
+n_ion_dot    z = 1.8297399983607474
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.8297399983607474
+n_ion_dot    z = 1.8297399983607474
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7505956054418825
+n_ion_dot    z = 1.7505956054418825
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.7505956054418825
+n_ion_dot    z = 1.7505956054418825
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.676828305100711
+n_ion_dot    z = 1.676828305100711
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.676828305100711
+n_ion_dot    z = 1.676828305100711
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6078340819574288
+n_ion_dot    z = 1.6078340819574288
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.6078340819574288
+n_ion_dot    z = 1.6078340819574288
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5431000062589688
+n_ion_dot    z = 1.5431000062589688
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.5431000062589688
+n_ion_dot    z = 1.5431000062589688
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4821872792382043
+n_ion_dot    z = 1.4821872792382043
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4821872792382043
+n_ion_dot    z = 1.4821872792382043
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4066116219137563
+n_ion_dot    z = 1.4066116219137563
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.4066116219137563
+n_ion_dot    z = 1.4066116219137563
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3363560842909572
+n_ion_dot    z = 1.3363560842909572
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.3363560842909572
+n_ion_dot    z = 1.3363560842909572
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2707945396130853
+n_ion_dot    z = 1.2707945396130853
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.2707945396130853
+n_ion_dot    z = 1.2707945396130853
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.209399510444055
+n_ion_dot    z = 1.209399510444055
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.209399510444055
+n_ion_dot    z = 1.209399510444055
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1517230089030241
+n_ion_dot    z = 1.1517230089030241
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.1517230089030241
+n_ion_dot    z = 1.1517230089030241
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0973817398482981
+n_ion_dot    z = 1.0973817398482981
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0973817398482981
+n_ion_dot    z = 1.0973817398482981
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0460455390537926
+n_ion_dot    z = 1.0460455390537926
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 1.0460455390537926
+n_ion_dot    z = 1.0460455390537926
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9974282421138028
+n_ion_dot    z = 0.9974282421138028
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9974282421138028
+n_ion_dot    z = 0.9974282421138028
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9339877581870168
+n_ion_dot    z = 0.9339877581870168
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.9339877581870168
+n_ion_dot    z = 0.9339877581870168
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8747384704497032
+n_ion_dot    z = 0.8747384704497032
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8747384704497032
+n_ion_dot    z = 0.8747384704497032
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8192001935251385
+n_ion_dot    z = 0.8192001935251385
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.8192001935251385
+n_ion_dot    z = 0.8192001935251385
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7669661155413403
+n_ion_dot    z = 0.7669661155413403
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7669661155413403
+n_ion_dot    z = 0.7669661155413403
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7176889291317314
+n_ion_dot    z = 0.7176889291317314
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.7176889291317314
+n_ion_dot    z = 0.7176889291317314
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6710700388800277
+n_ion_dot    z = 0.6710700388800277
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6710700388800277
+n_ion_dot    z = 0.6710700388800277
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6268510694240976
+n_ion_dot    z = 0.6268510694240976
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.6268510694240976
+n_ion_dot    z = 0.6268510694240976
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5848071157989727
+n_ion_dot    z = 0.5848071157989727
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5848071157989727
+n_ion_dot    z = 0.5848071157989727
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5278953004604452
+n_ion_dot    z = 0.5278953004604452
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.5278953004604452
+n_ion_dot    z = 0.5278953004604452
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4745607483090837
+n_ion_dot    z = 0.4745607483090837
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4745607483090837
+n_ion_dot    z = 0.4745607483090837
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4243842891610534
+n_ion_dot    z = 0.4243842891610534
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.4243842891610534
+n_ion_dot    z = 0.4243842891610534
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.37701073341308544
+n_ion_dot    z = 0.37701073341308544
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.37701073341308544
+n_ion_dot    z = 0.37701073341308544
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3321366596030415
+n_ion_dot    z = 0.3321366596030415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.3321366596030415
+n_ion_dot    z = 0.3321366596030415
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2895009249085869
+n_ion_dot    z = 0.2895009249085869
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.2895009249085869
+n_ion_dot    z = 0.2895009249085869
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.24887720684221204
+n_ion_dot    z = 0.24887720684221204
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.24887720684221204
+n_ion_dot    z = 0.24887720684221204
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.21006807938981975
+n_ion_dot    z = 0.21006807938981975
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.21006807938981975
+n_ion_dot    z = 0.21006807938981975
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15650887584685336
+n_ion_dot    z = 0.15650887584685336
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.15650887584685336
+n_ion_dot    z = 0.15650887584685336
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.10596661862776613
+n_ion_dot    z = 0.10596661862776613
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.10596661862776613
+n_ion_dot    z = 0.10596661862776613
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.0580537645157424
+n_ion_dot    z = 0.0580537645157424
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.0580537645157424
+n_ion_dot    z = 0.0580537645157424
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.012439498751620315
+n_ion_dot    z = 0.012439498751620315
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = 0.012439498751620315
+n_ion_dot    z = 0.012439498751620315
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.031161771288056528
+n_ion_dot    z = -0.031161771288056528
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q_Hii_dot    z = -0.031161771288056528
+n_ion_dot    z = -0.031161771288056528
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+f_esc_LyC
+Q+

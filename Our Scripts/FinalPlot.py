@@ -118,8 +118,10 @@ plt.show()
     
     
     
-print(Main_LAE.log_list)
-print(len(Main_LAE.log_dict.get("n_ion_dot_LyC")))
-print(len(Main_LAE.log_dict.get("Q_Hii_dot")))
+#print(Main_LAE.log_list)
+print("f_esc_LyC = {}".format(Main_LAE.log_dict.get("f_esc_LyC")))
+print("n_ion_dot_LyC length = {}".format(len(Main_LAE.log_dict.get("n_ion_dot_LyC"))))
+print("Q_Hii_dot length = {}".format(len(Main_LAE.log_dict.get("Q_Hii_dot"))))
+print("Q = {}".format(len(Main_LAE.log_dict.get("Q"))))
 Main_LAE.log.close()
     

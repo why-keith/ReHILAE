@@ -21,7 +21,7 @@ EW_avg=140.321828866 #Average equivalent width (angstroms)
 
 
 log_list=[0,0,0,0]
-log_dict={"z":[], "Q_Hii_dot":[], "n_ion_dot_LyC":[], "f_esc_LyC":0}
+log_dict={"z":[], "Q_Hii_dot":[], "n_ion_dot_LyC":[], "f_esc_LyC":0, "Q":0}
 log=open(r"log.txt","a")
 
 P1 = -0.05
@@ -142,6 +142,12 @@ def main(arguements):
    # print("Q")
     log.write("Q+\n")
     log_list[3]+=1
+    
+    if log_dict.get("Q")==0: #Logging for pandas
+        log_dict["Q"]=Q
+        print("logged")
+    
+    
    # print("----------------------------")
     return Q    #///////////////////////////////////////////////////////////////////////
 
