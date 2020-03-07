@@ -42,7 +42,7 @@ intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
 EW = 148.9705
 
-FPlanck = 'Our Scripts/Redshift_time_FPlanck_cosmology.fits'
+FPlanck = 'Redshift_time_FPlanck_cosmology.fits'
 
 # Which Cosmology to use:
 USING_NOW = FPlanck
