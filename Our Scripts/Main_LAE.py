@@ -8,7 +8,8 @@ from scipy.optimize import curve_fit
 from scipy.integrate import odeint
 from scipy.interpolate import interp1d
 
-
+init_conditions={"P1_1_P_L_Lya":np.array([]), "P1_2_P_L_Lya":np.array([]), "P1_3_P_L_Lya":np.array([]),"f1_f_esc":np.array([]),"f2_f_esc":np.array([])} #records the inital conditions of each iteration
+#P1_1_P_L_Lya,P1_2_P_L_Lya,P1_3_P_L_Lya,f1_f_esc,f2_f_esc
 #CONSTANTS######################################################
 H_0=0.0692 #Hubble's constant (Gyr⁻¹)
 W_M=0.308 #Matter energy density parameter
@@ -42,7 +43,7 @@ intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
 EW = 148.9705
 
-FPlanck = 'Our Scripts/Redshift_time_FPlanck_cosmology.fits'
+FPlanck = 'Redshift_time_FPlanck_cosmology.fits'
 
 # Which Cosmology to use:
 USING_NOW = FPlanck
@@ -158,9 +159,13 @@ def dQ_dt_Q(Q, t, P2_1, P2_2, P2_3, f1, f2):
 #GENERATE Q ARRAY
 
 def main_Q(arguements):
+  #  print(arguements)
     Q = odeint(dQ_dt_Q, Q_Hii_zero, t, args=(arguements))
     Q[Q>1.0] = 1.0 # 100% HII
     Q[Q<0.0] = 0.0 # 100% HI
+    
+    for i,j in zip(init_conditions,range(len(arguements))):        
+        init_conditions[i]=np.append(init_conditions[i],arguements[j])
 
     return Q
 

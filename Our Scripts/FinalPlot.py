@@ -5,6 +5,9 @@ import random_array_generator as rag
 import pandas as pd
 import Main_LAE
 from Redshift import redshift
+import time
+
+start=time.time()
 
 #TIME CONDITIONS
 startT = Main_LAE.startT
@@ -191,11 +194,10 @@ for i,j,k,l,m in zip(P1_1_P_L_Lya,P1_2_P_L_Lya,P1_3_P_L_Lya,f1_f_esc,f2_f_esc):
     data.append((Main_LAE.main_Q(arguements))) # TODO write this return to file and then plot after loop
 
 
-plt.figure('Ionised_Hydrogen_10')
-
 #######################################################
 #PLOTS MEDIAN OF Q_Hii_dot AND SHADES PERCENTILES
 median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(data[0]),data)
+plt.figure('Ionised_Hydrogen_10')
 plt.xlabel("Redshift (z)")
 plt.ylabel("Fractions of Ionised Hydrogen")
 plt.plot(z,median, color = "black", label="Median_cubic")
@@ -241,6 +243,10 @@ plt.xlabel('Redshift (z)')
 plt.ylabel('Fraction of Ionised Hydrogen')
 plt.show()          
     
-    
+#print(Main_LAE.init_conditions)
+df=pd.DataFrame(data=Main_LAE.init_conditions)
+print(df)
+pd.DataFrame.to_csv(df,"initial_conditions.csv")
+print("Time elapsed = {}s".format(round(time.time()-start,2)))    
     
     
