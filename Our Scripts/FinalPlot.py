@@ -20,11 +20,11 @@ Power Law
 
 ######################################################
 #GENERATE P_L_Lya ITERATIONS
-P1_1 = [-0.48111]
-P1_1_error = [0.47572]
+P1_1 = [1.13869]
+P1_1_error = [0.18238]
 
-P1_2 = [40.10956]
-P1_2_error = [0.28807]
+P1_2 = [39.18853]
+P1_2_error = [0.10799]
 
  
 P1_1_P_L_Lya = rag.random_Arrays(len(P1_1),P1_1,P1_1_error,P1_1_error)
