@@ -95,9 +95,12 @@ def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
 
-def P_L_Lya_Power(x, P1_1, P1_2):
-    z = math.log10(1+x)
-    return P1_1*z + P1_2
+def P_L_Lya_Power(z, P1_1, P1_2, P2_1, P2_2):
+    x = math.log10(1+z)
+    if z < 0 :
+      return P1_1*x + P1_2
+    elif z > 0 :
+      return  P2_1*x + P2_2
 
 def P_L_Lya_Quad(x ,P2_1, P2_2, P2_3 ):
     return  P2_1*x**2 + P2_2*x + P2_3
@@ -107,23 +110,23 @@ def f_esc_LyC(x, f1, f2):
 
 ################################################################ Power Law
 
-def Q_ion_LyC_PL(z, P1_1, P1_2, f1, f2): # replaces P_uv and E_ion	
-    return 10**P_L_Lya_Power(z, P1_1, P1_2) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
+def Q_ion_LyC_PL(z, P1_1, P1_2, P2_1, P2_2, f1, f2): # replaces P_uv and E_ion	
+    return 10**P_L_Lya_Power(z, P1_1, P1_2, P2_1, P2_2) / ((c_ha*(1 - f_esc_LyC(EW, f1, f2)))*(0.042 * EW))
 
-def n_ion_dot_LyC_PL(z, P1_1, P1_2,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
-    if Q_ion_LyC_PL(z, P1_1, P1_2,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
+def n_ion_dot_LyC_PL(z, P1_1, P1_2, P2_1, P2_2,  f1, f2): # replaces n_ion_dot using Q_ion_LyC	
+    if Q_ion_LyC_PL(z, P1_1, P1_2, P2_1, P2_2,  f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) <= 0 :
 
         return 0 
     else:
-        return Q_ion_LyC_PL(z, P1_1, P1_2, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+        return Q_ion_LyC_PL(z, P1_1, P1_2, P2_1, P2_2, f1, f2) * f_esc_LyC(EW, f1, f2) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
-def Q_Hii_dot_PL(z, Q, P1_1, P1_2, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
-    return (((n_ion_dot_LyC_PL(z, P1_1, P1_2, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+def Q_Hii_dot_PL(z, Q, P1_1, P1_2, P2_1, P2_2, f1, f2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
+    return (((n_ion_dot_LyC_PL(z, P1_1, P1_2, P2_1, P2_2, f1, f2)/n_H()) - (Q/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
 
 
-def dQ_dt_PL(Q, t, P1_1, P1_2, f1, f2):
+def dQ_dt_PL(Q, t, P1_1, P1_2, P2_1, P2_2, f1, f2):
     
-    dQ_dt = Q_Hii_dot_PL(red(t), Q, P1_1, P1_2, f1, f2)
+    dQ_dt = Q_Hii_dot_PL(red(t), Q, P1_1, P1_2, P2_1, P2_2, f1, f2)
     return dQ_dt
 
 #GENERATE Q ARRAY

@@ -40,15 +40,13 @@ P2_1_error = 0.00254
 P2_2 = 0.45297
 P2_2_error = [0.03671]
 
-P2_3 = 38.97568
-P2_3_error = [0.08654]
+
 
  
 
 #GENERATE f_esc ARRAY
 n_ion=[math.log(mod.n_ion_dot_LyC_PL(i, P1_1, P1_2, f1, f2)*2.938e+73) for i in z]
 
-n_ion_Q = [math.log(mod.n_ion_dot_LyC_Q(i, P2_1, P2_2, P2_3, f1, f2)*2.938e+73) for i in z]
 
 #PLOTS Z AGAINST f
 plt.plot(z, n_ion, color = 'steelblue', label = 'powerlaw')

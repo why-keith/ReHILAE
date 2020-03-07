@@ -52,8 +52,11 @@ a1, a2, = BFP[0], BFP[1]
 xdata = [i for i in range(14)]
 
 def rhoLya(z):
-    z = math.log10(1+z)
-    return -0.62895*z + 40.19376
+    x = math.log10(1+z)
+    if z < 5.8 :
+      return 1.13869*x + 39.18853
+    elif z > 5.8 :
+      return  -5.288*x + 44.5388067
 
 densities = [rhoLya(z) for z in xdata]
 
@@ -101,3 +104,4 @@ plt.legend()
 plt.show()
 
 
+print(rhoLya(5.8))

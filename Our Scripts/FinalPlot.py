@@ -20,15 +20,23 @@ Power Law
 
 ######################################################
 #GENERATE P_L_Lya ITERATIONS
-P1_1 = [-0.48111]
-P1_1_error = [0.47572]
+P1_1 = [1.13869]
+P1_1_error = [0.18238]
 
-P1_2 = [40.10956]
-P1_2_error = [0.28807]
+P1_2 = [39.18853]
+P1_2_error = [0.10709]
 
- 
+P2_1 = [-5.288]
+P2_1_error = [0.83404]
+
+P2_2 = [44.5388067]
+P2_2_error = [0.757]
+
+
 P1_1_P_L_Lya = rag.random_Arrays(len(P1_1),P1_1,P1_1_error,P1_1_error)
 P1_2_P_L_Lya = rag.random_Arrays(len(P1_2),P1_2 ,P1_2_error,P1_2_error)
+P2_1_P_L_Lya = rag.random_Arrays(len(P2_1),P2_1,P2_1_error,P2_1_error)
+P2_2_P_L_Lya = rag.random_Arrays(len(P2_2),P2_2 ,P2_2_error,P2_2_error)
 """
 P_L_Lya=[]
 for i in range(len(A_P_L_Lya)):
@@ -133,6 +141,7 @@ Cubic
     
 ######################################################
 #GENERATE P_L_Lya ITERATIONS
+"""
 P1_1 = [-0.04764]
 P1_1_error = [0.00254]
 
@@ -147,7 +156,7 @@ P1_3_error = [0.08654]
 P1_1_P_L_Lya = rag.random_Arrays(len(P1_1),P1_1,P1_1_error,P1_1_error)
 P1_2_P_L_Lya = rag.random_Arrays(len(P1_2),P1_2 ,P1_2_error,P1_2_error)
 P1_3_P_L_Lya = rag.random_Arrays(len(P1_3),P1_3,P1_3_error,P1_3_error)
-
+"""
 """
 P_L_Lya=[]
 for i in range(len(A_P_L_Lya)):
@@ -186,9 +195,9 @@ plt.show()
 #######################################################
 data = []
 z,t = redshift(startT, finishT, TStep)
-for i,j,k,l,m in zip(P1_1_P_L_Lya,P1_2_P_L_Lya,P1_3_P_L_Lya,f1_f_esc,f2_f_esc):
-    arguements = (i[0],j[0],k[0],l[0], m[0])
-    data.append((Main_LAE.main_Q(arguements))) # TODO write this return to file and then plot after loop
+for i,j,k,l, m,n in zip(P1_1_P_L_Lya,P1_2_P_L_Lya,P2_1_P_L_Lya,P2_2_P_L_Lya, f1_f_esc,f2_f_esc):
+    arguements = (i[0],j[0],k[0],l[0], m[0], n[0])
+    data.append((Main_LAE.main_PL(arguements))) # TODO write this return to file and then plot after loop
 
 
 plt.figure('Ionised_Hydrogen_10')

@@ -59,3 +59,5 @@ plt.plot(zs, densities)
 plt.xlabel('Redshift (z)')
 plt.ylabel(r'$log(\rho_{UV})$')
 plt.show()
+
+print(rhoUV(5.8))

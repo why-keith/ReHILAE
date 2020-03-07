@@ -5,7 +5,7 @@ from astropy.io import fits
 import matplotlib.pyplot as plt
 import copy
 
-iterations = 10000
+iterations = 1000
 
 
 ############################################
