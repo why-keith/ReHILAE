@@ -97,9 +97,9 @@ def t_rec(z): #s recombination time
 
 def P_L_Lya_Power(z, P1_1, P1_2, P2_1, P2_2):
     x = math.log10(1+z)
-    if z < 0 :
+    if z < 5.8 :
       return P1_1*x + P1_2
-    elif z > 0 :
+    elif z > 5.8 :
       return  P2_1*x + P2_2
 
 def P_L_Lya_Quad(x ,P2_1, P2_2, P2_3 ):
