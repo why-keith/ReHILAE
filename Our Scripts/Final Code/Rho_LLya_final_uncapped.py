@@ -53,7 +53,7 @@ xdata = [i for i in range(14)]
 
 def rhoLya(z):
     z = math.log10(1+z)
-    return -0.62895*z + 40.19376
+    return 1.13869*z + 39.18853
 
 densities = [rhoLya(z) for z in xdata]
 
