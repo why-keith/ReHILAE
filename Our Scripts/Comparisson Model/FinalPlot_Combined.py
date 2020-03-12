@@ -55,8 +55,8 @@ plt.ylabel("Fractions of Ionised Hydrogen")
 plt.plot(z,median, color = "black", label="LAE")
 
 
-plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "lightgrey", edgecolor = "black", linewidth = 1.2)
-plt.fill_betweenx(median,6,10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 1.2)
+plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "red", edgecolor = "black", linewidth = 1.2)
+plt.fill_betweenx(median,6,10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 5)
 #######################################################
 #PLOTS ALL OF THE ITERATIONS
 """
