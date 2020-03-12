@@ -25,16 +25,17 @@ for i,j in zip(P1_1_P_L_Lya,P1_2_P_L_Lya):
     data.append((Main_UV.main_UV(arguements))) # TODO write this return to file and then plot after loop
 
 
-plt.figure('Ionised_Hydrogen_UV  10000')
-plt.title("Fraction of ionised H with respect to redshift")
+
 
 #######################################################
 #PLOTS MEDIAN OF Q_Hii_dot AND SHADES PERCENTILES
 median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(data[0]),data)
+plt.figure('Ionised_Hydrogen_UV  10000')
+plt.title("Fraction of ionised H with respect to redshift")
 plt.xlabel("Redshift (z)")
 plt.ylabel("Fractions of Ionised Hydrogen")
 plt.plot(z,median, color = "steelblue")
-plt.legend()
+#plt.legend()
 
 plt.fill_between(z,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "lightblue", edgecolor = "black", linewidth = 1.2)
 plt.fill_betweenx(median,6,10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 1.2)

@@ -63,7 +63,7 @@ def n_H(): #cm^-3  hydrogen number density
     return 1.67 * (10**(-7)) * (W_b_h_sqr / 0.02) * (X_p / 0.75)
 
 def t_rec(z): #s recombination time
-    return 0.23 #(alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
+    return 0.23#(alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
 def E_ion(z):#Hz/erg
     return 10**(24.4 + math.log10(1 + z)) #10**25.6 
