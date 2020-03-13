@@ -26,6 +26,11 @@ P1_error = [0.14499428119168625]
 P2 = [39.2529986910512]
 P2_error = [0.09253769652436827]
 
+F1 = [0.00064]
+F1_error = [0.00013]
+
+F2 = [0.00941]
+F2_error = [0.00364]
 
 C1_P_UV = rag.random_Arrays(len(C1),C1,C1_error,C1_error)
 C2_P_UV = rag.random_Arrays(len(C2),C2,C2_error,C2_error)
@@ -33,10 +38,12 @@ C3_P_UV = rag.random_Arrays(len(C3),C3,C3_error,C3_error)
 C4_P_UV = rag.random_Arrays(len(C4),C4,C4_error,C4_error)
 P1_P_Lya = rag.random_Arrays(len(P1),P1,P1_error,P1_error)
 P2_P_Lya = rag.random_Arrays(len(P2),P2,P2_error,P2_error)
+F1_f_esc = rag.random_Arrays(len(F1),F1,F1_error,F1_error)
+F2_f_esc = rag.random_Arrays(len(F2),F2,F2_error,F2_error)
 
 rawData = []
-for i,j,k,l,m,n in zip(C1_P_UV, C2_P_UV, C3_P_UV, C4_P_UV, P1_P_Lya, P2_P_Lya):
-    arguements = (i[0], j[0], k[0], l[0], m[0], n[0])
+for i,j,k,l,m,n,o,p in zip(C1_P_UV,C2_P_UV,C3_P_UV,C4_P_UV,P1_P_Lya,P2_P_Lya,F1_f_esc,F2_f_esc):
+    arguements = (i[0], j[0], k[0], l[0], m[0], n[0], o[0], p[0])
     rawData.append((main.main(ts,arguements)))
 
 data=[]

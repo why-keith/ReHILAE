@@ -22,8 +22,8 @@ n_H = 1.67*pow(10,-7.) * ((Omega_b * h* h)/0.02) * (X_p/0.75) # per cm^3
 def t_rec(z):
     return 1./(C*alpha_B*(1.+Y_p/(4.*X_p))*n_H*(1.+z)**(3.)) # units: seconds
 
-def f_esc(z):
-    return 0.1
+def f_esc(F1, F2):
+    return F1*EW + F2
 
 def P_Lya(z, C1, C2, C3, C4, P1, P2):
     if z <=5.8:
@@ -33,15 +33,15 @@ def P_Lya(z, C1, C2, C3, C4, P1, P2):
         log_scaled = log_P_UV + 13.933143098531438
         return log_scaled
 
-def Q_dot(z, C1, C2, C3, C4, P1, P2):
-    return 10**P_Lya(z, C1, C2, C3, C4, P1, P2) / (c_ha*(1-f_esc(z))*(0.0042*EW))
+def Q_dot(z, C1, C2, C3, C4, P1, P2, F1, F2):
+    return 10**P_Lya(z, C1, C2, C3, C4, P1, P2) / (c_ha*(1-f_esc(F1,F2))*(0.0042*EW))
 
-def nion(z, C1, C2, C3, C4, P1, P2):
-    return f_esc(z)*Q_dot(z, C1, C2, C3, C4, P1, P2)/ (2.938e+73)
+def nion(z, C1, C2, C3, C4, P1, P2, F1, F2):
+    return f_esc(F1,F2)*Q_dot(z, C1, C2, C3, C4, P1, P2, F1, F2)/ (2.938e+73)
 
-def dQ_dt(Q,t, C1, C2, C3, C4, P1, P2):
+def dQ_dt(Q,t, C1, C2, C3, C4, P1, P2, F1, F2):
     z= ((((28./(t))-1.)**(1./2.)-1.)) # conversion from Gyr to redshift
-    return ((nion(z, C1, C2, C3, C4, P1, P2))/n_H-Q/t_rec(z))*3.1536e+16 # conversion from Gyr^-1 to s^-1
+    return ((nion(z, C1, C2, C3, C4, P1, P2, F1, F2))/n_H-Q/t_rec(z))*3.1536e+16 # conversion from Gyr^-1 to s^-1
 
 def main(ts, arguements):
     Q = odeint(dQ_dt, 0, ts, args=(arguements))
