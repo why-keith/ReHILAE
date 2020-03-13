@@ -34,19 +34,20 @@ C4_P_UV = rag.random_Arrays(len(C4),C4,C4_error,C4_error)
 P1_P_Lya = rag.random_Arrays(len(P1),P1,P1_error,P1_error)
 P2_P_Lya = rag.random_Arrays(len(P2),P2,P2_error,P2_error)
 
-data = []
+rawData = []
 for i,j,k,l,m,n in zip(C1_P_UV, C2_P_UV, C3_P_UV, C4_P_UV, P1_P_Lya, P2_P_Lya):
     arguements = (i[0], j[0], k[0], l[0], m[0], n[0])
-    data.append((main.main(ts,arguements)))
-#print(len(data))
-#ind = 0
-#or result in data:
-    #for q,z in zip(result,zs):
-        #if z >= 20. and q[0] >= 0.99:
-            #del data[ind]
-            #ind -= 1
-    #ind += 1
-#print(len(data))
+    rawData.append((main.main(ts,arguements)))
+
+data=[]
+for result in rawData:
+    anonmalies = result[:1000:]
+    if all([q[0]<1. for q in anonmalies]):
+        data.append(result)
+
+print(len(rawData))
+print(len(data))
+
 plt.figure()
 for result in data:
     plt.plot(zs,result)
