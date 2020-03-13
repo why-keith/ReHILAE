@@ -84,4 +84,8 @@ plt.ylabel('Fraction of Ionised Hydrogen')
 plt.show()          
     
     
-    
+df=pd.DataFrame(data=Main_UV.param_dict)
+try:
+    pd.DataFrame.to_csv(df,"Inital_parameters.csv")
+except:
+    print("Writing to\"Inital_parameters.csv\" failed")

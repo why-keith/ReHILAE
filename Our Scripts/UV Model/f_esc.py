@@ -21,8 +21,12 @@ f = [mod.f_esc_UV(i) for i in z]
 
 #PLOTS Z AGAINST f
 plt.figure("f_esc")
-plt.title("A plot of the escape fraction against redshift")
-plt.plot(z, f, color = 'steelblue')
+
+#plt.title("A plot of the escape fraction against redshift")
+#plt.plot(z, f, color = 'steelblue')
+#plt.plot(z,0.2*np.ones(len(z)))
+y=f/(0.2*np.ones(len(z)))
+plt.plot(z,y,color="steelblue")
 plt.xlabel("Redshift(z)")
-plt.ylabel(r"$f_{esc}$")
+plt.ylabel(r"$f_{esc,Robertson}/f_{esc,Faisst}$")
 plt.show()

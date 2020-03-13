@@ -51,7 +51,8 @@ def t_rec(z): #s recombination time
 
 #UV FUNCTIONS###################################################From MPhys Paper
 def E_ion(z):#Hz/erg
-    return 10**(25.2)
+    E=22.4+math.log10(1+z)
+    return 10**E#10**(25.2)
 
 def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density 
     x = pylab.array([3.8, 4.9, 5.9, 6.8, 7.9, 10.4, 14])
@@ -66,7 +67,8 @@ def P_uv(z):   #Hz^-1 s^-1 Mpc^-3  UV luminosity density
        return 10**p(z)
 
 def f_esc_UV(z): #escape fraction of UV
-        return 0.2
+        f=f_esc_zero/100 * ((1+z)/3)**alpha    
+        return f#0.2
 
 def n_ion_dot_UV(z): #s⁻¹ cm⁻³ 
     return f_esc_UV(z) * E_ion(z) * P_uv(z) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3

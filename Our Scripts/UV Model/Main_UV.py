@@ -8,6 +8,7 @@ from scipy.optimize import curve_fit
 from scipy.integrate import odeint
 from scipy.interpolate import interp1d
 
+param_dict={"z":[],"Q_Hii":[],"P1":[], "P2":[], "P3":[], "f_esc_UV":[],"E_ion":[],"P_UV":[],"n_ion_dot_UV":[],"n_H":[],"t_rec":[],"Q_Hii_dot_UV":[]}
 
 #CONSTANTS######################################################
 H_0=0.0692 #Hubble's constant (Gyr⁻¹)
@@ -75,8 +76,29 @@ def P_UV(z, P1, P2, P3):
 def n_ion_dot_UV(z, P1, P2, P3): #s⁻¹ cm⁻³ 
     return f_esc_UV(z) * E_ion(z) * P_UV(z, P1, P2, P3) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
+def param_store(z,Q_Hii,P1, P2, P3):
+    global param_dict
+    param_dict["z"].append(z)
+    param_dict["Q_Hii"].append(Q_Hii[0])
+    param_dict["P1"].append(P1)
+    param_dict["P2"].append(P2)
+    param_dict["P3"].append(P3)
+    param_dict["f_esc_UV"].append(f_esc_UV(z))
+    param_dict["E_ion"].append(E_ion(z))
+    param_dict["P_UV"].append(P_UV(z, P1, P2, P3))
+    param_dict["n_ion_dot_UV"].append(n_ion_dot_UV(z, P1, P2, P3))
+    param_dict["n_H"].append(n_H())
+    param_dict["t_rec"].append(t_rec(z))
+    param_dict["Q_Hii_dot_UV"].append((((n_ion_dot_UV(z, P1, P2, P3)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)[0])
+
+
 def Q_Hii_dot_UV(z,Q_Hii,P1, P2, P3): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
+    param_store(z, Q_Hii, P1, P2, P3)
     return (((n_ion_dot_UV(z, P1, P2, P3)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+
+    
+    
+    
 
 def dQ_dt_UV(Q, t,P1, P2, P3):
     

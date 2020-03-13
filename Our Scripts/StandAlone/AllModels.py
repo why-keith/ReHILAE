@@ -38,11 +38,11 @@ Q_Lyc[Q_Lyc<0.0] = 0.0 # 100% HI
 
 #PLOT Z AGAINST Q
 plt.figure('UV Framework')
-plt.plot(zs,Q_UV, color='green', label='Robertson Model')
-plt.plot(zs,Q_LBG, '-', color='red', label='LBGs')
-plt.plot(zs,Q_Lyc, '-', color='blue', label='LAEs')
+plt.plot(zs,Q_UV)#, color='blue', label='Robertson Model')
+#plt.plot(zs,Q_LBG, '-', color='red', label='LBGs')
+#plt.plot(zs,Q_Lyc, '-', color='blue', label='LAEs')
 plt.xlabel('Redshift ($z$)')
 plt.ylabel('Fraction of Ioinsed Hydrogen')
-plt.title('Modelling the Epoch of Reionisation')
-plt.legend()
+#plt.title('Modelling the Epoch of Reionisation')
+#plt.legend()
 plt.show()
