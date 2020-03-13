@@ -7,7 +7,6 @@ import copy
 
 iterations = 100
 
-
 ############################################
 # Return condicence levels
 def plot_confidence_Lya(x_in,ysample,colour='g'):

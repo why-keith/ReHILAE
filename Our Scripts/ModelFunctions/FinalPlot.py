@@ -38,7 +38,15 @@ data = []
 for i,j,k,l,m,n in zip(C1_P_UV, C2_P_UV, C3_P_UV, C4_P_UV, P1_P_Lya, P2_P_Lya):
     arguements = (i[0], j[0], k[0], l[0], m[0], n[0])
     data.append((main.main(ts,arguements)))
-
+#print(len(data))
+#ind = 0
+#or result in data:
+    #for q,z in zip(result,zs):
+        #if z >= 20. and q[0] >= 0.99:
+            #del data[ind]
+            #ind -= 1
+    #ind += 1
+#print(len(data))
 plt.figure()
 for result in data:
     plt.plot(zs,result)
@@ -53,10 +61,7 @@ plt.xlabel("Redshift (z)")
 plt.ylabel("Fractions of Ionised Hydrogen")
 plt.plot(zs,median, color = "black", label="LAE")
 
-
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "red", edgecolor = "black", linewidth = 1.2)
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2)
 plt.fill_betweenx(median,6,10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 5)
-
-print(len(median), len(median_lower_percentile), len(median_upper_percentile))
 
 plt.show()
