@@ -21,20 +21,21 @@ def t_rec(z):
 def f_esc(z):
     return ((1+z)/3)**alpha * f_esc0
 
-def P_UV(z, C1, C2, C3, C4):
+def P_UV(z):
     log_P_UV = C1*z**3 + C2*z**2 + C3*z + C4 
     return 10**(log_P_UV)
 
-def nion(z, C1, C2, C3, C4):
-    return f_esc(z)*xi_ion*P_UV(z, C1, C2, C3, C4)/ (2.938e+73)
+def nion(z):
+    return f_esc(z)*xi_ion*P_UV(z)/ (2.938e+73)
 
-def dQ_dt(Q,t, C1, C2, C3, C4):
+def dQ_dt(Q,t):
     z= ((((28./(t))-1.)**(1./2.)-1.)) # conversion from Gyr to redshift
-    return ((nion(z, C1, C2, C3, C4))/n_H-Q/t_rec(z))*3.1536e+16 # conversion from Gyr^-1 to s^-1
+    return ((nion(z))/n_H-Q/t_rec(z))*3.1536e+16 # conversion from Gyr^-1 to s^-1
 
 def main(ts, arguements):
-    Q = odeint(dQ_dt, 0, ts, args=(arguements))
+    global C1, C2, C3, C4
+    C1, C2, C3, C4 = arguements
+    Q = odeint(dQ_dt, 0, ts)
     Q[Q>1.0] = 1.0 # 100% HII
     Q[Q<0.0] = 0.0 # 100% HI
-
     return Q

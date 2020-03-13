@@ -4,7 +4,7 @@ import math
 from pylab import array
 import random_array_generator as rag
 import pandas as pd
-import LAE_with_errors as main
+import LAE_Model as main
 
 ts = np.linspace(0.051,14,100000) # time in Gyr
 zs= ((((28./(ts))-1.)**(1./2.)-1.)) # conversion from Gyr to redshift

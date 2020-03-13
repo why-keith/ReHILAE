@@ -32,7 +32,7 @@ for i,j,k,l in zip(C1_P_UV, C2_P_UV, C3_P_UV, C4_P_UV):
 
 data=[]
 for result in rawData:
-    anonmalies = result[:500]
+    anonmalies = result[:88]
     if all([q[0]<1. for q in anonmalies]):
         data.append(result)
 
@@ -45,8 +45,8 @@ for result in data:
 plt.xlabel("Redshift (z)")
 plt.ylabel("Fractions of Ionised Hydrogen")
 
-plt.figure('Ionised_Hydrogen_UV  10000')
-plt.title("Fraction of ionised H with respect to redshift")
+plt.figure('Ionised_Hydrogen_UV')
+
 
 median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(data[0]),data)
 plt.xlabel("Redshift (z)")
