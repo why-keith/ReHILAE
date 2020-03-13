@@ -5,7 +5,7 @@ from astropy.io import fits
 import matplotlib.pyplot as plt
 import copy
 
-iterations = 100
+iterations = 500
 
 ############################################
 # Return condicence levels
