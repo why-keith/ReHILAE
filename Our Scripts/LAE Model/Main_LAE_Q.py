@@ -67,7 +67,8 @@ def P_L_Lya_Quad(x ,P2_1, P2_2, P2_3 ):
     return  P2_1*x**2 + P2_2*x + P2_3
 
 def f_esc_LyC(x, f1, f2):
-    return f1*x + f2
+    #return f1*x + f2
+    return 0.10475112
 
 ################################################################### Cubic
 

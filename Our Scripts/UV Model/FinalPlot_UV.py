@@ -9,19 +9,23 @@ startT = Main_UV.startT
 finishT = Main_UV.finishT
 TStep = Main_UV.TStep
 
-P1_1 = [-5.288]
-P1_1_error = [0.83404]
+P1_1 = [-0.0184311]
+P1_1_error = [0.0023189]
 
-P1_2 = [30.39894]
-P1_2_error = [0.757]
+P1_2 = [-0.0185036]
+P1_2_error = [0.0460448]
 
-P1_1_P_L_Lya = rag.random_Arrays(len(P1_1),P1_1,P1_1_error,P1_1_error)
-P1_2_P_L_Lya = rag.random_Arrays(len(P1_2),P1_2 ,P1_2_error,P1_2_error)
+P1_3 = [26.8715339]
+P1_3_error = [0.1969757]
+
+P1_1_P_UV = rag.random_Arrays(len(P1_1),P1_1,P1_1_error,P1_1_error)
+P1_2_P_UV = rag.random_Arrays(len(P1_2),P1_2 ,P1_2_error,P1_2_error)
+P1_3_P_UV = rag.random_Arrays(len(P1_3),P1_3 ,P1_3_error,P1_3_error)
 
 data = []
 z,t = Main_UV.redshift(startT, finishT, TStep)
-for i,j in zip(P1_1_P_L_Lya,P1_2_P_L_Lya):
-    arguements = (i[0],j[0])
+for i,j,k in zip(P1_1_P_UV,P1_2_P_UV,P1_3_P_UV):
+    arguements = (i[0],j[0],k[0])
     data.append((Main_UV.main_UV(arguements))) # TODO write this return to file and then plot after loop
 
 

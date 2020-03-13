@@ -88,7 +88,7 @@ def P_L_Lya_Power(z, P1_1, P1_2, P2_1, P2_2):
     return P1_1*x + P1_2
 
 def f_esc_LyC(x, f1, f2):
-    return f1*x + f2
+    return 0.10475112
 
 ################################################################ Power Law
 

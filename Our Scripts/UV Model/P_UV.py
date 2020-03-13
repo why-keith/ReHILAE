@@ -15,11 +15,13 @@ TStep = mod.TStep
 
 #GENERATE Z AND t ARRAYS
 z,t = mod.redshift(startT, finishT, TStep)
-P1 = -5.288
-P2 = 30.39894
+P1 = 0.0045052
+P2 = -0.1388196
+P3 = 0.9905637
+P4 = 24.2651788
 
 #GENERATE P_uv ARRA
-P=[mod.P_UV(i, P1, P2) for i in z]
+P=[math.log10(mod.P_UV(i, P1, P2, P3, P4)) for i in z]
 
 
 

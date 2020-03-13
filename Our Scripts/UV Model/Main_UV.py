@@ -29,9 +29,6 @@ finishT=14 #Finish time
 intervalNumber = 10000
 TStep=(finishT - startT)/(intervalNumber) #Size of steps in time
 EW = 148.9705
-P1 = -5.288
-P2 = 30.39894
-
 
 
 def red(t,alt=False): #UNITLESS - calculates redshift from comsic time (Gyrs)
@@ -66,23 +63,24 @@ def t_rec(z): #s recombination time
     return (alpha_beta() * n_H() * C * (1 + Y_p/(4*X_p)) * (1 + z)**(3))**(-1)
 
 def E_ion(z):#Hz/erg
-    return 10**(24.4 + math.log10(1 + z)) #10**25.6 
+    return 10**25.4 
+    #return 10**(24.4 + math.log10(1 + z))
 
 def f_esc_UV(z): #escape fraction of UV
-        return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction 0.23
+    return (f_esc_zero*((1+z)/3)**alpha)/100 # UV escape fraction 0.23
 
-def P_UV(z, P1, P2):
-    return (P1*math.log10(z+1) + P2)
+def P_UV(z, P1, P2, P3):
+    return 10**(P1*z**2 + P2*z + P3)
 
-def n_ion_dot_UV(z, P1, P2): #s⁻¹ cm⁻³ 
-    return f_esc_UV(z) * E_ion(z) * (10**(P1*math.log10(z+1) + P2)) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
+def n_ion_dot_UV(z, P1, P2, P3): #s⁻¹ cm⁻³ 
+    return f_esc_UV(z) * E_ion(z) * P_UV(z, P1, P2, P3) / (2.938e+73) # (2.938e+73) converts from Mpc^-3 to cm^-3  - full units s^-1 Mpc^-3
 
-def Q_Hii_dot_UV(z,Q_Hii,P1, P2): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
-    return (((n_ion_dot_UV(z, P1, P2)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
+def Q_Hii_dot_UV(z,Q_Hii,P1, P2, P3): #s⁻¹	def Q_Hii_dot(z,Q_Hii): #s⁻¹
+    return (((n_ion_dot_UV(z, P1, P2, P3)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16) # conversion from Gyr^-1 to s^-1	    return (((n_ion_dot(z)/n_H()) - (Q_Hii/t_rec(z)))*3.1536e+16)  
 
-def dQ_dt_UV(Q, t,P1, P2):
+def dQ_dt_UV(Q, t,P1, P2, P3):
     
-    dQ_dt = Q_Hii_dot_UV(red(t), Q,P1, P2)
+    dQ_dt = Q_Hii_dot_UV(red(t), Q,P1, P2, P3)
     return dQ_dt
 
 #GENERATE Q ARRAY
