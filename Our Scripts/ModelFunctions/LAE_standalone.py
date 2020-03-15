@@ -13,7 +13,7 @@ X_p = 0.75 #hydrogen_mass_fraction
 T = 20000. #IGM_temperature [K]
 C = 3  #clumping_factor
 Y_p = (1.-X_p) #helium mass fraction
-EW = 148.9705
+EW = 141 #mean 148.9705
 c_ha=1.36E-12
 
 alpha_B = 2.6*pow(10,-13.)*(T/10.**(4.))**(-0.76)  #case_B_recombination_coefficient

@@ -3,7 +3,6 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
-import random_array_generator as rag
 # DATA
 ##########################################################################################################
 def Function(x,a1,a2,a3):
@@ -39,40 +38,15 @@ print (r'$\log(\rho_{L_{Ly\alpha}})$ =(%s+-%s)$z^{2}$ + (%s+-%s)$z$+ (%s+-%s)' %
 a1, a2, a3, = BFP[0], BFP[1], BFP[2]
 xdata = [i for i in range(0,14)]
 data = [Function(i,a1,a2,a3) for i in range(0,14)]
-###########################################################################################################
-#Coefficients given here are different to those provided by the curve fit?
-P1_1 = [-0.04764]
-P1_1_error = [0.0128]
+data_min = [Function(i,a1-err_BFP[0],a2-err_BFP[1],a3-err_BFP[2]) for i in xdata]
+data_max = [Function(i,a1+err_BFP[0],a2+err_BFP[1],a3+err_BFP[2]) for i in xdata]
 
-P1_2 = [0.45297]
-P1_2_error = [0.0944]
-
-P1_3 = [38.97568]
-P1_3_error = [0.15874]
- 
-P1_1_P_L_Lya = rag.random_Arrays(len(P1_1),P1_1,P1_1_error,P1_1_error)
-P1_2_P_L_Lya = rag.random_Arrays(len(P1_2),P1_2 ,P1_2_error,P1_2_error)
-P1_3_P_L_Lya = rag.random_Arrays(len(P1_3),P1_3,P1_3_error,P1_3_error)
-
-p_lya_iterations = []
-for i in range(len(P1_1_P_L_Lya)):
-    dummy = []
-    for j in xdata:
-        dummy.append(P1_1_P_L_Lya[i][0]*math.pow(j,2) + P1_2_P_L_Lya[i][0]*j + P1_3_P_L_Lya[i][0])
-    p_lya_iterations.append(dummy)
-        
-median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(p_lya_iterations[0]),p_lya_iterations)
-
-###########################################################################################################
-plt.figure('Rho_LLya_Quad')
+################################################################################
+plt.figure("Rho_Lya_Quad")
 plt.scatter(xs, ys, color='black', marker='.')
 plt.errorbar(xs, ys, yerr=ys_err, ls = 'none', color='black')
-plt.plot(xdata, data, color='steelblue', label=r'$\log(\rho_{L_{Ly\alpha}})$ =(-0.05±0.01)$z^{2}$ + (0.44±0.09)$z$+ (38.99±0.15)')
-
-plt.plot(xdata, median, "--")
-plt.fill_between(xdata,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
-
-plt.xlabel(r'Redshift (z)')
-plt.ylabel(r'$\log (\rho_{L_{Ly\alpha}}) \ [erg \ s^{-1} \ Mpc^{-3}]$')
-plt.legend()
+plt.plot(xdata, data, color='steelblue')
+plt.fill_between(xdata, data_min, data_max, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
+plt.ylabel(r'$log_{10}(\rho_{Ly\alpha} \ [erg \ s^{-1} \ Mpc^{-3})]$')
+plt.xlabel(r'Redshift ($z$)')
 plt.show()

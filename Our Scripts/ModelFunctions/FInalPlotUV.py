@@ -25,22 +25,25 @@ C2_P_UV = rag.random_Arrays(len(C2),C2,C2_error,C2_error)
 C3_P_UV = rag.random_Arrays(len(C3),C3,C3_error,C3_error)
 C4_P_UV = rag.random_Arrays(len(C4),C4,C4_error,C4_error)
 
-rawData = []
+data = []
 for i,j,k,l in zip(C1_P_UV, C2_P_UV, C3_P_UV, C4_P_UV):
     arguements = (i[0], j[0], k[0], l[0])
-    rawData.append((main.main(ts,arguements)))
+    data.append((main.main(ts,arguements)))
 
-data=[]
-for result in rawData:
-    anonmalies = result[:88]
-    if all([q[0]<1. for q in anonmalies]):
-        data.append(result)
-
-print(len(rawData))
+print('simualtion finished')
+selectedData=[]
+for result in data:
+    anonmalies = result[:13]
+    if any([q[0]==1 for q in anonmalies]):
+        continue
+    else:
+        selectedData.append(result)
+print('data filtered')
 print(len(data))
+print(len(selectedData))
 
 plt.figure()
-for result in data:
+for result in selectedData:
     plt.plot(zs,result)
 plt.xlabel("Redshift (z)")
 plt.ylabel("Fractions of Ionised Hydrogen")
@@ -48,7 +51,7 @@ plt.ylabel("Fractions of Ionised Hydrogen")
 plt.figure('Ionised_Hydrogen_UV')
 
 
-median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(data[0]),data)
+median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(selectedData[0]),selectedData)
 plt.xlabel("Redshift (z)")
 plt.ylabel("Fractions of Ionised Hydrogen")
 plt.plot(zs,median, color = "black", label="LAE")

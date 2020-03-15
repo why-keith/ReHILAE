@@ -3,7 +3,6 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
-import random_array_generator as rag
 # DATA
 
 
@@ -36,39 +35,20 @@ print ('Function: y = (%s+-%s)x  + (%s+-%s)' %(round(BFP[0],5),round(err_BFP[0],
 a1, a2, = BFP[0], BFP[1]
 xdata = [i for i in range(0,160)]
 data = [Function(i,a1,a2) for i in xdata]
-################################################################################
-#iteration data for fesc
-f1 = [0.00064]
-f1_error = [0.00013]
+data_min = [Function(i,a1-err_BFP[0],a2-err_BFP[1]) for i in xdata]
+data_max = [Function(i,a1+err_BFP[0],a2+err_BFP[1]) for i in xdata]
 
-f2 = [0.00941]
-f2_error = [0.00364]
- 
-f1_f_esc = rag.random_Arrays(len(f1),f1,f1_error,f1_error)
-f2_f_esc = rag.random_Arrays(len(f2),f2,f2_error,f2_error)
-
-f_esc_iterations = []
-for i in range(len(f1_f_esc)):
-    dummy = []
-    for j in xdata:
-        dummy.append(f1_f_esc[i][0]*j + f2_f_esc[i][0])
-    f_esc_iterations.append(dummy)
-        
-median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(f_esc_iterations[0]),f_esc_iterations)
 ################################################################################
 plt.figure("Fesc_LyC")
 plt.scatter(xs, ys, color='black')
 plt.errorbar(xs, ys, yerr=ys_err, ls = 'none', color='black')
-plt.plot(xdata, data, color='steelblue', label=r'$f_{esc,LyC}$ = (0.00064±0.00013)$EW_{0}$  + (0.00941±0.00364)')
-
-#plt.plot(xdata, median, "--")
-plt.fill_between(xdata,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
+plt.plot(xdata, data, color='steelblue')
+plt.fill_between(xdata, data_min, data_max, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
 plt.scatter(148.9705, Function(148.9705,a1,a2), color='red')
 err_up = Function(148.9705, a1+err_BFP[0], a2+err_BFP[1])
 err_down = Function(148.9705, a1-err_BFP[0], a2-err_BFP[1])
 err = [(err_up-err_down)*0.5]
 plt.errorbar([148.9705], [Function(148.9705,a1,a2)], yerr=err , color='red', ls='none')
-
 plt.xlabel(r'Ly$\alpha$ EW [Å]')
 plt.ylabel(r'$f_{esc,LyC}$')
 #plt.legend()
