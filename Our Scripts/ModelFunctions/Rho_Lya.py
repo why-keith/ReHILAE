@@ -44,7 +44,8 @@ x = [2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ]
 xs = pylab.array([math.log10(i+1) for i in x])
 y = [0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10] # data from SC4K Sobral 
 ys = [math.log10(i*10**40) for i in y]
-err = 0.15*np.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])
+#err = 0.15*np.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])
+err = [0.05,0.075,0.095,0.095,0.09,0.095,0.18,0.13,0.35,0.32,0.4,0.185,0.185]
 p2 = pylab.polyfit(xs, ys, 1.0)
 p = pylab.poly1d(p2)
 params = p.coefficients # initial estimation for parameters
@@ -96,8 +97,8 @@ Lya_max = [powerLaw(math.log10(1+z),a5+err_BFP_2[0],a6+err_BFP_2[1]) for z in zs
 
 
 plt.figure()
-plt.plot(zs,scaled_UV,color='blue',label='Scaled UV density')
-plt.plot(zs,Lya,color='red',label=r'Ly$\alpha$')
+plt.plot(zs,scaled_UV,color='blue',label=r'Scaled $\rho_{UV}$')
+plt.plot(zs,Lya,color='red',label=r'$\rho_{Ly\alpha}$')
 plt.scatter(redshift_1, [i+scale for i in UV_densities], color='black', marker='.')
 plt.errorbar(redshift_1, [i+scale for i in UV_densities], yerr=y_sigma, ls='none', color='black')
 plt.scatter(x,ys,color='black',marker='.')
@@ -105,7 +106,7 @@ plt.errorbar(x,ys, yerr=err, color='black', ls='none')
 #plt.fill_between(zs, scaled_UV_min, scaled_UV_max, color='steelblue', alpha=0.5)
 #plt.fill_between(zs, Lya_min, Lya_max, color='salmon', alpha=0.5)
 plt.xlabel('Redshift')
-plt.ylabel(r'$log_{10}(\rho_{Ly\alpha}$ [$erg \ s^{-1} \ Mpc^{-3}$])')
+plt.ylabel(r'$log_{10}(\rho_{Ly\alpha/UV}$ [$erg \ s^{-1} \ Mpc^{-3}$])')
 plt.legend()
 
 new_Lya = [rho_Lya(z,a1,a2,a3,a4,a5,a6,scale) for z in zs]

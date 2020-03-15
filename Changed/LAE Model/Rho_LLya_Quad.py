@@ -37,8 +37,8 @@ print (r'$\log(\rho_{L_{Ly\alpha}})$ =(%s+-%s)$z^{2}$ + (%s+-%s)$z$+ (%s+-%s)' %
 # Show these on the plot as well
 
 a1, a2, a3, = BFP[0], BFP[1], BFP[2]
-xdata = [i for i in range(0,14)]
-data = [Function(i,a1,a2,a3) for i in range(0,14)]
+xdata = [i for i in range(0,15)]
+data = [Function(i,a1,a2,a3) for i in range(0,15)]
 ###########################################################################################################
 #Coefficients given here are different to those provided by the curve fit?
 P1_1 = [-0.04764]
@@ -67,12 +67,12 @@ median, median_lower_percentile, median_upper_percentile = rag.median_y_values(l
 plt.figure('Rho_LLya_Quad')
 plt.scatter(xs, ys, color='black', marker='.')
 plt.errorbar(xs, ys, yerr=ys_err, ls = 'none', color='black')
-plt.plot(xdata, data, color='steelblue', label=r'$\log(\rho_{L_{Ly\alpha}})$ =(-0.05±0.01)$z^{2}$ + (0.44±0.09)$z$+ (38.99±0.15)')
+plt.plot(xdata, data, color='steelblue', label=r'$\log(\rho_{L_y\alpha})$ =(-0.05±0.01)$z^{2}$ + (0.44±0.09)$z$+ (38.99±0.15)')
 
-plt.plot(xdata, median, "--")
+#plt.plot(xdata, median, "--")
 plt.fill_between(xdata,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
 
 plt.xlabel(r'Redshift (z)')
-plt.ylabel(r'$\log (\rho_{L_{Ly\alpha}}) \ [erg \ s^{-1} \ Mpc^{-3}]$')
-plt.legend()
+plt.ylabel(r'$\log(\rho_{Ly\alpha} \ erg \ s^{-1} \ Mpc^{-3}])$')
+#plt.legend()
 plt.show()
