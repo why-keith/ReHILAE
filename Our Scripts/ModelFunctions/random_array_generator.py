@@ -1,12 +1,7 @@
 import numpy as np
-import matplotlib
-import math
-from astropy.io import fits 
-import matplotlib.pyplot as plt
-import copy
 from sys import stdout
 
-iterations = 20
+iterations = 10
 
 ############################################
 # Return condicence levels

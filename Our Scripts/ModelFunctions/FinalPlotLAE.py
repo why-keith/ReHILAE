@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import math
 from pylab import array
 import random_array_generator as rag
 import pandas as pd

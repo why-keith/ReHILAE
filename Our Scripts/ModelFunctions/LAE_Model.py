@@ -1,7 +1,5 @@
-from pylab import array, polyfit, poly1d
 import numpy as np
 from scipy.integrate import odeint
-import matplotlib.pyplot as plt
 import math
 
 xi_ion = 10**25.4
