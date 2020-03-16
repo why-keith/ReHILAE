@@ -15,6 +15,8 @@ Y_p = (1.-X_p) #helium mass fraction
 alpha_B = 2.6*pow(10,-13.)*(T/10.**(4.))**(-0.76)  #case_B_recombination_coefficient
 n_H = 1.67*pow(10,-7.) * ((Omega_b * h* h)/0.02) * (X_p/0.75) # per cm^3
 
+init_conditions={"C1":np.array([]), "C2":np.array([]), "C3":np.array([]), "C4":np.array([])} #records the inital conditions of each iteration
+
 def t_rec(z):
     return 1./(C*alpha_B*(1.+Y_p/(4.*X_p))*n_H*(1.+z)**(3.)) # units: seconds
 
@@ -38,4 +40,6 @@ def main(ts, arguements):
     Q = odeint(dQ_dt, 0, ts)
     Q[Q>1.0] = 1.0 # 100% HII
     Q[Q<0.0] = 0.0 # 100% HI
+    for i,j in zip(init_conditions,range(len(arguements))):        
+        init_conditions[i]=np.append(init_conditions[i],arguements[j])
     return Q

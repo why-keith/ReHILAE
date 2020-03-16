@@ -76,4 +76,9 @@ plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.
 plt.fill_betweenx(median,6,10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 5)
 
 plt.show()
+
+df=pd.DataFrame(data=main.init_conditions)
+print(df)
+pd.DataFrame.to_csv(df,"LAE_initial_conditions.csv")
+
 print("Time elapsed = {}s".format(round(time.time()-start,2)))
