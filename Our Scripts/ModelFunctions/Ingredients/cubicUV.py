@@ -33,10 +33,10 @@ a1_err, a2_err, a3_err, a4_err = err_BFP[0], err_BFP[1], err_BFP[2], err_BFP[3]
 zs = list(np.linspace(0.0051,14,10000))
 scipy_fit = [Function(z,a1,a2,a3,a4) for z in zs]
 
-a1_list = np.random.normal(a1, a1_err*0.2, 100)
-a2_list = np.random.normal(a2, a2_err*0.2, 100)
-a3_list = np.random.normal(a3, a3_err*0.2, 100)
-a4_list = np.random.normal(a4, a4_err*0.2, 100)
+a1_list = np.random.normal(a1, a1_err*0.2, 500)
+a2_list = np.random.normal(a2, a2_err*0.2, 500)
+a3_list = np.random.normal(a3, a3_err*0.2, 500)
+a4_list = np.random.normal(a4, a4_err*0.2, 500)
 
 all_runs = []
 for _ in a1_list:
@@ -44,15 +44,23 @@ for _ in a1_list:
 
 for A,B,C,D,loop in zip(a1_list,a2_list,a3_list,a4_list,all_runs):
     for z in zs:
-        loop.append(Function(z,A,B,C,D))
+        parameter = np.random.randint(4)
+        if parameter == 0:
+            loop.append(Function(z,A,a2,a3,a4))
+        elif parameter == 1:
+            loop.append(Function(z,a1,B,a3,a4))
+        elif parameter == 2:
+            loop.append(Function(z,a1,a2,C,a4))
+        else:
+            loop.append(Function(z,a1,a2,a3,D))
 
 median, median_upper_percentile, median_lower_percentile = [],[],[]
 for z in zs:
     ind = zs.index(z)
     LumDensities = [i[ind] for i in all_runs]
-    median_lower_percentile.append(np.percentile(LumDensities,16))
+    median_lower_percentile.append(np.percentile(LumDensities,34))
     median.append(np.median(LumDensities))
-    median_upper_percentile.append(np.percentile(LumDensities,84))
+    median_upper_percentile.append(np.percentile(LumDensities,66))
 
 plt.figure("Rho_UV_Cubic")
 plt.plot(zs, scipy_fit, color='black', label='SciPy fit')
