@@ -53,20 +53,20 @@ for i,j,k,l,m,n,o,p in zip(C1_P_UV,C2_P_UV,C3_P_UV,C4_P_UV,P1_P_Lya,P2_P_Lya,F1_
 
 #print('simualtion finished')
 
-#selectedData=[]
-#for result in data:
-    #anonmalies = result[:13]
-    #if any([q[0]==1. for q in anonmalies]):
-        #continue
-    #else:
-        #selectedData.append(result)
+selectedData=[]
+for result in data:
+    anonmalies = result[:13]
+    if any([q[0]==1. for q in anonmalies]):
+        continue
+    else:
+        selectedData.append(result)
 #print('data filtered')
 #print(len(data))
 #print(len(selectedData))
 
 median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(selectedData[0]),selectedData)
 
-plt.figure()
+plt.figure("All iterations")
 for result in data:
     plt.plot(zs,result)
 plt.xlabel("Redshift (z)")

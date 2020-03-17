@@ -36,13 +36,13 @@ for i,j,k,l in zip(C1_P_UV, C2_P_UV, C3_P_UV, C4_P_UV):
 
 #print('simualtion finished')
 
-#selectedData=[]
-#for result in data:
-    #anonmalies = result[:13]
-    #if any([q[0]==1 for q in anonmalies]):
-        #continue
-    #else:
-        #selectedData.append(result)
+selectedData=[]
+for result in data:
+    anonmalies = result[:13]
+    if any([q[0]==1 for q in anonmalies]):
+        continue
+    else:
+        selectedData.append(result)
 #print('data filtered')
 #print(len(data))
 #print(len(selectedData))
