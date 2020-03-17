@@ -11,7 +11,7 @@ def Function(x,a1,a2,a3):
 xs = [2.2,2.5,2.8,3.0,3.2, 3.3, 3.7, 4.1, 4.6, 4.8, 5.1, 5.3, 5.8 ]
 y = [0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10] # data from SC4K Sobral 
 ys = [math.log10(i*10**40) for i in y]
-ys_err = 0.15*np.array([0.52, 0.74, 0.77, 0.88, 0.84, 0.85, 1.01, 0.87, 1.19, 1.12, 1.27, 1.08, 1.10])
+ys_err = [0.05,0.075,0.095,0.095,0.09,0.095,0.18,0.13,0.35,0.32,0.4,0.185,0.185]
 p2 = pylab.polyfit(xs, ys, 2.0)
 p = pylab.poly1d(p2)
 params = p.coefficients # initial estimation for parameters

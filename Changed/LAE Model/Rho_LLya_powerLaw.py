@@ -78,45 +78,14 @@ median, median_lower_percentile, median_upper_percentile = rag.median_y_values(l
 
 ##################################################################################
 plt.figure('Rho_LLya_powerLaw')
-plt.plot(xdata, densities, color = 'steelblue', label = ('Power Law: y = (%s+-%s)x  + (%s+-%s)' %(round(BFP[0],5),round(err_BFP[0],5),round(BFP[1],5),round(err_BFP[1],5))))
+plt.plot(xdata, densities, label='SciPy fit', color='black')
 
-plt.plot(xdata, median, "--")
+plt.plot(xdata, median, "--", label='median')
 plt.fill_between(xdata,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
-"""
-############################################## Quadratic
-def Quad(x, a1, a2, a3):
-  return a1*x**2 + a2*x + a3
-
-p = pylab.poly1d(p1)
-params = p.coefficients # initial estimation for parameters
-
-# Proper fit: curvefit uses the function provided and the data with errors to minimise the residuals
-pfit, pcov = curve_fit(Quad, xs,ys,p0=params,sigma=y_sigma)
-
-# Pfit will now contain the paramentes in the format [P_0,Phase0,A_0,Av_mag] (best fit parameters)
-# Let's calculate the errors now from the covariance matrix:
-error = [] # Empty error array
-for i in range(len(pfit)): # Let's sample each individual parameter used
-  try:
-    error.append(np.absolute(pcov[i][i])**0.5)
-  except:
-    error.append(0.00)
-BFP = pfit  # Best fit parameters
-err_BFP = np.array(error) # Errors on best fit parameters
-
-###### Print out the results for the best fit
-print ('Quadratic: y = (%s+-%s)$x^2$ + (%s+-%s)x + (%s+-%s)' %(round(BFP[0],5),round(err_BFP[0],5),round(BFP[1],5),round(err_BFP[1],5), round(BFP[2],5),round(err_BFP[2],5)))
-# Show these on the plot as well
-
-a1, a2, a3 = BFP[0], BFP[1], BFP[2], 
-xdata = [i for i in range(0,14)]
-data = [Quad(i,a1,a2, a3) for i in xdata]
-"""
-
 
 plt.scatter(xs, ys, color='black')
 plt.errorbar(xs, ys, yerr=y_sigma, ls = 'none', color='black')
 plt.xlabel(r'Redshift (z)')
-plt.ylabel(r'$log(\rho_{L_{Ly\alpha}}) [erg s^{−1} Mpc^{−3}]$')
+plt.ylabel(r'$log(\rho_{Ly\alpha}) [erg s^{−1} Mpc^{−3}]$')
 plt.legend()
 plt.show()

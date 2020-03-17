@@ -59,17 +59,16 @@ median, median_lower_percentile, median_upper_percentile = rag.median_y_values(l
 plt.figure("Fesc_LyC")
 plt.scatter(xs, ys, color='black')
 plt.errorbar(xs, ys, yerr=ys_err, ls = 'none', color='black')
-plt.plot(xdata, data, color='steelblue', label=r'$f_{esc,LyC}$ = (0.00064±0.00013)$EW_{0}$  + (0.00941±0.00364)')
+plt.plot(xdata, data, color='steelblue', label='')
 
-#plt.plot(xdata, median, "--")
 plt.fill_between(xdata,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
 plt.scatter(148.9705, Function(148.9705,a1,a2), color='red')
 err_up = Function(148.9705, a1+err_BFP[0], a2+err_BFP[1])
 err_down = Function(148.9705, a1-err_BFP[0], a2-err_BFP[1])
 err = [(err_up-err_down)*0.5]
 plt.errorbar([148.9705], [Function(148.9705,a1,a2)], yerr=err , color='red', ls='none')
-
+plt.plot(xdata, median, "--", label='median',color='black')
 plt.xlabel(r'Ly$\alpha$ EW [Å]')
 plt.ylabel(r'$f_{esc,LyC}$')
-#plt.legend()
+plt.legend()
 plt.show()
