@@ -1,10 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import math
 from pylab import array
 import random_array_generator as rag
 import pandas as pd
 import LAE_Model as main
+import time
+
+start=time.time()
 
 ts = np.linspace(0.051,14,100000) # time in Gyr
 zs= ((((28./(ts))-1.)**(1./2.)-1.)) # conversion from Gyr to redshift
@@ -33,6 +35,8 @@ F1_error = array([0.00013])*0.2
 F2 = [0.00941]
 F2_error = array([0.00364])*0.2
 
+print("Generating arrays...")
+
 C1_P_UV = rag.random_Arrays(len(C1),C1,C1_error,C1_error)
 C2_P_UV = rag.random_Arrays(len(C2),C2,C2_error,C2_error)
 C3_P_UV = rag.random_Arrays(len(C3),C3,C3_error,C3_error)
@@ -48,25 +52,28 @@ for i,j,k,l,m,n,o,p in zip(C1_P_UV,C2_P_UV,C3_P_UV,C4_P_UV,P1_P_Lya,P2_P_Lya,F1_
     data.append((main.main(ts,arguements)))
 
 #print('simualtion finished')
-#selectedData=[]
-#for result in data:
-    #anonmalies = result[:13]
-    #if any([q[0]==1. for q in anonmalies]):
-        #continue
-    #else:
-        #selectedData.append(result)
+
+selectedData=[]
+for result in data:
+    anonmalies = result[:13]
+    if any([q[0]==1. for q in anonmalies]):
+        continue
+    else:
+        selectedData.append(result)
 #print('data filtered')
 #print(len(data))
 #print(len(selectedData))
 
-plt.figure()
+median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(selectedData[0]),selectedData)
+
+plt.figure("All iterations")
 for result in data:
     plt.plot(zs,result)
 plt.xlabel("Redshift (z)")
 plt.ylabel(r"Fractions of Ionised Hydrogen ($Q_{II}$)")
 
-plt.figure('Ionised_Hydrogen_LAE')
-median, median_lower_percentile, median_upper_percentile = rag.median_y_values(len(data[0]),data)
+
+plt.figure('Ionised_Hydrogen_UV')
 plt.xlabel("Redshift (z)")
 plt.ylabel(r"Fraction of Ionised Hydrogen ($Q_{II}$)")
 plt.plot(zs,median, color = "black", label="LAE")
@@ -74,3 +81,9 @@ plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.
 plt.fill_betweenx(median,6,10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 5)
 
 plt.show()
+
+df=pd.DataFrame(data=main.init_conditions)
+print(df)
+pd.DataFrame.to_csv(df,"LAE_initial_conditions.csv")
+
+print("Time elapsed = {}s".format(round(time.time()-start,2)))

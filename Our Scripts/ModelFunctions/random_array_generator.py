@@ -1,11 +1,7 @@
 import numpy as np
-import matplotlib
-import math
-from astropy.io import fits 
-import matplotlib.pyplot as plt
-import copy
+from sys import stdout
 
-iterations = 100
+iterations = 10
 
 ############################################
 # Return condicence levels
@@ -42,8 +38,15 @@ def random_Arrays(x,y,error_down_y,error_up_y):
         y_new_list = [0 for i in range(len(y))]
         for j in range(len(y)): # Generates an array with random guassian distributed data points
             y_new_list[j]=(double_normal(y[j],error_down_y[j],error_up_y[j],1)[0])
-        i     
+           
         master_list.append(y_new_list) # Appends new array to master_list
+        """
+        percent=50/4*i/iterations +12.5*RAcount
+        stdout.write("\rSimulation Running - {}%       ".format(round(percent,3)))
+        if RAcount==3 and i==iterations-1:
+            stdout.write("\rSimulation Running - 50%                 ")
+        stdout.flush()
+        """
     return master_list
     
 #################################
@@ -60,9 +63,13 @@ def median_y_values(length_of_each_array,array_of_random_arrays):
         median_y_array.append(np.median(Y))
         upper_percentile.append(np.percentile(Y,84))
         lower_percentile.append(np.percentile(Y,16))
-        
-    #print(median_y_array)
+        percent=(100*i/length_of_each_array)
+        stdout.write("\rGenerating median arrays - {}%       ".format(round(percent,3)))
 
+        stdout.flush()
+    #print(median_y_array)
+    stdout.write("\rSimulation Running - 100%               \n")
+    stdout.flush()
     return median_y_array, upper_percentile, lower_percentile
     
     #plt.plot(x,median_y_array)
