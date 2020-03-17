@@ -95,7 +95,6 @@ Lya = [powerLaw(math.log10(1+z),a5,a6) for z in zs]
 Lya_min = [powerLaw(math.log10(1+z),a5-err_BFP_2[0],a6-err_BFP_2[1]) for z in zs]
 Lya_max = [powerLaw(math.log10(1+z),a5+err_BFP_2[0],a6+err_BFP_2[1]) for z in zs]
 
-
 plt.figure()
 plt.plot(zs,scaled_UV,color='blue',label=r'Scaled $\rho_{UV}$')
 plt.plot(zs,Lya,color='red',label=r'$\rho_{Ly\alpha}$')
