@@ -76,13 +76,14 @@ median, median_lower_percentile, median_upper_percentile = rag.median_y_values(l
 
 
 ###############################################################################
-plt.plot(zs, data, color='red', label='Average optimsed data')
+plt.plot(zs, data, color='black', label='SciPy curve')
 
-plt.plot(zs, median, "--")
+plt.plot(zs, median, "--", label='median')
 plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2)
+plt.scatter(xs,ys,color='black',marker='.')
+plt.errorbar(xs,ys,yerr=err,ls='none')
 
 plt.xlabel('Redshift ($z$)')
 plt.ylabel(r'$\log (\rho_{UV}) \ [erg \ s^{-1} \ Mpc^{-3}]$')
-plt.title('Plot to show Scipy and polyfit curves')
 plt.legend()
 plt.show()
