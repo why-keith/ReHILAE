@@ -25,7 +25,7 @@ f2=1.17
 f2_err=0.02
 
 
-n = 100
+n = 1000
 
 
 C1_list = np.random.normal(C1, C1_err*0.2, n)
@@ -55,7 +55,13 @@ ts = np.linspace(0.051,14,100000) # time in Gyr
 zs= list(((((28./(ts))-1.)**(1./2.)-1.))) # conversion from Gyr to redshift
 
 for _ in list(range(0,n)):   
-   # print(_/n)
+    
+    percent=100*(_/n)   
+    stdout.write("\rRandomising parameters - {}%       ".format(round(percent,3)))
+    stdout.flush()
+    
+    
+    
     c_parameter=np.random.randint(4)
     if c_parameter==0:
         param=np.random.choice(C1_list)
@@ -101,6 +107,11 @@ for z in zs:
     median_lower_percentile.append(np.percentile(fraction,84))
     median.append(np.median(fraction))
     median_upper_percentile.append(np.percentile(fraction,16))
+    
+Data=np.array([zs, median, median_lower_percentile, median_upper_percentile])
+path="UV_saves/UV_C="+str(main.C)+"_xi_variable"
+np.save(path,Data)
+print("\nData saved")
 
 plt.figure('All iterations')
 for line in all_runs:
@@ -118,5 +129,7 @@ plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{II}$)')
 plt.legend()
 
 plt.show()
+
+
 
 print("\nTime elapsed = {}s".format(round(time.time()-start,2)))
