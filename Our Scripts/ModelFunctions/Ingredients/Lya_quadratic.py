@@ -56,16 +56,16 @@ median, median_upper_percentile, median_lower_percentile = [],[],[]
 for z in zs:
     ind = zs.index(z)
     P_Lya = [i[ind] for i in all_runs]
-    median_lower_percentile.append(np.percentile(P_Lya,34))
+    median_lower_percentile.append(np.percentile(P_Lya,16))
     median.append(np.median(P_Lya))
-    median_upper_percentile.append(np.percentile(P_Lya,66))
+    median_upper_percentile.append(np.percentile(P_Lya,84))
 
 
 plt.figure('Lya_Quad')
 plt.plot(zs,scipy_fit,color='black',label='SciPy fit')
 plt.scatter(xs,ys,color='black',marker='.')
 plt.errorbar(xs,ys,yerr=ys_err,color='black',ls='none')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
 plt.plot(zs, median, "--", label='Median',color='blue')
 plt.legend()
 plt.show()

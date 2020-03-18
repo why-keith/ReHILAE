@@ -32,11 +32,12 @@ a1_err, a2_err, a3_err, a4_err = err_BFP[0], err_BFP[1], err_BFP[2], err_BFP[3]
 
 zs = list(np.linspace(0.0051,14,10000))
 scipy_fit = [Function(z,a1,a2,a3,a4) for z in zs]
+number_of_iterations = 500
 
-a1_list = np.random.normal(a1, a1_err*0.2, 500)
-a2_list = np.random.normal(a2, a2_err*0.2, 500)
-a3_list = np.random.normal(a3, a3_err*0.2, 500)
-a4_list = np.random.normal(a4, a4_err*0.2, 500)
+a1_list = np.random.normal(a1, a1_err*0.2, number_of_iterations)
+a2_list = np.random.normal(a2, a2_err*0.2, number_of_iterations)
+a3_list = np.random.normal(a3, a3_err*0.2, number_of_iterations)
+a4_list = np.random.normal(a4, a4_err*0.2, number_of_iterations)
 
 all_runs = []
 for _ in a1_list:
@@ -58,15 +59,15 @@ median, median_upper_percentile, median_lower_percentile = [],[],[]
 for z in zs:
     ind = zs.index(z)
     LumDensities = [i[ind] for i in all_runs]
-    median_lower_percentile.append(np.percentile(LumDensities,34))
+    median_lower_percentile.append(np.percentile(LumDensities,16))
     median.append(np.median(LumDensities))
-    median_upper_percentile.append(np.percentile(LumDensities,66))
+    median_upper_percentile.append(np.percentile(LumDensities,84))
 
 plt.figure("Rho_UV_Cubic")
 plt.plot(zs, scipy_fit, color='black', label='SciPy fit')
 plt.scatter(xs,ys,color='black',marker='.')
 plt.errorbar(xs,ys,yerr=err,ls='none',color='black')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
 plt.plot(zs, median, "--", label='Median',color='blue')
 plt.xlabel(r'Redshift (z)')
 plt.ylabel(r'$log_{10}(\rho_{UV} \ [erg \ s^{-1} \ Mpc^{-3}])$')

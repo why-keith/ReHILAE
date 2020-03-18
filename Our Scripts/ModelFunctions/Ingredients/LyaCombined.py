@@ -45,7 +45,7 @@ for z in zs:
     Lya.append(RhoLyaPower(z))
 
 scipy_fit = [rhoLya(z) for z in zs]
-n = 1000
+n = 500
 a1_list = np.random.normal(a1, a1_err*0.2, n)
 a2_list = np.random.normal(a2, a2_err*0.2, n)
 a3_list = np.random.normal(a3, a3_err*0.2, n)
@@ -80,9 +80,9 @@ median, median_upper_percentile, median_lower_percentile = [],[],[]
 for z in zs:
     ind = zs.index(z)
     LumDensities = [i[ind] for i in all_runs]
-    median_lower_percentile.append(np.percentile(LumDensities,34))
+    median_lower_percentile.append(np.percentile(LumDensities,16))
     median.append(np.median(LumDensities))
-    median_upper_percentile.append(np.percentile(LumDensities,66))
+    median_upper_percentile.append(np.percentile(LumDensities,84))
 
 plt.figure('Luminosity Densities')
 plt.plot(zs,scaledUV,color='red',label=r'Scaled $\rho_{UV}$')
@@ -101,7 +101,7 @@ plt.scatter(redshift_1,LyaDensities,color='black',marker='.')
 plt.errorbar(redshift_1,LyaDensities, yerr=Lya_err, color='black', ls='none')
 plt.scatter(redshift_2[4:],[i+scale for i in UV_densities[4:]],color='black',marker='.')
 plt.errorbar(redshift_2[4:],[i+scale for i in UV_densities[4:]], yerr=UV_err[4:], color='black', ls='none')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
 plt.plot(zs, median, "--", label='Median',color='blue')
 plt.xlabel(r'Redshift ($z$)')
 plt.ylabel(r'$log_{10}(\rho_{Ly\alpha}$ [$erg \ s^{-1} \ Mpc^{-3}$])')

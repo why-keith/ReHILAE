@@ -59,11 +59,10 @@ for z in zs:
     median.append(np.median(equiWidths))
     median_upper_percentile.append(np.percentile(equiWidths,66))
 
-
 plt.figure('EW_Z')
 plt.plot(zs,scipy_fit,color='black',label='SciPy fit')
 plt.scatter(x,y,color='black',marker='.')
 plt.errorbar(x,y,yerr=y_err,color='black',ls='none')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
 plt.plot(zs, median, "--", label='Median',color='blue')
 plt.show()

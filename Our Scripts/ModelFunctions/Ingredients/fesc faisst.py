@@ -45,8 +45,8 @@ a1_err, a2_err = err_BFP[0], err_BFP[1]
 zs = list(np.linspace(0.0051,14,10000))
 scipy_fit = [Function(z,a1,a2) for z in zs]
 
-a1_list = np.random.normal(a1, a1_err*0.2, 500)
-a2_list = np.random.normal(a2, a2_err*0.2, 500)
+a1_list = np.random.normal(a1, a1_err*0.2, 100)
+a2_list = np.random.normal(a2, a2_err*0.2, 100)
 
 all_runs = []
 for _ in a1_list:
@@ -65,16 +65,16 @@ median, median_upper_percentile, median_lower_percentile = [],[],[]
 for z in zs:
     ind = zs.index(z)
     equiWidths = [i[ind] for i in all_runs]
-    median_lower_percentile.append(np.percentile(equiWidths,34))
+    median_lower_percentile.append(np.percentile(equiWidths,16))
     median.append(np.median(equiWidths))
-    median_upper_percentile.append(np.percentile(equiWidths,66))
+    median_upper_percentile.append(np.percentile(equiWidths,84))
 
 
 plt.figure(r'$f_{esc}$ - Faisst')
 #plt.plot(zs,scipy_fit,color='black',label='SciPy fit')
 #plt.scatter(x,y,color='black',marker='.')
 #plt.errorbar(x,y,yerr=y_err,color='black',ls='none')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
 plt.plot(zs, median, "--", label='Median',color='blue')
 plt.xlabel(r"$f_{esc}$")
 plt.ylabel("Redshift")
