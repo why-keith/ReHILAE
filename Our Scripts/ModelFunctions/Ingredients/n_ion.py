@@ -30,8 +30,8 @@ def rhoLya(z, p1=p1, p2=p2, p3=p3, p4=p4, p5=p5, p6=p6):
         scaled = uv + scale
         return scaled
 
-def Q_dot(z,P_Lya,fesc,ew):
-    return 10**P_Lya / (c_ha*(1-fesc*(0.0042*ew)))
+def n_ion(z,P_Lya,fesc,ew):
+    return 10**P_Lya / (c_ha*(1-fesc*(0.0042*ew))) * fesc
 
 zs = list(np.linspace(0,14,10000))
 scipy_fit = []
@@ -39,9 +39,9 @@ for z in zs:
     P_Lya = rhoLya(z)#
     fesc = f_esc(z)
     ew = EW(z)
-    scipy_fit.append(Q_dot(z,P_Lya,fesc,ew))
+    scipy_fit.append(n_ion(z,P_Lya,fesc,ew))
 
-n = 1000
+n = 100
 e1_list = np.random.normal(e1, e1_err*0.2, n)
 e2_list = np.random.normal(e2, e2_err*0.2, n)
 
@@ -97,7 +97,7 @@ for loop in all_runs:
             else:
                 param = np.random.choice(p6_list)
                 P_Lya = rhoLya(z,p6=param)
-        loop.append(fesc*Q_dot(z, P_Lya, fesc, ew))
+        loop.append(n_ion(z, P_Lya, fesc, ew))
 
 median, median_upper_percentile, median_lower_percentile = [],[],[]
 for z in zs:
