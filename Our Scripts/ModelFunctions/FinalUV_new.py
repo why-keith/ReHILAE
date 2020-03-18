@@ -109,7 +109,7 @@ for z in zs:
     median_upper_percentile.append(np.percentile(fraction,16))
     
 Data=np.array([zs, median, median_lower_percentile, median_upper_percentile])
-path="UV_saves/UV_C="+str(main.C)+"_xi_variable"
+path="UV_saves/UV_C="+str(main.C)+"_xi_constant"
 np.save(path,Data)
 print("\nData saved")
 
@@ -125,7 +125,7 @@ plt.fill_between(zs, median_lower_percentile,  median_upper_percentile, alpha=0.
 plt.plot(zs, median, label='Median',color='black')
 plt.axvspan(6, 10, color = "lightgrey", alpha = 0.4, edgecolor = "black", linewidth = 5)
 plt.xlabel('Redshift (z)')
-plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{II}$)')
+plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{H_{II}}$)')
 plt.legend()
 
 plt.show()
