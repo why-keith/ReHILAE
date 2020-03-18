@@ -1,7 +1,7 @@
 import numpy as np
 from sys import stdout
 
-iterations = 10
+iterations = 100
 
 ############################################
 # Return condicence levels

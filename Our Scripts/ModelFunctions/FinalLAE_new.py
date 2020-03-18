@@ -1,7 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from pylab import array
+#from pylab import array
 import LAE_Model_new as main
+from sys import stdout
+import time
+
+start=time.time()
 
 e1,e2 = 6.67298, 80.96867
 f1,f2 = 0.00064, 0.00941
@@ -11,7 +15,7 @@ e1_err,e2_err = 10.14199, 40.79174
 f1_err,f2_err = 0.00013, 0.00364
 p1_err,p2_err,p3_err,p4_err,p5_err,p6_err = 0.18238,0.10709,0.0009035,0.0248473,0.2101038,0.5405448
 
-n = 1000
+n = 100
 e1_list = np.random.normal(e1, e1_err*0.2, n)
 e2_list = np.random.normal(e2, e2_err*0.2, n)
 
@@ -71,6 +75,11 @@ for _ in list(range(0,n)):
 median, median_upper_percentile, median_lower_percentile = [],[],[]
 for z in zs:
     ind = zs.index(z)
+    
+    percent=100*ind/len(zs)    
+    stdout.write("\rGenerating median arrays - {}%       ".format(round(percent,3)))
+    stdout.flush()
+    
     fraction = [i[ind] for i in all_runs]
     median_lower_percentile.append(np.percentile(fraction,84))
     median.append(np.median(fraction))
@@ -93,4 +102,4 @@ plt.legend()
 
 plt.show()
 
-
+print("\nTime elapsed = {}s".format(round(time.time()-start,2)))
