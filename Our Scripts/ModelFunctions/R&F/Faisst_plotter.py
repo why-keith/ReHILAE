@@ -121,7 +121,7 @@ plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{H_{II}}$)')
 plt.axvspan(6, 10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 5)
 """
 plt.figure('faisstQ(z)')
-plt.fill_between(zs, median_lower_percentile,  median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
+plt.fill_between(zs, median_lower_percentile,  median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$ conf. interval')
 plt.plot(zs, median, label='Median',color='black')
 plt.axvspan(6, 10, color = "lightgrey", alpha = 0.4, edgecolor = "black", linewidth = 5)
 plt.xlabel('Redshift (z)')
@@ -129,7 +129,5 @@ plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{H_{II}}$)')
 plt.legend()
 plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.show()
-
-
 
 print("\nTime elapsed = {}s".format(round(time.time()-start,2)))
