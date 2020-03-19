@@ -20,6 +20,9 @@ n_H = 1.67*pow(10,-7.) * ((Omega_b * h* h)/0.02) * (X_p/0.75) # per cm^3
 def t_rec(z):
     return 1./(C*alpha_B*(1.+Y_p/(4.*X_p))*n_H*(1.+z)**(3.)) # units: seconds
 
+#def xi_ion(z):
+ #   E=24.4+math.log10(1+z)
+  #  return 10**E
 
 def f_esc(z):
     return ((1+z)/3)**alpha * f_esc0
