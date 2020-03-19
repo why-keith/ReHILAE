@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 #from pylab import array
-import UV_Model_new as main
+import UV_Model_Robertson as main
 from sys import stdout
 import time
 
@@ -112,22 +112,22 @@ Data=np.array([zs, median, median_lower_percentile, median_upper_percentile])
 path="UV_saves/UV_C="+str(main.C)+"_xi_constant"
 #np.save(path,Data)
 #print("\nData saved")
-
+"""
 plt.figure('All iterations')
 for line in all_runs:
     plt.plot(zs, line)
 plt.xlabel('Redshift (z)')
-plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{II}$)')
+plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{H_{II}}$)')
 plt.axvspan(6, 10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 5)
-
-plt.figure('Fraction of Ionised Hydrogen LAE')
+"""
+plt.figure('robertsonQ(z)')
 plt.fill_between(zs, median_lower_percentile,  median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
 plt.plot(zs, median, label='Median',color='black')
 plt.axvspan(6, 10, color = "lightgrey", alpha = 0.4, edgecolor = "black", linewidth = 5)
 plt.xlabel('Redshift (z)')
 plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{H_{II}}$)')
 plt.legend()
-
+plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.show()
 
 
