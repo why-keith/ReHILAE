@@ -120,7 +120,7 @@ plt.xlim(0,20)
 
 plt.figure('Fraction of Ionised Hydrogen LAE')
 plt.fill_between(zs,median_lower_percentile,median_upper_percentile,alpha=0.4,color ="steelblue",edgecolor="black",linewidth = 1.2,label=r'$1\sigma$ conf. interval',zorder=3)
-plt.plot(zs, median, color='black',label='Median',zorder=3)
+plt.plot(zs, median, color='black',label='ReHiLAE (this study, median)',zorder=3)
 plt.axvspan(6,10,facecolor ="lightgrey",alpha=0.4,edgecolor="grey",linewidth=5,zorder=1)
 plt.scatter(mason_x,mason_y,edgecolors='red',facecolors='red',marker='*',s=250,label='Mason+2018',zorder=10)
 plt.errorbar(mason_x,mason_y,yerr=mason_yerr,xerr=mason_xerr,capsize=5,color='red',zorder=10)
