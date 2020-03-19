@@ -3,6 +3,7 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
+import matplotlib
 
 def Function(x,a1,a2):
 	return a1*x + a2
@@ -37,11 +38,11 @@ print ('Power Law: y = (%s+-%s)x  + (%s+-%s)' %(round(BFP[0],5),round(err_BFP[0]
 
 a1, a2 = BFP[0], BFP[1]
 a1_err, a2_err = err_BFP[0], err_BFP[1]
-zs = list(np.linspace(0.0051,14,10000))
+zs = list(np.linspace(0.0051,20,10000))
 scipy_fit = [rhoLya(z,a1,a2) for z in zs]
-
-a1_list = np.random.normal(a1, a1_err*0.2, 500)
-a2_list = np.random.normal(a2, a2_err*0.2, 500)
+n = 1000
+a1_list = np.random.normal(a1, a1_err*0.2, n)
+a2_list = np.random.normal(a2, a2_err*0.2, n)
 
 all_runs = []
 for _ in a1_list:
@@ -63,10 +64,27 @@ for z in zs:
     median.append(np.median(P_Lya))
     median_upper_percentile.append(np.percentile(P_Lya,84))
 
-plt.plot(zs,scipy_fit,color='black')
-plt.scatter(xs,ys,color='black',marker='.')
+#plt.plot(zs,scipy_fit,color='black')
+plt.figure('LyaPowerLaw')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$ conf. interval')
+plt.plot(zs, median, label='ReHiLAE (this study, median)',color='black')
+plt.scatter(xs,ys,color='black',marker='.',label='Sobral+2018')
 plt.errorbar(xs,ys,y_sigma,color='black',ls='none')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
-plt.plot(zs, median, "--", label='Median',color='blue')
+plt.xlim(0,20)
+plt.xlabel(r'Redshift ($z$)')
+plt.ylabel(r'$log_{10}(\rho_{Ly\alpha}$ [$erg \ s^{-1} \ Mpc^{-3}$])')
+plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.legend()
+
+matplotlib.rcParams['lines.linewidth'] = 6
+matplotlib.rcParams['axes.linewidth'] = 2.0
+matplotlib.rcParams['xtick.major.size'] = 9
+matplotlib.rcParams['xtick.minor.size'] = 5
+matplotlib.rcParams['xtick.major.width'] = 1.9
+matplotlib.rcParams['xtick.minor.width'] = 1.3
+matplotlib.rcParams['ytick.major.size'] = 9
+matplotlib.rcParams['ytick.minor.size'] = 4
+matplotlib.rcParams['ytick.major.width'] = 1.9
+matplotlib.rcParams['ytick.minor.width'] = 1.3
+
 plt.show()

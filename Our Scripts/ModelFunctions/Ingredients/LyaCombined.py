@@ -3,6 +3,7 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
+import matplotlib
 
 a1,a2,a3,a4,a5,a6 = 1.13869,39.18853,0.0013679,-0.0559273,0.2937793,26.0952716
 a1_err,a2_err,a3_err,a4_err,a5_err,a6_err = 0.18238,0.10709,0.0009035,0.0248473,0.2101038,0.5405448
@@ -36,7 +37,7 @@ UV_start = RhoUV(5.8)
 Lya_end = RhoLyaPower(5.8)
 scale = Lya_end - UV_start # 13.951808701009465
 
-zs = list(np.linspace(0,14,10000))
+zs = list(np.linspace(0,20,10000))
 
 scaledUV_min, scaledUV, scaledUV_max = [],[],[]
 Lya_min, Lya, Lya_max = [],[],[]
@@ -45,7 +46,7 @@ for z in zs:
     Lya.append(RhoLyaPower(z))
 
 scipy_fit = [rhoLya(z) for z in zs]
-n = 500
+n = 1000
 a1_list = np.random.normal(a1, a1_err*0.2, n)
 a2_list = np.random.normal(a2, a2_err*0.2, n)
 a3_list = np.random.normal(a3, a3_err*0.2, n)
@@ -85,26 +86,41 @@ for z in zs:
     median_upper_percentile.append(np.percentile(LumDensities,84))
 
 plt.figure('Luminosity Densities')
-plt.plot(zs,scaledUV,color='red',label=r'Scaled $\rho_{UV}$')
-plt.plot(zs,Lya,color='blue', label=r'$\rho_{Ly\alpha}$')
-plt.scatter(redshift_1,LyaDensities,color='black',marker='.')
+plt.plot(zs,scaledUV,color='grey',label=r'Scaled $\rho_{UV}$')
+plt.plot(zs,Lya,color='black', label=r'$\rho_{Ly\alpha}$')
+plt.scatter(redshift_1,LyaDensities,color='black',marker='.',label='Sobral+2018')
 plt.errorbar(redshift_1,LyaDensities, yerr=Lya_err, color='black', ls='none')
-plt.scatter(redshift_2,[i+scale for i in UV_densities],color='black',marker='.')
-plt.errorbar(redshift_2,[i+scale for i in UV_densities], yerr=UV_err, color='black', ls='none')
+plt.scatter(redshift_2,[i+scale for i in UV_densities],color='blue',marker='.',label='Bouwens+2015')
+plt.errorbar(redshift_2,[i+scale for i in UV_densities], yerr=UV_err, color='blue', ls='none')
 plt.xlabel(r'Redshift ($z$)')
 plt.ylabel(r'Luminosity Density [$erg \ s^{-1} \ Mpc^{-3}$]')
+plt.xlim(0,20)
+plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.legend()
 
 plt.figure('Rho Lya Combined')
-plt.plot(zs,scipy_fit, color='black',label=r'SciPy fit')
-plt.scatter(redshift_1,LyaDensities,color='black',marker='.')
+#plt.plot(zs,scipy_fit, color='black',label=r'SciPy fit')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$ conf. interval')
+plt.plot(zs, median, label='ReHiLAE (this study, median)',color='black')
+plt.scatter(redshift_1,LyaDensities,color='black',marker='.',label='Sobral+2018')
 plt.errorbar(redshift_1,LyaDensities, yerr=Lya_err, color='black', ls='none')
-plt.scatter(redshift_2[4:],[i+scale for i in UV_densities[4:]],color='black',marker='.')
-plt.errorbar(redshift_2[4:],[i+scale for i in UV_densities[4:]], yerr=UV_err[4:], color='black', ls='none')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
-plt.plot(zs, median, "--", label='Median',color='blue')
+plt.scatter(redshift_2[4:],[i+scale for i in UV_densities[4:]],color='blue',marker='.',label='Bouwens+2015')
+plt.errorbar(redshift_2[4:],[i+scale for i in UV_densities[4:]], yerr=UV_err[4:], color='blue', ls='none')
 plt.xlabel(r'Redshift ($z$)')
 plt.ylabel(r'$log_{10}(\rho_{Ly\alpha}$ [$erg \ s^{-1} \ Mpc^{-3}$])')
+plt.xlim(0,20)
+plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.legend()
+
+matplotlib.rcParams['lines.linewidth'] = 6
+matplotlib.rcParams['axes.linewidth'] = 2.0
+matplotlib.rcParams['xtick.major.size'] = 9
+matplotlib.rcParams['xtick.minor.size'] = 5
+matplotlib.rcParams['xtick.major.width'] = 1.9
+matplotlib.rcParams['xtick.minor.width'] = 1.3
+matplotlib.rcParams['ytick.major.size'] = 9
+matplotlib.rcParams['ytick.minor.size'] = 4
+matplotlib.rcParams['ytick.major.width'] = 1.9
+matplotlib.rcParams['ytick.minor.width'] = 1.3
 
 plt.show()

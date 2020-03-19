@@ -3,6 +3,7 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
+import matplotlib
 
 c_ha=1.36E-12
 scale = 13.951808701009465
@@ -33,10 +34,10 @@ def rhoLya(z, p1=p1, p2=p2, p3=p3, p4=p4, p5=p5, p6=p6):
 def Q_dot(z,P_Lya,fesc,ew):
     return 10**P_Lya / (c_ha*(1-fesc*(0.0042*ew)))
 
-zs = list(np.linspace(0,14,10000))
+zs = list(np.linspace(0,20,10000))
 scipy_fit = []
 for z in zs:
-    P_Lya = rhoLya(z)#
+    P_Lya = rhoLya(z)
     fesc = f_esc(z)
     ew = EW(z)
     scipy_fit.append(Q_dot(z,P_Lya,fesc,ew))
@@ -109,9 +110,22 @@ for z in zs:
 
 plt.figure('Q_dot')
 #plt.plot(zs, [math.log10(i) for i in scipy_fit], color='black', label='SciPy fit')
-plt.fill_between(zs,  [math.log10(i) for i in median_lower_percentile], [math.log10(i) for i in median_upper_percentile], alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
-plt.plot(zs, [math.log10(i) for i in median], "--", label='Median',color='blue')
+plt.fill_between(zs,  [math.log10(i) for i in median_lower_percentile], [math.log10(i) for i in median_upper_percentile], alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$ conf. interval')
+plt.plot(zs, [math.log10(i) for i in median], label='ReHiLAE (this study, median)',color='black')
 plt.xlabel('Redshift (z)')
-plt.ylabel(r'$\log_{10}(Q_{II} \ [s^{-1} \ Mpc^{-3}])$')
+plt.ylabel(r'$\log_{10}(Q \ [s^{-1} \ Mpc^{-3}])$')
+plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.legend()
-plt.show()     
+
+matplotlib.rcParams['lines.linewidth'] = 6
+matplotlib.rcParams['axes.linewidth'] = 2.0
+matplotlib.rcParams['xtick.major.size'] = 9
+matplotlib.rcParams['xtick.minor.size'] = 5
+matplotlib.rcParams['xtick.major.width'] = 1.9
+matplotlib.rcParams['xtick.minor.width'] = 1.3
+matplotlib.rcParams['ytick.major.size'] = 9
+matplotlib.rcParams['ytick.minor.size'] = 4
+matplotlib.rcParams['ytick.major.width'] = 1.9
+matplotlib.rcParams['ytick.minor.width'] = 1.3
+
+plt.show()
