@@ -3,6 +3,7 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
+import matplotlib
 
 def Function(x, a1, a2):
     return a1*x + a2
@@ -35,7 +36,7 @@ print ('Function: y = (%s+-%s)x  + (%s+-%s)' %(round(BFP[0],5),round(err_BFP[0],
 
 a1, a2, = BFP[0], BFP[1]
 a1_err, a2_err = err_BFP[0], err_BFP[1]
-zs = list(np.linspace(0.0051,14,10000))
+zs = list(np.linspace(0.0051,20,10000))
 scipy_fit = [Fesc(z,a1,a2) for z in zs]
 
 n = 1000
@@ -64,11 +65,22 @@ for z in zs:
 
 plt.figure('Fesc_LyC')
 #plt.plot(zs,scipy_fit,color='black',label='SciPy fit')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
-plt.plot(zs, median, "--", label='Median',color='blue')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$ conf. interval')
+plt.plot(zs, median, label='ReHiLAE (this study, median)',color='black')
 plt.xlabel('Redshift (z)')
 plt.ylabel(r'$f_{esc,LyC}$')
+plt.xlim(0,20)
+plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.legend()
+matplotlib.rcParams['lines.linewidth'] = 6
+matplotlib.rcParams['axes.linewidth'] = 2.0
+matplotlib.rcParams['xtick.major.size'] = 9
+matplotlib.rcParams['xtick.minor.size'] = 5
+matplotlib.rcParams['xtick.major.width'] = 1.9
+matplotlib.rcParams['xtick.minor.width'] = 1.3
+matplotlib.rcParams['ytick.major.size'] = 9
+matplotlib.rcParams['ytick.minor.size'] = 4
+matplotlib.rcParams['ytick.major.width'] = 1.9
+matplotlib.rcParams['ytick.minor.width'] = 1.3
+
 plt.show()
-
-

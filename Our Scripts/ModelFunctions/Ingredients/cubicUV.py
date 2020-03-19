@@ -3,6 +3,7 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import math
+import matplotlib
 
 def Function(x,a1,a2,a3,a4):
     return a1*x**3. + a2*x**2. + a3*x + a4
@@ -30,9 +31,9 @@ print ('log(P_UV) = (%s+-%s)z**3 + (%s+-%s)z**2 + (%s+-%s)x + (%s+-%s)' %(round(
 a1, a2, a3, a4, = BFP[0], BFP[1], BFP[2], BFP[3]
 a1_err, a2_err, a3_err, a4_err = err_BFP[0], err_BFP[1], err_BFP[2], err_BFP[3]
 
-zs = list(np.linspace(0.0051,14,10000))
+zs = list(np.linspace(0.0051,20,10000))
 scipy_fit = [Function(z,a1,a2,a3,a4) for z in zs]
-number_of_iterations = 500
+number_of_iterations = 1000
 
 a1_list = np.random.normal(a1, a1_err*0.2, number_of_iterations)
 a2_list = np.random.normal(a2, a2_err*0.2, number_of_iterations)
@@ -64,13 +65,25 @@ for z in zs:
     median_upper_percentile.append(np.percentile(LumDensities,84))
 
 plt.figure("Rho_UV_Cubic")
-plt.plot(zs, scipy_fit, color='black', label='SciPy fit')
-plt.scatter(xs,ys,color='black',marker='.')
+#plt.plot(zs, scipy_fit, color='black', label='SciPy fit')
 plt.errorbar(xs,ys,yerr=err,ls='none',color='black')
-plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'68% Confidence Interval')
-plt.plot(zs, median, "--", label='Median',color='blue')
+plt.fill_between(zs,  median_lower_percentile, median_upper_percentile, alpha=0.4, color = "grey", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$ conf. interval')
+plt.plot(zs, median, label='ReHiLAE (this study, median)',color='black')
+plt.scatter(xs,ys,color='black',marker='.',label='Bouwens+2015')
 plt.xlabel(r'Redshift (z)')
 plt.ylabel(r'$log_{10}(\rho_{UV} \ [erg \ s^{-1} \ Mpc^{-3}])$')
+plt.xlim(0,20)
+plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.legend()
+matplotlib.rcParams['lines.linewidth'] = 6
+matplotlib.rcParams['axes.linewidth'] = 2.0
+matplotlib.rcParams['xtick.major.size'] = 9
+matplotlib.rcParams['xtick.minor.size'] = 5
+matplotlib.rcParams['xtick.major.width'] = 1.9
+matplotlib.rcParams['xtick.minor.width'] = 1.3
+matplotlib.rcParams['ytick.major.size'] = 9
+matplotlib.rcParams['ytick.minor.size'] = 4
+matplotlib.rcParams['ytick.major.width'] = 1.9
+matplotlib.rcParams['ytick.minor.width'] = 1.3
 
 plt.show()
