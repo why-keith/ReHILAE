@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 #from pylab import array
-import UV_Model_Robertson as main
+import UV_Model_Faisst as main
 from sys import stdout
 import time
 
@@ -19,10 +19,10 @@ C3_err = 0.21010382042922288
 C4 = 26.095271603086044
 C4_err = 0.5405447975405038
 
-#f1=2.3/100
-#f1_err=0.1/100
-#f2=1.17
-#f2_err=0.02
+f1=2.3/100
+f1_err=0.1/100
+f2=1.17
+f2_err=0.02
 
 
 n = 1000
@@ -33,8 +33,8 @@ C2_list = np.random.normal(C2, C2_err*0.2, n)
 C3_list = np.random.normal(C3, C3_err*0.2, n)
 C4_list = np.random.normal(C4, C4_err*0.2, n)
 
-#f1_list = np.random.normal(f1, f1_err*0.2, n)
-#f2_list = np.random.normal(f2, f2_err*0.2, n)
+f1_list = np.random.normal(f1, f1_err*0.2, n)
+f2_list = np.random.normal(f2, f2_err*0.2, n)
 
 """
 C1_list = np.random.normal(C1, C1_err*0.2, n)
@@ -78,7 +78,7 @@ for _ in list(range(0,n)):
         param=np.random.choice(C4_list)
         c=[C1,C2,C3,param]
         
-    """    
+        
     f_parameter=np.random.randint(2)
     if f_parameter==0:
         param=np.random.choice(f1_list)
@@ -87,9 +87,9 @@ for _ in list(range(0,n)):
         param=np.random.choice(f2_list)
         f=[f1,param]
         
-    """
+
         
-    parameters = (c,)
+    parameters = (c,f)
     arguements = [i for sub in parameters for i in sub]
     all_runs.append(main.main(ts,arguements))
 
@@ -108,8 +108,8 @@ for z in zs:
     median.append(np.median(fraction))
     median_upper_percentile.append(np.percentile(fraction,16))
     
-Data=np.array([zs, median, median_lower_percentile, median_upper_percentile])
-path="UV_saves/UV_C="+str(main.C)+"_xi_constant"
+#Data=np.array([zs, median, median_lower_percentile, median_upper_percentile])
+#path="UV_saves/UV_C="+str(main.C)+"_xi_constant"
 #np.save(path,Data)
 #print("\nData saved")
 """
@@ -120,7 +120,7 @@ plt.xlabel('Redshift (z)')
 plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{H_{II}}$)')
 plt.axvspan(6, 10, color = "lightgrey", alpha = 0.3, edgecolor = "black", linewidth = 5)
 """
-plt.figure('robertsonQ(z)')
+plt.figure('faisstQ(z)')
 plt.fill_between(zs, median_lower_percentile,  median_upper_percentile, alpha=0.4, color = "steelblue", edgecolor = "black", linewidth = 1.2, label=r'$1\sigma$ conf. interval')
 plt.plot(zs, median, label='Median',color='black')
 plt.axvspan(6, 10, color = "lightgrey", alpha = 0.4, edgecolor = "black", linewidth = 5)
@@ -129,7 +129,5 @@ plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{H_{II}}$)')
 plt.legend()
 plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.show()
-
-import Faisst_plotter
 
 print("\nTime elapsed = {}s".format(round(time.time()-start,2)))
