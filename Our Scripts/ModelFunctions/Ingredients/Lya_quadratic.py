@@ -27,7 +27,7 @@ for i in range(len(pfit)):
 BFP = pfit
 err_BFP = np.array(error)
 
-print ('Power Law: y = (%s+-%s)x  + (%s+-%s)' %(round(BFP[0],5),round(err_BFP[0],5),round(BFP[1],5),round(err_BFP[1],5)))
+print ('log(P_Lya): y = (%s+-%s)x^2  + (%s+-%s)x + (%s-%s)' %(round(BFP[0],5),round(err_BFP[0],5),round(BFP[1],5),round(err_BFP[1],5),round(BFP[2],5),round(err_BFP[2],5)))
 
 a1, a2, a3 = BFP[0], BFP[1], BFP[2]
 a1_err, a2_err,  a3_err = err_BFP[0], err_BFP[1], err_BFP[2]

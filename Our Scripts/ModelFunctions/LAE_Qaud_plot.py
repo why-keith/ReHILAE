@@ -1,18 +1,17 @@
 import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
-#from pylab import array
-import LAE_Model_new as main
+import LAE_Quad_Model as main
 
 def simulation():
     ######################################################## PARAMETERS
     e1,e2 = 6.67298, 80.96867
     f1,f2 = 0.00064, 0.00941
-    p1,p2,p3,p4,p5,p6 = 1.13869, 39.18853, 0.0013679, -0.0559273, 0.2937793, 26.0952716
+    p1,p2,p3 = -0.04629, 0.44266, 38.992
 
     e1_err,e2_err = 10.14199, 40.79174
     f1_err,f2_err = 0.00013, 0.00364
-    p1_err,p2_err,p3_err,p4_err,p5_err,p6_err = 0.18238,0.10709,0.0009035,0.0248473,0.2101038,0.5405448
+    p1_err,p2_err,p3_err = 0.01206,0.08859,0.15021
 
     ######################################################## SAMPLE RANDOM PARAMETERS
     n = 1000
@@ -25,9 +24,6 @@ def simulation():
     p1_list = np.random.normal(p1, p1_err*0.2, n)
     p2_list = np.random.normal(p2, p2_err*0.2, n)
     p3_list = np.random.normal(p3, p3_err*0.2, n)
-    p4_list = np.random.normal(p4, p4_err*0.2, n)
-    p5_list = np.random.normal(p5, p5_err*0.2, n)
-    p6_list = np.random.normal(p6, p6_err*0.2, n)
 
     ######################################################## SIMULATION
     all_runs = []
@@ -49,26 +45,16 @@ def simulation():
         else:
             param = np.random.choice(f2_list)
             fesc = [f1, param]
-        P_Lya_parameter_power = np.random.randint(2)
-        if P_Lya_parameter_power == 0:
+        P_Lya_parameter_square = np.random.randint(3)
+        if P_Lya_parameter_square == 0:
             param = np.random.choice(p1_list)
-            P_Lya = [param,p2,p3,p4,p5,p6]
-        else:
+            P_Lya = [param,p2,p3]
+        elif P_Lya_parameter_square == 1:
             param = np.random.choice(p2_list)
-            P_Lya = [p1,param,p3,p4,p5,p6]
-        P_Lya_parameter_cubic = np.random.randint(4)
-        if P_Lya_parameter_cubic == 0:
-            param = np.random.choice(p3_list)
-            P_Lya[2] = param
-        elif P_Lya_parameter_cubic == 1:
-            param = np.random.choice(p4_list)
-            P_Lya[3] = param
-        elif P_Lya_parameter_cubic == 2:
-            param = np.random.choice(p5_list)
-            P_Lya[4] = param
+            P_Lya = [p1,param,p3]
         else:
-            param = np.random.choice(p6_list)
-            P_Lya[5] = param
+            param = np.random.choice(p3_list)
+            P_Lya = [p1,p2,param]
         parameters = (ew,fesc,P_Lya)
         arguements = [i for sub in parameters for i in sub]
         all_runs.append(main.main(ts,arguements))
@@ -80,11 +66,11 @@ def simulation():
         median_lower_percentile.append(np.percentile(fraction,16))
         median.append(np.median(fraction))
         median_upper_percentile.append(np.percentile(fraction,84))
-    np.savez('LAE_results', redshift=zs, iterations=all_runs, median=median, lower=median_lower_percentile, upper=median_upper_percentile)
-    return np.load('LAE_results.npz')
+    np.savez('LAE_results_quad', redshift=zs, iterations=all_runs, median=median, lower=median_lower_percentile, upper=median_upper_percentile)
+    return np.load('LAE_results_quad.npz')
 
 try:
-    data = np.load('LAE_results.npz')
+    data = np.load('LAE_results_quad.npz')
 except FileNotFoundError:
     data = simulation()
 
@@ -134,7 +120,7 @@ plt.scatter(Planck_x,Planck_y,edgecolors='black',facecolors='black',marker='p',s
 plt.tick_params(which='both',direction='in',right=True,top=True)
 plt.xlim(0,20)
 plt.xlabel('Redshift (z)')
-plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{HII}$)')
+plt.ylabel(r'Fraction of Ionised Hydrogen ($Q_{II}$)')
 plt.legend()
 
 matplotlib.rcParams['lines.linewidth'] = 6
